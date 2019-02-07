@@ -31,8 +31,8 @@ Runs multipple instances of a Protractor scripts at once - every instance as a s
 Can be usefull in order to simulate multipple-user behavious.
 !!!Beware of a resource consumption. It was originally created to proof that Protractor is not a right tool for performance testing!!!
 
-As an input it expects a tezt file with user credentials. Space separated, every user on a new line.
-Example
+As an input it expects a text file with user credentials: space separated, every user on a new line.
+Example:
 user1@gmail.com password1
 user2@gmail.com password2
 user3@gmail.com password3
@@ -40,6 +40,6 @@ user4@gmail.com password4
 user5@gmail.com password5
 
 Pipe contents from the command line like:
-cat credentials.txt | ./e2erunner.pl
+cat e2eparameters.txt | ./e2erunner.pl
 
 =cut
