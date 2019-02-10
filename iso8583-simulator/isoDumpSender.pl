@@ -5,7 +5,7 @@ use IO::Socket::INET;
 # flush after every write
 $| = 1;
 
-my $iso_file     = shift || q|CSAS_ISO_corrected.hex.dump|;
+my $iso_file     = shift || q|iso-8583.hex.dump|;
 my $remotePort    = shift || q|8085|;
 my $remoteAddress = shift || q|127.0.0.1|;
 my ( $socket, $client_socket );
