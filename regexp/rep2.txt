@@ -1,0 +1,2418 @@
+api_adm_sys_proc_web -                         (780: 38) cstmt = conn.prepareCall("call api_adm_sys_proc_web.query_jobs(?, ?, ?, ?)");
+
+api_com -                         (612: 41) callStmt = conn.prepareCall("{ call api_com.set_multi_insts(?,?) }");
+
+API_SYS_ALERTS -                         (654: 32) ps = connection.prepareCall("{ ? = call API_SYS_ALERTS.Handle_alert(-1, 4, 'Login screen',0, 250, 
+
+API_REF_BOOKS -                         (761: 28) cstmt = con.prepareCall("{call API_REF_BOOKS.Query_misc_srv(?,?,?)}");
+
+API_MRC_CAT -                         (652: 28) cstmt = con.prepareCall("{call API_MRC_CAT.Query(?)}");
+
+API_REF_BOOKS -                         (678: 28) cstmt = con.prepareCall("{call API_REF_BOOKS.Query_resp_code(?,?)}");
+
+API_REF_BOOKS -                         (727: 28) cstmt = con.prepareCall("{call API_REF_BOOKS.Query_term_rest(?,?,?,?)}");
+
+api_ref_books -                         (712: 38) cstmt = conn.prepareCall("{ call api_ref_books.Toggle_resp_code_syserror(?, ?) }");
+
+API_IF_MON -                         (99: 43) stmt = connection.prepareCall("{ call API_IF_MON.GET_CURRENT_CBS_STAT( ?, ? ) }");
+
+API_IF_MON -                         (132: 43) stmt = connection.prepareCall("{ call API_IF_MON.GET_CBS_EVENT_HIST( ?, ?, ?, ?, ?, ?, ? ) }");
+
+API_IF_MON -                         (166: 43) stmt = connection.prepareCall("{ call API_IF_MON.GET_CURRENT_EGATES_STAT( ?, ? ) }");
+
+API_IF_MON -                         (199: 43) stmt = connection.prepareCall("{ call API_IF_MON.GET_EGATES_EVENT_HIST( ?, ?, ?, ?, ?, ?, ? ) }");
+
+API_IF_MON -                         (32: 43) stmt = connection.prepareCall("{ call API_IF_MON.GET_CURRENT_NW_STAT( ?, ? ) }");
+
+API_IF_MON -                         (65: 43) stmt = connection.prepareCall("{ call API_IF_MON.GET_NW_EVENT_HIST( ?, ?, ?, ?, ?, ?, ? ) }");
+
+API_GG -                         (167: 19) .prepareCall("{call API_GG.gg_checkpoint_edit(?, ?, ?) }");
+
+API_GG -                         (138: 34) stmt = connection.prepareCall("{call API_GG.gg_checkpoint_query(?) }");
+
+api_golden_gate_replication -                         (108: 41) cs = connection.prepareCall("{ call api_golden_gate_replication.save_settings(?, ?, ?) }");
+
+api_probe_based -                         (175: 43) stmt = connection.prepareCall("{ call api_probe_based.query_action_process(?) }");
+
+api_probe_based -                         (198: 43) stmt = connection.prepareCall("{ ? = call api_probe_based.get_update_interval(?,?) }");
+
+api_probe_based -                         (24: 43) stmt = connection.prepareCall("{ call api_probe_based.query_machines(?) }");
+
+api_probe_based -                         (72: 43) stmt = connection.prepareCall("{ call api_probe_based.query_probe_monitor(?,?) }");
+
+api_probe_based -                         (121: 43) stmt = connection.prepareCall("{ call api_probe_based.query_probe_monitor_cfg(?,?,?) }");
+
+api_probe_based -                         (43: 43) stmt = connection.prepareCall("{ call api_probe_based.QUERY_PROC_DESC(?, ?, ?) }");
+
+api_probe_based -                         (151: 43) stmt = connection.prepareCall("{ call api_probe_based.query_task(?) }");
+
+api_probe_based -                         (103: 43) stmt = connection.prepareCall("{ call api_probe_based.update_probe_monitor_cfg(?,?,?,?,?,?) }");
+
+API_EPAY_INT -                         (294: 43) stmt = connection.prepareCall("{ call API_EPAY_INT.QUERY_STAT( ?, ? ) }");
+
+api_web_networks -                         (266: 38) cstmt = conn.prepareCall("{ call api_web_networks.get_fe_interfaces(?) }");
+
+API_SRVGATE -                         (324: 43) stmt = connection.prepareCall("{ call API_SRVGATE.QUERY_STAT( ?, ? ) }");
+
+API_PROC_MON -                         (231: 43) stmt = connection.prepareCall("{ call API_PROC_MON.QUERY_IO( ?, ?, ?, ?, ? ) }");
+
+API_PROC_MON -                         (57: 43) stmt = connection.prepareCall("{ call API_PROC_MON.QUERY_PROC_DESC( ?, ?, ? ) }");
+
+API_PROC_MON -                         (92: 43) stmt = connection.prepareCall("{ call API_PROC_MON.QUERY_PROC( ?, ?, ?, ?, ? ) }");
+
+API_PROC_MON -                         (126: 43) stmt = connection.prepareCall("{ call API_PROC_MON.QUERY_QUEUE( ?, ?, ?, ?, ? ) }");
+
+API_PROC_MON -                         (195: 43) stmt = connection.prepareCall("{ call API_PROC_MON.QUERY_SPACE( ?, ?, ?, ?, ? ) }");
+
+API_PROC_MON -                         (162: 43) stmt = connection.prepareCall("{ call API_PROC_MON.QUERY_VM( ?, ?, ?, ? ) }");
+
+API_TRANS_MON -                         (355: 43) stmt = connection.prepareCall("{ call API_TRANS_MON.QUERY_TRANS( ?, ?, ?, ?, ?, ?, ?, ? ) }");
+
+API_IF_MON -                         (70: 43) stmt = connection.prepareCall("call API_IF_MON.GET_HSM_EVENT_HIST(?, ?, ?, ?, ?, ?, ?)");
+
+API_IF_MON -                         (34: 43) stmt = connection.prepareCall("call API_IF_MON.GET_CURRENT_HSM_STAT(?, ?)");
+
+DSP_USER_MANAGEMENT -                         (919: 32) callStmt = conn.prepareCall("{ call DSP_USER_MANAGEMENT.DSP_USER_CREATE(?, ?, ?, ?, ?, ?, ?, ?, ?, ?)}");
+
+DSP_UTILS -                         (111: 32) callStmt = conn.prepareCall("{ ? = call DSP_UTILS.DSP_USER_INST(?)}");
+
+DSP_USER_MANAGEMENT -                         (1074: 34) //			callStmt = conn.prepareCall("{ call DSP_USER_MANAGEMENT.DSP_TEAM_QUERY(?)}");
+
+DSP_API_WEB -                         (1096: 32) callStmt = conn.prepareCall("{ call DSP_API_WEB.EMAIL_ADDRESSES_QUERY(?)}");
+
+DSP_USER_MANAGEMENT -                         (1007: 32) callStmt = conn.prepareCall("{ call DSP_USER_MANAGEMENT.DSP_USER_QUERY(?, ?)}");
+
+DSP_API_LOV -                         (57: 32) callStmt = conn.prepareCall("{ call DSP_API_LOV.DSP_INST_LIST(?) }");
+
+API_COM -                         (88: 32) callStmt = conn.prepareCall("{ call API_COM.SET_CURRENT_INST(?) }");
+
+DSP_USER_MANAGEMENT -                         (966: 19) .prepareCall("{ call DSP_USER_MANAGEMENT.DSP_USER_EDIT(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)}");
+
+Api_address_p1_web -                         (25: 27) stmt = con.prepareCall("{ call Api_address_p1_web.Query( ?, ?, ? ) }");
+
+api_fad_agent_p1_web -                         (155: 53) CallableStatement stmt = connection.prepareCall( "{ call api_fad_agent_p1_web.Delete_fad_agent(?) }" );
+
+api_fad_agent_p1_web -                         (100: 36) stmt = connection.prepareCall( "{ call api_fad_agent_p1_web.New_fad_agent( ?, ?, ?, ?, ?, ?, ?, ?, ?,
+
+api_fad_agent_p1_web -                         (102: 36) stmt = connection.prepareCall( "{ call api_fad_agent_p1_web.Modify_fad_agent( ?, ?, ?, ?, ?, ?, ?, ?,
+
+API_ISS_CARD_DICT_P1 -                         (429: 26) cs = conn.prepareCall("{call API_ISS_CARD_DICT_P1.Query_restrict(?, ?)}");
+
+API_ISS_CARD_DICT_P1 -                         (381: 26) cs = conn.prepareCall("{call API_ISS_CARD_DICT_P1.Query_eComm(?, ?)}");
+
+API_ISS_REISSUING_MAP -                         (246: 25) cs = con.prepareCall("{ call API_ISS_REISSUING_MAP.Query(?, ?, ?)}");
+
+API_ISS_REISSUING_MAP -                         (330: 26) cs = con.prepareCall("{ call API_ISS_REISSUING_MAP.New(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)}");
+
+API_ISS_REISSUING_MAP -                         (332: 26) cs = con.prepareCall("{ call API_ISS_REISSUING_MAP.Modify(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)}");
+
+api_fad_set_hot_status_p1 -                         (72: 35) cs = conn.prepareCall("{ call api_fad_set_hot_status_p1.new(?, ?, ?, ?) }");
+
+api_fad_set_hot_status -                         (34: 35) cs = conn.prepareCall("{ call api_fad_set_hot_status.query(?, ?, ?, ?, ?) }");
+
+api_fad_set_hot_status_p1 -                         (92: 35) cs = conn.prepareCall("{ call api_fad_set_hot_status_p1.modify(?, ?, ?, ?, ?) }");
+
+api_fad_set_hot_status_p1 -                         (113: 35) cs = conn.prepareCall("{ call api_fad_set_hot_status_p1.remove(?) }");
+
+api_ctd_iss_contract_p1 -                         (1080: 29) cstmt = conn.prepareCall("{call api_ctd_iss_contract_p1.remove_subacct_wr(?)}");
+
+api_ctd_iss_contract_p1 -                         (1020: 29) cstmt = conn.prepareCall("{call api_ctd_iss_contract_p1.new_subacct_wr(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)}");
+
+api_ctd_iss_contract_p1 -                         (1050: 29) cstmt = conn.prepareCall("{call api_ctd_iss_contract_p1.modify_subacct_wr(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)}");
+
+Api_iss_ref_prm -                         (29: 25) cs = con.prepareCall("{ call Api_iss_ref_prm.Query_Customer(?,?,?,?, ?,?,?,?, ?,?,?,?, ?,?,?,?)}");
+
+api_gl_account_setup -                         (380: 25) cs = con.prepareCall("{ call api_gl_account_setup.delete_row(?)}");
+
+api_gl_account_setup -                         (68: 25) cs = con.prepareCall("{ call api_gl_account_setup.query_set(" +
+
+api_gl_account_setup -                         (37: 42) cstmt = conn.prepareCall("{ call api_gl_account_setup." + filter.toString() + "(?,?)}");
+
+api_gl_account_setup -                         (220: 26) cs = con.prepareCall("{ call api_gl_account_setup.insert_row(" +
+
+api_gl_account_setup -                         (237: 26) cs = con.prepareCall("{ call api_gl_account_setup.update_row(" +
+
+api_interface_settings -                         (32: 43) stmt = connection.prepareCall("{ call api_interface_settings.search( ?, ?, ?, ?, ?, ?) }");
+
+api_interface_settings -                         (77: 43) stmt = connection.prepareCall("{call api_interface_settings.crud ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) }");
+
+api_iss_ref_web -                         (31: 25) cs = con.prepareCall("{ call api_iss_ref_web.query_iss_tree( ?, ?, ?, ?, ?, ? ) }");
+
+api_service -                         (637: 35) cs = con.prepareCall( "{ call api_service.remove_scheme(?) }" );
+
+API_SERVICE -                         (439: 44) cstmt = connection.prepareCall("{ call API_SERVICE.remove_param( ?) }");
+
+api_service -                         (119: 34) cs = con.prepareCall("{ call api_service.available_params(?, ?)}");
+
+api_service -                         (152: 34) cs = con.prepareCall("{ call api_service.get_param_prop(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)}");
+
+api_service -                         (77: 41) cs = connection.prepareCall("{ call api_service.query_params( ?, ?) }");
+
+api_service -                         (38: 41) cs = connection.prepareCall("{ call api_service.query_schemes( ?, ?, ?, ?, ?, ?, ?, ?) }");
+
+API_LOV_REF -                         (287: 44) cstmt = connection.prepareCall("{ ? = call API_LOV_REF.get_add_service_types( ?) }");
+
+api_service -                         (244: 39) cs = con.prepareCall( "{ call api_service.new_param_new(?) }" );
+
+api_service -                         (247: 39) cs = con.prepareCall( "{ call api_service.modify_param_new(?) }" );
+
+api_service -                         (597: 46) cs = connection.prepareCall( "{ call api_service.new_scheme( ?, ?, ?, ?) }" );
+
+api_service -                         (601: 46) cs = connection.prepareCall( "{ call api_service.modify_scheme( ?, ?, ?) }" );
+
+api_service -                         (202: 34) cs = con.prepareCall("{ call api_service.query_matrix(?, ?)}");
+
+sv_dispute -                         (36: 26) cs = con.prepareCall("{ call sv_dispute.gen_first_chargeback_full(?, ?, ?, ?, ?, ?, ?, ?, ?, ?)}");
+
+sv_dispute -                         (39: 26) cs = con.prepareCall("{ call sv_dispute.gen_first_chargeback_part(?, ?, ?, ?, ?, ?, ?, ?, ?, ?)}");
+
+API_DSP_SV_MSG -                         (71: 25) cs = con.prepareCall("{ call API_DSP_SV_MSG.Query(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)}");
+
+api_iss_fin_detail -                         (144: 25) cs = con.prepareCall("{ call api_iss_fin_detail.query_generic(?,?,?,?,?,?,?,?,?,?,?,?) }");
+
+API_MANUAL_TRANSACTIONS -                         (225: 36) stmt = con.prepareCall("{ call API_MANUAL_TRANSACTIONS.query_transactions( ?,?,?,? ,?,?,?,?, ?,?,?,?, ?,?,?,?, ?,?,?) }");
+
+api_acs_routing -                         (94: 26) cs = conn.prepareCall("{call api_acs_routing.Add_acs_routing(?, ?, ?, ?, ?)}");
+
+api_acs_routing -                         (38: 26) cs = conn.prepareCall("{ call api_acs_routing.Query_acs_routing(?, ?, ?, ?, ?, ?) }");
+
+api_acs_routing -                         (140: 26) cs = conn.prepareCall("{call api_acs_routing.Modify_acs_routing(?, ?, ?, ?, ?, ?)}");
+
+api_acs_routing -                         (123: 26) cs = conn.prepareCall("{call api_acs_routing.Delete_acs_routing(?)}");
+
+Api_iss_acct_dict_p1 -                         (24: 27) stmt = con.prepareCall("{ call Api_iss_acct_dict_p1.Query( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) }");
+
+API_ISS_ACCT_DICT_P1 -                         (468: 26) cs = conn.prepareCall("{call API_ISS_ACCT_DICT_P1.exceed_limit_history(?, ?, ?)}");
+
+API_ISS_ADD_SERVICE -                         (294: 39) cstmt = connection.prepareCall( "{ call API_ISS_ADD_SERVICE.Query( ?, ?, ?, ?)}");
+
+api_iss_flex_limits -                         (324: 42) cstmt = connection.prepareCall( "{ call api_iss_flex_limits.query_object_limits( ?, ?, ?, ?, ?, ?, ?, ?) }" );
+
+API_ISS_ADDSRV_PARAM -                         (261: 39) cstmt = connection.prepareCall( "{ call API_ISS_ADDSRV_PARAM.Query( ?, ?, ?, ?, ?, ?, ?, ?) }" );
+
+api_iss_acct_dict_p2_web -                         (163: 27) stmt = con.prepareCall("{ call api_iss_acct_dict_p2_web.Modify_iss_acct( " +
+
+api_iss_acct_dict_p2_web -                         (143: 36) stmt = con.prepareCall("{ call api_iss_acct_dict_p2_web.Modify_iss_acct_comments(?,? ) }");
+
+API_ACQ_ACCOUNT -                         (29: 35) cstmt = connection.prepareCall("{ call API_ACQ_ACCOUNT.QUERY( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) }");
+
+API_ACQ_ACCOUNT -                         (130: 27) stmt = con.prepareCall("{ ? = call API_ACQ_ACCOUNT.Query_Tree_web( ?, ?, ?, ? ) }");
+
+API_ADDRESS_P2 -                     (12: 27) 			stmt = con.prepareCall("{ call API_ADDRESS_P2.add_ref( ?, ?, ? ) }");
+
+API_ADDRESS_P2 -                     (28: 27) 			stmt = con.prepareCall("{ call API_ADDRESS_P2.delete_ref( ?, ?, ? ) }");
+
+API_ADDRESS_P1 -                     (54: 28) 				stmt = con.prepareCall("{ call API_ADDRESS_P1.Query_Obj( ?, ?, ? ) }");
+
+appl_form_dtl -                         (779: 28) stmt = oCon.prepareCall("{ call appl_form_dtl.clear_appl_data(?) }");
+
+appl_web_mod -                         (91: 30) pstmt = dbCon.prepareCall("{ call appl_web_mod.delete_application(?, ?, ?) }");
+
+appl_web_mod -                         (647: 28) stmt = oCon.prepareCall("{ call appl_web_mod.delete_block(?, ?, ?, ?, ?, ?, ?) }");
+
+appl_web_mod -                         (662: 28) stmt = oCon.prepareCall("{ call appl_web_mod.submit_changes( ?, ?, ?, ?, ?, ?, ?, ? ) }");
+
+appl_web_mod -                         (607: 28) stmt = oCon.prepareCall("{ call appl_web_mod.duplicate_block(?, ?, ?, ?, ?, ?, ?) }");
+
+appl_form_dtl -                         (406: 28) stmt = oCon.prepareCall("{ call appl_form_dtl.fill_block_by_field(?, ?) }");
+
+appl_web_mod -                         (412: 28) stmt = oCon.prepareCall("{ call appl_web_mod.i_get_appl_struct(?, ?, ?, ? ) }");
+
+appl_web_mod -                         (588: 28) cstmt = con.prepareCall("{ call appl_web_mod.get_appl_ref_block_seq( ? ) }");
+
+appl_lov_sel -                         (500: 27) stmt = con.prepareCall("{ call appl_lov_sel.get_codes_cur( ?, ? ) }");
+
+appl_list_sel -                         (247: 18) String cond = "{ call appl_list_sel.enum_appls_web( ?, ?, ?, ?, ?, ? ) }";
+
+appl_list_sel -                         (312: 18) String cond = "{ call appl_list_sel.enum_appls_web( ?, ?, ?, ?, ?, ? ) }";
+
+appl_lov_sel -                         (466: 27) stmt = con.prepareCall("{ ? = call appl_lov_sel.get_lov_content( ?, ?, ?, ?, ?, ? ) }");
+
+appl_msg_sel -                         (523: 29) stmt = dbCon.prepareCall("{ call appl_msg_sel.enum_messages( ?, ?, ? ) }");
+
+appl_web_mod -                         (566: 27) stmt = con.prepareCall("{ call appl_web_mod.get_ref_type_by_id( ?, ?, ? ) }");
+
+appl_web_mod -                         (733: 28) stmt = oCon.prepareCall("{ call appl_web_mod.load_appl_data( ?, ?, ?, ?, ?, ? ) }");
+
+appl_web_mod -                         (340: 28) stmt = oCon.prepareCall("{ call appl_web_mod.load_appl_data( ?, ?, ?, ?, ?, ?, ?, ? ) }");
+
+appl_form_dtl -                         (378: 28) stmt = oCon.prepareCall("{ call appl_form_dtl.load_application( ? ) }");
+
+appl_proc -                         (76: 30) pstmt = dbCon.prepareCall("{ call appl_proc.process_application(?, ?, ?) }");
+
+appl_form_dtl -                         (145: 30) pstmt = oCon.prepareCall("{ call appl_form_dtl.load_application( ? ) }");
+
+appl_form_dtl -                         (155: 29) pstmt = oCon.prepareCall("{ call appl_form_dtl.update_application( ?, ?, ?, ?, ?, ?, ? ) }");
+
+appl_lock -                         (185: 29) pstmt = oCon.prepareCall("{ call appl_lock.release_appl( ? ) }");
+
+appl_web_mod -                         (760: 28) stmt = oCon.prepareCall("{ call appl_web_mod.submit_changes( ?, ?, ?, ?, ?, ?, ?, ? ) }");
+
+api_audit -                         (116: 38) callStmt = connection.prepareCall("{ ? = call api_audit.export_audit(?) }");
+
+API_FAD_UNHOLD_P1 -                         (111: 27) stmt = con.prepareCall("{ call API_FAD_UNHOLD_P1.NEW_Web( ?, ?, ?, ?, ?, ?, ? ) }");
+
+API_FAD_UNHOLD_P1 -                         (92: 27) stmt = con.prepareCall("{ call API_FAD_UNHOLD_P1.REMOVE_Web( ?) }");
+
+API_FAD_UNHOLD_P1 -                         (69: 27) stmt = con.prepareCall("{ call API_FAD_UNHOLD_P1.MODIFY_Web( ?, ?, ?, ?, ?, ?, ?, ? ) }");
+
+API_ADM_CALENDAR_P1 -                         (115: 33) stmt = con.prepareCall("{ call API_ADM_CALENDAR_P1.New_Holiday_WEB( ? , ? , ? , ? , ? , ? , ?  ) }");
+
+API_ADM_CALENDAR_P1 -                         (299: 33) stmt = con.prepareCall("{ call API_ADM_CALENDAR_P1.New_Workday_WEB( ?,?,?,?,?, ?,?,?,?,?  ) }");
+
+API_ADM_CALENDAR_P1 -                         (155: 33) stmt = con.prepareCall("{ call API_ADM_CALENDAR_P1.Delete_Holiday_WEB( ?  ) }");
+
+UTIL_ING -                         (189: 33) stmt = con.prepareCall("{ call UTIL_ING.Generate_Holidays( ?  , ?) }");
+
+api_adm_calendar_p1 -                         (385: 33) stmt = con.prepareCall("{ call api_adm_calendar_p1.fill_workdays(?,?) }");
+
+API_ADM_CALENDAR -                         (46: 33) stmt = con.prepareCall("{ call API_ADM_CALENDAR.Query_Holiday( ?,?,?,? ,?,? ) }");
+
+API_ADM_CALENDAR -                         (228: 33) stmt = con.prepareCall("{ call API_ADM_CALENDAR.Query_Workday( ?,?,?,? ,?,?,?) }");
+
+API_ADM_CALENDAR_P1 -                         (342: 33) stmt = con.prepareCall("{ call API_ADM_CALENDAR_P1.Modify_Workday_WEB( ?,?,?,?,?, ?,?,?,?,? ) }");
+
+API_FAD_BO_CODES_P1 -                         (171: 35) cstmt = connection.prepareCall("{ call API_FAD_BO_CODES_P1.NEW_WEB(?, ?, ?, ?, ?, ?, ?, ?) }");
+
+API_FAD_BO_CODES -                         (25: 35) cstmt = connection.prepareCall("{ call API_FAD_BO_CODES.Query_KEY( ?, ?, ?, ?, ?, ?, ?, ?) }");
+
+API_FAD_BO_CODES -                         (76: 35) cstmt = connection.prepareCall("{ call API_FAD_BO_CODES.Query( ?, ?, ?, ?, ?, ?, ?, ?) }");
+
+api_lov_ref -                         (133: 35) cstmt = connection.prepareCall("{ ? = call api_lov_ref.get_report_lang() }");
+
+API_FAD_BO_CODES_P1 -                         (200: 35) cstmt = connection.prepareCall("{ call API_FAD_BO_CODES_P1.MODIFY_WEB(?, ?, ?, ?, ?, ?, ?, ?) }");
+
+API_FAD_BO_CODES_P1 -                         (229: 35) cstmt = connection.prepareCall("{ call API_FAD_BO_CODES_P1.remove_WEB(?, ?, ?) }");
+
+API_ISS_ACCT_CANCEL_SCHM -                     (121: 10) "{call API_ISS_ACCT_CANCEL_SCHM.add(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)}",
+
+API_ISS_ACCT_CANCEL_SCHM -                     (122: 10) "{call API_ISS_ACCT_CANCEL_SCHM.modify(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)}",
+
+API_ISS_ACCT_CANCEL_SCHM -                     (123: 10) "{call API_ISS_ACCT_CANCEL_SCHM.remove(?)}"
+
+Api_iss_card_dict_p1 -                         (227: 17) logger.trace("Setting parameter for call: { call Api_iss_card_dict_p1.Query_dtl( ?, ? ) }");
+
+Api_iss_card_dict_p1 -                         (229: 27) stmt = con.prepareCall("{ call Api_iss_card_dict_p1.Query_dtl( ?, ? ) }");
+
+Api_Lov -                         (469: 27) stmt = con.prepareCall("{ call Api_Lov.Query( ?, ?, ?, ?, ?, ?, ? ) }");
+
+Api_iss_card_dict_p1 -                         (340: 27) stmt = con.prepareCall("{ call Api_iss_card_dict_p1.Query( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, null, ?, ? , ? , ? , ? ) }");
+
+api_iss_card_dict_p2_web -                         (121: 27) stmt = con.prepareCall("{ call api_iss_card_dict_p2_web.modify_iss_card_dtl( " +
+
+API_PERSON_P1 -                         (217: 38) stmt = connection.prepareCall( "{ call API_PERSON_P1.New_web(?, ?, ?, ?, ?, ?, ?, null) }" );
+
+API_PERSON_P1 -                         (261: 38) stmt = connection.prepareCall( "{ call API_PERSON_P1.Remove_web(?) }" );
+
+Api_iss_card_dict_p1 -                         (77: 34) stmt = con.prepareCall( "{ call Api_iss_card_dict_p1.Query_crhld( ?, ? ) }" );
+
+API_PERSON_P1 -                         (239: 38) stmt = connection.prepareCall( "{ call API_PERSON_P1.Modify_web(?, ?, ?, ?, ?, ?, ?, null) }" );
+
+api_iss_card_dict_p2_web -                         (286: 51) CallableStatement stmt = con.prepareCall( "{ call api_iss_card_dict_p2_web.modify_iss_card_crhld( ?, ?, ?, ?, ?,
+
+API_FAD_CARD_TYPE_P1 -                         (143: 35) cstmt = connection.prepareCall("{ call API_FAD_CARD_TYPE_P1.new_web( ?, ?, ?, ?, ?, " +
+
+API_FAD_CARD_TYPE_P1 -                         (205: 35) cstmt = connection.prepareCall("{ call API_FAD_CARD_TYPE_P1.new_network_web( ?, ?, ?) }");
+
+API_FAD_CARD_TYPE_P1 -                         (191: 35) cstmt = connection.prepareCall("{ call API_FAD_CARD_TYPE_P1.remove_web( ?) }");
+
+API_FAD_CARD_TYPE_P1 -                         (237: 35) cstmt = connection.prepareCall("{ call API_FAD_CARD_TYPE_P1.remove_network_web( ?) }");
+
+API_FAD_CARD_TYPE -                         (109: 27) stmt = con.prepareCall("{ call API_FAD_CARD_TYPE.Query_Tree( ?) }");
+
+API_FAD_CARD_TYPE -                         (24: 35) cstmt = connection.prepareCall("{ call API_FAD_CARD_TYPE.Query( ?, ?, ?, ?, ?, ?, ?, ?) }");
+
+API_FAD_CARD_TYPE -                         (73: 35) cstmt = connection.prepareCall("{ call API_FAD_CARD_TYPE.Query_Network_Card_Types( ?, ?) }");
+
+API_FAD_CARD_TYPE_P1 -                         (167: 35) cstmt = connection.prepareCall("{ call API_FAD_CARD_TYPE_P1.modify_web( ?, ?, ?, ?, ?, " +
+
+API_FAD_CARD_TYPE_P1 -                         (221: 35) cstmt = connection.prepareCall("{ call API_FAD_CARD_TYPE_P1.modify_network_web( ?, ?, ?) }");
+
+API_FAD_CMID_P2 -                         (223: 28) stmt = con.prepareCall( "{ call API_FAD_CMID_P2.New_Web( ?, ?, ?, ? ) }" );
+
+API_FAD_CMID_P1 -                         (203: 28) stmt = con.prepareCall( "{ call API_FAD_CMID_P1.New_Web( ?, ?, ?, ? ) }" );
+
+API_FAD_CMID_P2 -                         (263: 28) stmt = con.prepareCall( "{ call API_FAD_CMID_P2.Modify_Web( ?, ?, ?, ? ) }" );
+
+API_FAD_CMID_P1 -                         (243: 28) stmt = con.prepareCall( "{ call API_FAD_CMID_P1.Modify_Web( ?, ?, ?, ? ) }" );
+
+API_FAD_CMID_P2 -                         (301: 28) stmt = con.prepareCall( "{ call API_FAD_CMID_P2.Remove_Web( ?, ? ) }" );
+
+API_FAD_CMID_P1 -                         (283: 28) stmt = con.prepareCall( "{ call API_FAD_CMID_P1.Remove_Web( ?, ? ) }" );
+
+API_CTD_ACQ_CONTRACT_P1 -                         (430: 27) stmt = con.prepareCall("{ call API_CTD_ACQ_CONTRACT_P1.New_Acct_WEB( ?, ?, ?, ?, " +
+
+API_CTD_ACQ_CONTRACT_P1 -                         (574: 25) .prepareCall("{ call API_CTD_ACQ_CONTRACT_P1.New_WEB( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) }");
+
+API_CTD_CNT_SCHM_P1 -                         (711: 27) stmt = con.prepareCall("{ call API_CTD_CNT_SCHM_P1.New_WEB( ?, ?, ?, ?, ? ) }");
+
+API_CTD_LEVEL_TPL_P1 -                         (319: 27) stmt = con.prepareCall("{ call API_CTD_LEVEL_TPL_P1.New_WEB( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) }");
+
+API_CTD_ACQ_CONTRACT_P1 -                         (526: 25) .prepareCall("{ call API_CTD_ACQ_CONTRACT_P1.Remove_Acct_WEB( ?, ?, ?, ?, " +
+
+API_CTD_ACQ_CONTRACT_P1 -                         (664: 25) .prepareCall("{ call API_CTD_ACQ_CONTRACT_P1.Remove_WEB( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) }");
+
+API_CTD_CNT_SCHM_P1 -                         (804: 27) stmt = con.prepareCall("{ call API_CTD_CNT_SCHM_P1.Remove_WEB( ?, ?, ?, ?, ?, ? ) }");
+
+API_CTD_LEVEL_TPL_P1 -                         (393: 27) stmt = con.prepareCall("{ call API_CTD_LEVEL_TPL_P1.Remove_WEB( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) }");
+
+API_CTD_LEVEL_TPL -                         (120: 27) stmt = con.prepareCall("{ call API_CTD_LEVEL_TPL.QUERY( ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) }");
+
+API_CTD_ACQ_CONTRACT_P1 -                         (478: 27) stmt = con.prepareCall("{ call API_CTD_ACQ_CONTRACT_P1.Modify_Acct_WEB( ?, ?, ?, ?, " +
+
+API_CTD_ACQ_CONTRACT_P1 -                         (619: 25) .prepareCall("{ call API_CTD_ACQ_CONTRACT_P1.Modify_WEB( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) }");
+
+API_CTD_CNT_SCHM_P1 -                         (775: 27) stmt = con.prepareCall("{ call API_CTD_CNT_SCHM_P1.Modify_WEB( ?, ?, ?, ?, ?, ? ) }");
+
+API_CTD_LEVEL_TPL_P1 -                         (356: 27) stmt = con.prepareCall("{ call API_CTD_LEVEL_TPL_P1.Modify_WEB( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) }");
+
+API_CTD_CARD_BLACK_LIST_P1 -                         (1756: 27) stmt = con.prepareCall("{ call API_CTD_CARD_BLACK_LIST_P1.New_WEB( ? ) }");
+
+API_CTD_ISS_CONTRACT_P1 -                         (1088: 27) stmt = con.prepareCall("{ call API_CTD_ISS_CONTRACT_P1.New_Cardholder_WEB( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) }");
+
+API_CTD_ISS_CONTRACT_P1 -                         (412: 27) stmt = con.prepareCall("{ call API_CTD_ISS_CONTRACT_P1.New_Card_WEB(" +
+
+API_CTD_ISS_CONTRACT_P1 -                         (142: 25) .prepareCall("{ call API_CTD_ISS_CONTRACT_P1.New_WEB( " +
+
+API_CTD_ISS_CONTRACT_P1 -                         (1258: 27) stmt = con.prepareCall("{ call API_CTD_ISS_CONTRACT_P1.New_Customer_WEB( ?, ?, ?, ?, ?, ?, ?, ?, ? ) }");
+
+API_CTD_ISS_CONTRACT_P1 -                         (913: 27) stmt = con.prepareCall("{ call API_CTD_ISS_CONTRACT_P1.New_Misc_WEB( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) }");
+
+API_CTD_ADDSRV_TPL_P1 -                         (1606: 27) stmt = con.prepareCall("{ call API_CTD_ADDSRV_TPL_P1.New_WEB( ?, ?, ?, ?, ?, ?, ?, ?, ? ) }");
+
+API_CTD_CARD_BLACK_LIST_P1 -                         (1804: 27) stmt = con.prepareCall("{ call API_CTD_CARD_BLACK_LIST_P1.Remove_WEB( ? ) }");
+
+API_CTD_ISS_CONTRACT_P1 -                         (1160: 27) stmt = con.prepareCall("{ call API_CTD_ISS_CONTRACT_P1.Remove_Cardholder_WEB( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) }");
+
+API_CTD_ISS_CONTRACT_P1 -                         (536: 27) stmt = con.prepareCall("{ call API_CTD_ISS_CONTRACT_P1.Remove_Card_WEB(" +
+
+API_CTD_ISS_CONTRACT_P1 -                         (253: 27) stmt = con.prepareCall("{ call API_CTD_ISS_CONTRACT_P1.Remove_WEB( " +
+
+API_CTD_ISS_CONTRACT_P1 -                         (1326: 27) stmt = con.prepareCall("{ call API_CTD_ISS_CONTRACT_P1.Remove_Customer_WEB( ?, ?, ?, ?, ?, ?, ?, ?, ? ) }");
+
+API_CTD_ISS_CONTRACT_P1 -                         (983: 27) stmt = con.prepareCall("{ call API_CTD_ISS_CONTRACT_P1.Remove_Misc_WEB( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) }");
+
+API_CTD_ISS_CONTRACT_P1 -                         (1520: 27) stmt = con.prepareCall("{ call API_CTD_ISS_CONTRACT_P1.Remove_Pan_Format_WEB( ? ) }");
+
+API_CTD_ADDSRV_TPL_P1 -                         (1674: 27) stmt = con.prepareCall("{ call API_CTD_ADDSRV_TPL_P1.Remove_WEB( ?, ?, ?, ?, ?, ?, ?, ?, ? ) }");
+
+API_CTD_CARD_BLACK_LIST -                         (1711: 27) stmt = con.prepareCall("{ call API_CTD_CARD_BLACK_LIST.Query( ?, ?, ?, ? ) }");
+
+API_CTD_ADDSRV_TPL -                         (1548: 27) stmt = con.prepareCall("{ call API_CTD_ADDSRV_TPL.Query( ?, ?, ?, ?, ?, ?, ? ) }");
+
+API_CTD_ADDSRV_TPL_P1 -                         (1824: 27) stmt = con.prepareCall("{ call API_CTD_ADDSRV_TPL_P1.ObjecList( ?, ? ) }");
+
+API_CTD_ADDSRV_TPL_P1 -                         (1851: 27) stmt = con.prepareCall("{ call API_CTD_ADDSRV_TPL_P1.ServicesList( ?, ?, ? ) }");
+
+API_CTD_ADDSRV_TPL_P1 -                         (1883: 27) stmt = con.prepareCall("{ call API_CTD_ADDSRV_TPL_P1.TplList( ?, ?, ? ) }");
+
+API_CTD_CARD_BLACK_LIST_P1 -                         (1780: 27) stmt = con.prepareCall("{ call API_CTD_CARD_BLACK_LIST_P1.Modify_WEB( ?, ? ) }");
+
+API_CTD_ISS_CONTRACT_P1 -                         (1124: 27) stmt = con.prepareCall("{ call API_CTD_ISS_CONTRACT_P1.Modify_Cardholder_WEB( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) }");
+
+API_CTD_ISS_CONTRACT_P1 -                         (474: 27) stmt = con.prepareCall("{ call API_CTD_ISS_CONTRACT_P1.Modify_Card_WEB(" +
+
+API_CTD_ISS_CONTRACT_P1 -                         (198: 25) .prepareCall("{ call API_CTD_ISS_CONTRACT_P1.Modify_WEB( " +
+
+API_CTD_ISS_CONTRACT_P1 -                         (1292: 27) stmt = con.prepareCall("{ call API_CTD_ISS_CONTRACT_P1.Modify_Customer_WEB( ?, ?, ?, ?, ?, ?, ?, ?, ? ) }");
+
+API_CTD_ISS_CONTRACT_P1 -                         (948: 27) stmt = con.prepareCall("{ call API_CTD_ISS_CONTRACT_P1.Modify_Misc_WEB( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) }");
+
+API_CTD_ADDSRV_TPL_P1 -                         (1640: 27) stmt = con.prepareCall("{ call API_CTD_ADDSRV_TPL_P1.Modify_WEB( ?, ?, ?, ?, ?, ?, ?, ?, ? ) }");
+
+api_fad_country -                         (23: 28) cstmt = con.prepareCall("{call api_fad_country.query(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)}");
+
+api_fad_country_p1 -                     (96: 10) "{call api_fad_country_p1.new_web(?, ?, ?, ?, ?, ?, ?, ?, ?)}",
+
+api_fad_country_p1 -                     (97: 10) "{call api_fad_country_p1.modify_web(?, ?, ?, ?, ?, ?, ?, ?, ?)}",
+
+api_fad_country_p1 -                     (98: 10) "{call api_fad_country_p1.remove_web(?)}"
+
+API_CRD_CLIENT_P1 -                         (91: 27) stmt = con.prepareCall("{ call API_CRD_CLIENT_P1.Cancel_Credit(?)}");
+
+api_crd_pmn_alg -                         (341: 27) stmt = con.prepareCall("{ call api_crd_pmn_alg.query_field( ?) }");
+
+api_crd_pmn_alg -                         (247: 27) stmt = con.prepareCall("{ call api_crd_pmn_alg.query_set( ?, ?, ?) }");
+
+api_crd_pmn_alg -                         (281: 27) stmt = con.prepareCall("{ call api_crd_pmn_alg.query_rule( ?, ?) }");
+
+api_crd_pmn_alg -                         (314: 27) stmt = con.prepareCall("{ call api_crd_pmn_alg.query_code( ?) }");
+
+API_CRD_REPORT -                         (544: 28) cstmt = con.prepareCall("{ call API_CRD_REPORT.Query_REPORT(?,?,?,?, ?,?,?)}");
+
+API_CRD_TRANS -                         (213: 27) stmt = con.prepareCall("{ call API_CRD_TRANS.Query_TREE( ?, ?) }");
+
+API_CRD_PMN_ALG_P1 -                         (366: 27) stmt = con.prepareCall("{ call API_CRD_PMN_ALG_P1.modify_codes_web(?,?)}");
+
+API_CRD_PMN_ALG_P1 -                         (489: 27) stmt = con.prepareCall("{ call API_CRD_PMN_ALG_P1.modify_fields_web(?,?,?)}");
+
+API_CRD_PMN_ALG_P1 -                         (447: 27) stmt = con.prepareCall("{ call API_CRD_PMN_ALG_P1.modify_rules_web(?,?,?,?)}");
+
+API_CRD_PMN_ALG_P1 -                         (404: 27) stmt = con.prepareCall("{ call API_CRD_PMN_ALG_P1.modify_sets_web(?,?,?,?)}");
+
+API_CRD_PMN_ALG_P1 -                         (391: 27) stmt = con.prepareCall("{ call API_CRD_PMN_ALG_P1.new_codes_web(?,?)}");
+
+API_CRD_PMN_ALG_P1 -                         (516: 27) stmt = con.prepareCall("{ call API_CRD_PMN_ALG_P1.new_fields_web(?,?,?)}");
+
+API_CRD_PMN_ALG_P1 -                         (474: 27) stmt = con.prepareCall("{ call API_CRD_PMN_ALG_P1.new_rules_web(?,?,?,?)}");
+
+API_CRD_PMN_ALG_P1 -                         (432: 27) stmt = con.prepareCall("{ call API_CRD_PMN_ALG_P1.new_sets_web(?,?,?,?)}");
+
+API_CRD_PMN_ALG_P1 -                         (379: 27) stmt = con.prepareCall("{ call API_CRD_PMN_ALG_P1.remove_codes_web(?)}");
+
+API_CRD_PMN_ALG_P1 -                         (503: 27) stmt = con.prepareCall("{ call API_CRD_PMN_ALG_P1.remove_fields_web(?,?,?)}");
+
+API_CRD_PMN_ALG_P1 -                         (462: 27) stmt = con.prepareCall("{ call API_CRD_PMN_ALG_P1.remove_rules_web(?)}");
+
+API_CRD_PMN_ALG_P1 -                         (419: 27) stmt = con.prepareCall("{ call API_CRD_PMN_ALG_P1.remove_sets_web(?,?)}");
+
+API_CRD_CLIENT_P1 -                         (103: 27) stmt = con.prepareCall("{ call API_CRD_CLIENT_P1.Resume_Credit(?,?,?)}");
+
+API_FAD_CROSSRATES_P1 -                         (87: 27) stmt = con.prepareCall("{ call API_FAD_CROSSRATES_P1.New_web( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) }");
+
+API_FAD_CROSSRATES_P2 -                         (357: 27) stmt = con.prepareCall("{ call API_FAD_CROSSRATES_P2.mc_currency_rates_add( ?, ?, ?, ?, ?, ?,
+
+API_FAD_CROSSRATES_P2 -                         (216: 27) stmt = con.prepareCall("{ call API_FAD_CROSSRATES_P2.vista_currency_rates_add( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) }");
+
+API_FAD_CROSSRATES_P1 -                         (144: 27) stmt = con.prepareCall("{ call API_FAD_CROSSRATES_P1.Remove_web( ? ) }");
+
+API_FAD_CROSSRATES_P2 -                         (456: 27) stmt = con.prepareCall("{ call API_FAD_CROSSRATES_P2.mc_currency_rates_del(?)}");
+
+API_FAD_CROSSRATES_P2 -                         (281: 27) stmt = con.prepareCall("{ call API_FAD_CROSSRATES_P2.vista_currency_rates_del(?) }");
+
+API_FAD_CROSSRATES_P2 -                         (301: 27) stmt = con.prepareCall("{ call API_FAD_CROSSRATES_P2.mc_currency_rates_query(?, ?, ?, ?, ?, ?) }");
+
+API_FAD_CROSSRATES_P2 -                         (165: 27) stmt = con.prepareCall("{ call API_FAD_CROSSRATES_P2.vista_currency_rates_query(?, ?, ?, ?, ?, ?) }");
+
+API_FAD_CROSSRATES_P1 -                         (115: 27) stmt = con.prepareCall("{ call API_FAD_CROSSRATES_P1.Modify_web( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) }");
+
+API_FAD_CROSSRATES_P2 -                         (419: 27) stmt = con.prepareCall("{ call API_FAD_CROSSRATES_P2.mc_currency_rates_edit( ?, ?, ?, ?, ?, ?
+
+API_FAD_CROSSRATES_P2 -                         (249: 27) stmt = con.prepareCall("{ call API_FAD_CROSSRATES_P2.vista_currency_rates_edit( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) }");
+
+API_FAD_CURRENCY -                         (20: 28) cstmt = con.prepareCall("{call API_FAD_CURRENCY.Query(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)}");
+
+API_FAD_CURRENCY_P1 -                     (86: 10) "{call API_FAD_CURRENCY_P1.new_web(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)}",
+
+API_FAD_CURRENCY_P1 -                     (87: 10) "{call API_FAD_CURRENCY_P1.modify_web(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)}",
+
+API_FAD_CURRENCY_P1 -                     (88: 10) "{call API_FAD_CURRENCY_P1.remove_web(?)}"
+
+api_custom_file_io -                         (67: 28) cstmt = con.prepareCall("{ call api_custom_file_io.add_ver( ? , ? , ? , ?, ? , ? , ? , ?, ? ) }");
+
+api_custom_file_io -                         (171: 28) cstmt = con.prepareCall("{ call api_custom_file_io.add_record( ? , ? , ? , ?, ? , ? , ? ) }");
+
+api_custom_file_io -                         (324: 28) cstmt = con.prepareCall("{ call api_custom_file_io.append_field( ? , ? , ? , ?, ? , ? , ? ) }");
+
+api_custom_file_io -                         (114: 28) cstmt = con.prepareCall("{ call api_custom_file_io.remove_ver( ? ) }");
+
+api_custom_file_io -                         (410: 28) cstmt = con.prepareCall("{ call api_custom_file_io.remove_field( ?, ? ) }");
+
+api_custom_file_io -                         (216: 28) cstmt = con.prepareCall("{ call api_custom_file_io.remove_record( ? ) }");
+
+api_custom_file_io -                         (234: 28) cstmt = con.prepareCall("{call api_custom_file_io.get_cursor_text( ?, ?) }");
+
+api_custom_file_io -                         (26: 28) cstmt = con.prepareCall("{ ? = call api_custom_file_io.query_file_ver( ? , ?) }");
+
+api_custom_file_io -                         (486: 28) cstmt = con.prepareCall("{ ? = call api_custom_file_io.query_process( ? ) }");
+
+api_custom_file_io -                         (544: 28) cstmt = con.prepareCall("{ ? = call api_custom_file_io.query_process_params( ?, ? ) }");
+
+api_custom_file_io -                         (609: 27) stmt = con.prepareCall("{ ? = call api_custom_file_io.list_output_folders( ) }");
+
+api_custom_file_io -                         (429: 28) cstmt = con.prepareCall("{ ? = call api_custom_file_io.query_field_properties( ? ) }");
+
+api_custom_file_io -                         (283: 28) cstmt = con.prepareCall("{ ? = call api_custom_file_io.query_fields( ?) }");
+
+api_custom_file_io -                         (132: 28) cstmt = con.prepareCall("{ ? = call api_custom_file_io.query_records( ? ) }");
+
+api_custom_file_io -                         (347: 28) cstmt = con.prepareCall("{ call api_custom_file_io.insert_field( ? , ? , ? , ?, ? , ? , ? ) }");
+
+api_custom_file_io -                         (92: 28) cstmt = con.prepareCall("{ call api_custom_file_io.modify_ver( ? , ? , ? , ?, ? , ? ) }");
+
+api_custom_file_io -                         (584: 28) cstmt = con.prepareCall("{ call api_custom_file_io.modify_process_params( ? , ? , ? , ? , ? , ? , ? , ?) }");
+
+api_custom_file_io -                         (370: 28) cstmt = con.prepareCall("{ call api_custom_file_io.modify_field( ? , ? , ? , ?, ? ) }");
+
+api_custom_file_io -                         (522: 28) cstmt = con.prepareCall("{ call api_custom_file_io.modify_process( ? , ? , ? , ? , ? ) }");
+
+api_custom_file_io -                         (466: 28) cstmt = con.prepareCall("{ call api_custom_file_io.modify_property( ? , ? , ? ) }");
+
+api_custom_file_io -                         (194: 28) cstmt = con.prepareCall("{ call api_custom_file_io.modify_record( ? , ? , ? , ?, ? , ? ) }");
+
+api_custom_file_io -                         (391: 28) cstmt = con.prepareCall("{ call api_custom_file_io.move_field( ? , ? , ? ) }");
+
+api_custom_file_io -                         (260: 28) cstmt = con.prepareCall("{ call api_custom_file_io.set_cursor( ?, ?, ?) }");
+
+API_ACQ_CYCLE_SCHM_SEL -                         (26: 27) stmt = con.prepareCall("{ call API_ACQ_CYCLE_SCHM_SEL.QUERY_RECORDS( ?, ?, ?, ?, ?, ? ) }");
+
+API_ISS_CYCLE_SCHM_MOD -                         (88: 33) stmt = con.prepareCall("{ call API_ISS_CYCLE_SCHM_MOD.INSERT_RECORDS_WEB( ? , ? , ? , ? , ? " +
+
+API_ISS_CYCLE_SCHM_MOD -                         (154: 33) stmt = con.prepareCall("{ call API_ISS_CYCLE_SCHM_MOD.DELETE_RECORDS_WEB( ? , ? , ? , ? , ? " +
+
+Api_Iss_Cycle_Schm_Sel -                         (33: 27) stmt = con.prepareCall("{ call Api_Iss_Cycle_Schm_Sel.Query_records( ?, ?, ?, ?, ?, ?, ? ) }");
+
+API_ISS_CYCLE_SCHM_MOD -                         (121: 33) stmt = con.prepareCall("{ call API_ISS_CYCLE_SCHM_MOD.UPDATE_RECORDS_WEB( ? , ? , ? , ? , ? " +
+
+API_DSP_MC_MSG_P3 -                         (66: 28) cstmt = con.prepareCall("{ call API_DSP_MC_MSG_P3.Query_DSP(?, ?, ?, ?)}");
+
+API_DSP_COMMON -                         (126: 28) cstmt = con.prepareCall("{ ? = call API_DSP_COMMON.pop_message_type_web(?, ?)}");
+
+API_DSP_MC_MSG_P1 -                         (24: 28) cstmt = con.prepareCall("{ call API_DSP_MC_MSG_P1.Query_DTL(?, ?)}");
+
+API_DSP_COMMON -                         (38: 28) cstmt = con.prepareCall("{ ? = call API_DSP_COMMON.get_proc_gen(?)}");
+
+API_DSP_COMMON -                         (22: 28) cstmt = con.prepareCall("{ ? = call API_DSP_COMMON.get_proc_ini(?)}");
+
+API_DSP_COMMON -                         (65: 28) cstmt = con.prepareCall("{ ? = call API_DSP_COMMON.execute_web(?, ?, ?)}");
+
+api_report_management -                         (130: 38) callStmt = connection.prepareCall("{ call api_report_management.save_report(?,?,?,?,?,?,?,?,?,?,?) }");
+
+api_report_management -                         (154: 38) callStmt = connection.prepareCall("{ call api_report_management.update_report(?,?,?,?,?,?,?,?,?,?,?,?) }");
+
+API_DSP_VISA_FEE_P1 -                         (52: 28) cstmt = con.prepareCall("{ call API_DSP_VISA_FEE_P1.Query_DSP(?, ?)}");
+
+API_DSP_VISA_FEE_P2 -                         (20: 28) cstmt = con.prepareCall("{ call API_DSP_VISA_FEE_P2.Get_Gen_Msg_List_Web(?, ?) }");
+
+API_DSP_VISA_MSG_P3 -                         (58: 28) cstmt = con.prepareCall("{ call API_DSP_VISA_MSG_P3.Query_DSP(?, ?)}");
+
+API_DSP_VISA_MSG_P1 -                         (24: 28) cstmt = con.prepareCall("{ call API_DSP_VISA_MSG_P1.Query_DTL(?, ?, ?) }");
+
+API_DSP_VISA_MSG_P1 -                         (79: 28) cstmt = con.prepareCall("{ ? = call API_DSP_VISA_MSG_P1.Get_Message_Type(?) }");
+
+API_DSP_VISA_MSG_P1 -                         (21: 28) cstmt = con.prepareCall("{ call API_DSP_VISA_MSG_P1.Query_DRAFT(?, ?)}");
+
+API_DSP_VISA_MSG_P1 -                         (21: 28) cstmt = con.prepareCall("{ call API_DSP_VISA_MSG_P1.Query_FEE(?, ?)}");
+
+API_DSP_VISA_MSG_P1 -                         (21: 28) cstmt = con.prepareCall("{ call API_DSP_VISA_MSG_P1.Query_FRAUD(?, ?)}");
+
+API_DSP_VISA_MSG_P4 -                         (20: 28) cstmt = con.prepareCall("{ call API_DSP_VISA_MSG_P4.Get_Gen_Msg_List_Web(?, ?) }");
+
+API_DSP_VISA_MSG_P5 -                         (51: 28) cstmt = con.prepareCall("{ ? = call API_DSP_VISA_MSG_P5.Write_Off_Available_Web(?) }");
+
+API_DSP_VISA_MSG_P1 -                         (21: 28) cstmt = con.prepareCall("{ call API_DSP_VISA_MSG_P1.Query_RETR(?, ?)}");
+
+API_ISS_ENTITY_PROPERTIES -                         (119: 29) cstmt = con.prepareCall( "{ call API_ISS_ENTITY_PROPERTIES.query( ?, ?, ?, ?, ?, ? ) }" );
+
+api_entity_ff_values -                         (26: 29) cstmt = con.prepareCall( "{ call api_entity_ff_values.query_params( ?, ?, ?) }" );
+
+api_entity_ff_values -                         (73: 29) cstmt = con.prepareCall( "{ call api_entity_ff_values.Update_Params_Web( ?, ?, ?, ?, ?, ?, ?, ?, ?) }" );
+
+API_FAD_FEE_TYPE_P1 -                         (385: 27) stmt = con.prepareCall("{ call API_FAD_FEE_TYPE_P1.Insert_from_dict() }");
+
+API_ACQ_FEE_SCHM_SEL -                         (126: 28) stmt = con.prepareCall("{ call API_ACQ_FEE_SCHM_SEL.query_records(?, ?, ?, ?, ?, ?, ?)}");
+
+API_ISS_FEE_SCHM_SEL -                         (158: 28) stmt = con.prepareCall("{ call API_ISS_FEE_SCHM_SEL.query_records(?, ?, ?, ?, ?, ?, ?)}");
+
+API_FAD_FEE_TYPE -                         (309: 27) stmt = con.prepareCall("{ call API_FAD_FEE_TYPE.QUERY( ?, ?, ?, ?, ?, ? ) }");
+
+API_FAD_FEE_P1 -                     (393: 10) "{ call API_FAD_FEE_P1.New_WEB( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) }",
+
+API_FAD_FEE_P1 -                     (394: 10) "{ call API_FAD_FEE_P1.Modify_WEB( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) }",
+
+API_FAD_FEE_P1 -                     (395: 10) "{ call API_FAD_FEE_P1.Remove_WEB( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) }"
+
+api_acq_fee_schm_mod -                     (399: 10) "{ call api_acq_fee_schm_mod.insert_records_web( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) }",
+
+api_acq_fee_schm_mod -                     (400: 10) "{ call api_acq_fee_schm_mod.update_records_web( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) }",
+
+api_acq_fee_schm_mod -                     (401: 10) "{ call api_acq_fee_schm_mod.delete_records_web( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) }"
+
+api_iss_fee_schm_mod -                     (405: 10) "{ call api_iss_fee_schm_mod.insert_records_web( ?, ?, ?, ?, ?, ?, ?, 
+
+api_iss_fee_schm_mod -                     (406: 10) "{ call api_iss_fee_schm_mod.update_records_web( ?, ?, ?, ?, ?, ?, ?, 
+
+api_iss_fee_schm_mod -                     (407: 10) "{ call api_iss_fee_schm_mod.delete_records_web( ?, ?, ?, ?, ?, ?, ?, 
+
+API_FAD_FEE_TYPE_P1 -                     (411: 10) "{ call API_FAD_FEE_TYPE_P1.New_WEB( ?, ?, ?, ?, ?, ?, ?, ?, ? ) }",
+
+API_FAD_FEE_TYPE_P1 -                     (412: 10) "{ call API_FAD_FEE_TYPE_P1.Modify_WEB( ?, ?, ?, ?, ?, ?, ?, ?, ? ) }",
+
+API_FAD_FEE_TYPE_P1 -                     (413: 10) "{ call API_FAD_FEE_TYPE_P1.Remove_WEB( ?, ?, ?, ?, ?, ?, ?, ?, ? ) }"
+
+api_iss_fee_params_group_p1 -                         (23: 35) cstmt = connection.prepareCall("{ call api_iss_fee_params_group_p1.query_records( ?, ?, ?, ?, ?, ?) }");
+
+api_iss_fee_params_group_p2 -                     (76: 3) "{call api_iss_fee_params_group_p2.Insert_Web( ?, ?, ?, ?, ?) }",
+
+api_iss_fee_params_group_p2 -                     (77: 3) "{call api_iss_fee_params_group_p2.Update_Web( ?, ?, ?, ?, ?) }",
+
+api_iss_fee_params_group_p2 -                     (78: 3) "{call api_iss_fee_params_group_p2.Delete_Web( ?) }"
+
+Api_Iss_Fee_Schm_Sel -                         (42: 34) stmt = con.prepareCall( "{ call Api_Iss_Fee_Schm_Sel.Query_records( ?, ?, ?, ?, ?, ?, ? ) }" );
+
+API_ADJUSTMENT -                         (65: 39) cstmt = connection.prepareCall( "{ call API_ADJUSTMENT.create_trxn(" +
+
+API_ADJUSTMENT -                         (218: 39) cstmt = connection.prepareCall( "{ call API_ADJUSTMENT.query_adj_setup ( ?, ?, ?, ?) }" );
+
+api_adjustment -                         (419: 39) cstmt = connection.prepareCall( "{ call api_adjustment.query_reason_fee( ?, ? ) }" );
+
+api_adjustment -                         (183: 39) cstmt = connection.prepareCall( "{ call api_adjustment.query_trxn_type( ? ) }" );
+
+UTIL -                         (111: 39) cstmt = connection.prepareCall( "{ ? = call UTIL.Get_Ledger_Account_For_Account( ?, ?, ?, ?, ?, ?, ?) }" );
+
+API_DSP_ADJUSTMENT -                         (391: 39) cstmt = connection.prepareCall( "{ call API_DSP_ADJUSTMENT.GetPropertyList_WEB( ?, ?) }" );
+
+API_DSP_ADJUSTMENT -                         (39: 39) cstmt = connection.prepareCall( "{ ? = call API_DSP_ADJUSTMENT.is_manual_fee_processing( ?, ?, ?) }" );
+
+API_DSP_ADJUSTMENT -                         (312: 39) cstmt = connection.prepareCall( "{ call API_DSP_ADJUSTMENT.QUERY_ACQ_ACCT( ?, ?, ?, ?, ?, ?) }" );
+
+API_DSP_ADJUSTMENT -                         (352: 39) cstmt = connection.prepareCall( "{ call API_DSP_ADJUSTMENT.Query_GNRL_ACCT( ?, ?, ?, ?, ?, ?) }" );
+
+API_DSP_ADJUSTMENT -                         (138: 39) cstmt = connection.prepareCall( "{ call API_DSP_ADJUSTMENT.Query_ISS_ACCT( ?, ?, ?, ?, ?, ?, ?) }" );
+
+API_ADJUSTMENT -                         (267: 28) stmt = con.prepareCall("{ call API_ADJUSTMENT.add_adj_setup( ?, ?, ?) }");
+
+API_ADJUSTMENT -                         (276: 28) stmt = con.prepareCall("{ call API_ADJUSTMENT.upd_adj_setup( ?, ?, ?, ?, ?, ?) }");
+
+API_ADJUSTMENT -                         (289: 28) stmt = con.prepareCall("{ call API_ADJUSTMENT.del_adj_setup( ?, ?, ?) }");
+
+API_FAD_OBJECT_GROUP -                         (21: 28) cstmt = con.prepareCall("{ call API_FAD_OBJECT_GROUP.query_object(?, ?, ?, ?)}");
+
+api_fad_object_group_p1_web -                     (70: 9) "{call api_fad_object_group_p1_web.add_object(?, ?, ?, ?)}",
+
+api_fad_object_group_p1_web -                     (71: 9) "{call api_fad_object_group_p1_web.modify_object(?, ?, ?)}",
+
+api_fad_object_group_p1_web -                     (72: 9) "{call api_fad_object_group_p1_web.remove_object(?, ?)}"
+
+API_FAD_OBJECT_GROUP -                         (21: 28) cstmt = con.prepareCall("{ call API_FAD_OBJECT_GROUP.query_group(?, ?, ?, ?, ?, ?)}");
+
+api_fad_object_group_p1_web -                     (75: 10) "{call api_fad_object_group_p1_web.new_group(?, ?, ?, ?, ?, ?, ?, ?)}",
+
+api_fad_object_group_p1_web -                     (76: 10) "{call api_fad_object_group_p1_web.modify_group(?, ?, ?, ?, ?, ?, ?, ?)}",
+
+api_fad_object_group_p1_web -                     (77: 10) "{call api_fad_object_group_p1_web.delete_group(?)}"
+
+API_ISS_FIN_DETAIL -                         (876: 35) cstmt = connection.prepareCall("{call API_ISS_FIN_DETAIL.change_reversal_proc_algo(?, ?, ?)}");
+
+API_RULES_MATCH_TAB -                         (800: 35) cstmt = connection.prepareCall("{call API_RULES_MATCH_TAB.remove(?)}");
+
+UTIL_TWO -                         (907: 34) stmt = connection.prepareCall("{ ? = call UTIL_TWO.get_calendarday_by_workday(?, ?)}");
+
+SV_DISPUTE -                         (925: 34) stmt = connection.prepareCall("{ ? = call SV_DISPUTE.get_inst_id_usonus(?, 'ACQ')}");
+
+API_RULES_MATCH_TAB -                         (835: 35) cstmt = connection.prepareCall("{? = call API_RULES_MATCH_TAB.query_act_type()}");
+
+API_ISS_FIN_DETAIL -                         (330: 35) cstmt = connection.prepareCall("{ call API_ISS_FIN_DETAIL.Query_MC(?,?,?,?, ?,?,?,?, ?,?,?,?, ?,?,?,?)}");
+
+API_RULES_MATCH_TAB -                         (856: 35) cstmt = connection.prepareCall("{? = call API_RULES_MATCH_TAB.query_post()}");
+
+API_RULES_MATCH_TAB -                         (654: 35) cstmt = connection.prepareCall("{? = call API_RULES_MATCH_TAB.Query(?, ?, ?, ?)}");
+
+API_RULES_MATCH_TAB -                         (814: 35) cstmt = connection.prepareCall("{? = call API_RULES_MATCH_TAB.query_source_table()}");
+
+API_ISS_FIN_DETAIL -                         (558: 35) cstmt = connection.prepareCall("{call API_ISS_FIN_DETAIL.Query_SV(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)}");
+
+API_ISS_FIN_DETAIL -                         (448: 35) cstmt = connection.prepareCall("{ call API_ISS_FIN_DETAIL.Query_USONUS(?,?,?,?, ?,?,?,?, ?,?,?,?, ?)}");
+
+API_ISS_FIN_DETAIL -                         (210: 35) cstmt = connection.prepareCall("{ call API_ISS_FIN_DETAIL.Query_VISA( ?,?,?,?, ?,?,?,?, ?,?,?,?, ?,?,?,?, ? )}");
+
+API_DSP_USONUS_REVERSAL_P1 -                         (543: 34) stmt = connection.prepareCall("{ ? = call API_DSP_USONUS_REVERSAL_P1.Make_Reversal(?)}");
+
+api_iss_auth_log_p1 -                         (892: 35) cstmt = connection.prepareCall("{call api_iss_auth_log_p1.modify_web(?, ?)}");
+
+API_ISS_FIN_DETAIL -                         (640: 35) cstmt = connection.prepareCall("{call API_ISS_FIN_DETAIL.Modify_SV(?, ?)}");
+
+Data_Support -                         (156: 34) stmt = connection.prepareCall("{ call Data_Support.Append_Field(?, ?)}");
+
+BF_642 -                         (164: 34) stmt = connection.prepareCall("{ call BF_642.Exec_Business_Trx(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)}");
+
+api_semi_rules -                         (30: 27) stmt = con.prepareCall("{ call api_semi_rules.search( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) }");
+
+api_semi_rules -                         (133: 27) stmt = con.prepareCall("{ call api_semi_rules.crud(" +
+
+API_FAd_GL_Fee_Schm_DML -                         (79: 35) cstmt = connection.prepareCall("{call API_FAd_GL_Fee_Schm_DML.Insert_prc_web( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) }");
+
+API_FAd_GL_Fee_Schm_DML -                         (142: 35) cstmt = connection.prepareCall("{call API_FAd_GL_Fee_Schm_DML.Delete_prc_web( ?) }");
+
+API_FAD_GL_FEE_SCHM_SEL -                         (25: 35) cstmt = connection.prepareCall("{ call API_FAD_GL_FEE_SCHM_SEL.Query( ?, ?, ?, ?, ?, ?, ?, ?) }");
+
+API_FAd_GL_Fee_Schm_DML -                         (111: 35) cstmt = connection.prepareCall("{call API_FAd_GL_Fee_Schm_DML.Update_prc_web(?, ?, ?, ?, ?, ?, ?, ?, ?, ?) }");
+
+API_FAD_INSTITUTION_P2 -                         (510: 27) stmt = con.prepareCall("{ call API_FAD_INSTITUTION_P2.Setup_Add(?) }");
+
+API_FAD_INSTITUTION_P1 -                         (525: 26) stmt =con.prepareCall("{ call API_FAD_INSTITUTION_P1.remove_web(?) }");
+
+API_FAD_INSTITUTION_P2 -                         (495: 27) stmt = con.prepareCall("{ call API_FAD_INSTITUTION_P2.Setup_Del(?) }");
+
+API_FAD_INSTITUTION -                         (162: 27) stmt = con.prepareCall("{ call API_FAD_INSTITUTION.Query_Setup( ?, ?) }");
+
+API_FAD_CARD_TYPE -                         (91: 27) stmt = con.prepareCall("{ call API_FAD_CARD_TYPE.Query_Tree( ?, ?) }");
+
+API_FAD_INSTITUTION_P2 -                         (307: 27) stmt = con.prepareCall("{ ? = call API_FAD_INSTITUTION_P2.Setup_List( ? ) }");
+
+API_FAD_INSTITUTION -                         (127: 27) stmt = con.prepareCall("{ call API_FAD_INSTITUTION.Query_PaySys( ?, ?) }");
+
+API_FAD_INSTITUTION_P1 -                         (540: 28) cstmt = con.prepareCall("{call API_FAD_INSTITUTION_P1.CHECK_LEDGER_SCHEME_WEB( ?, ?) }");
+
+API_FAD_INSTITUTION_P2 -                         (453: 27) stmt = con.prepareCall("{ call API_FAD_INSTITUTION_P2.modify_paysys_web(?, ?, ?, ? ) }");
+
+API_FAD_INSTITUTION_P2 -                         (476: 27) stmt = con.prepareCall("{ call API_FAD_INSTITUTION_P2.Setup_Mod(?, ?, ?, ?, ? ) }");
+
+API_ISS_LETTER_TASK_WEB -                         (22: 29) cstmt = conn.prepareCall("{ ? = call API_ISS_LETTER_TASK_WEB.build_card_filter(?, ?, ?, ?, ?) }");
+
+API_LOV_CODES -                         (43: 31) cstmt = con.prepareCall("{call API_LOV_CODES.Query(?, ?, ?, ?, ?, ?)}");
+
+API_LETTER_MSG_WEB -                         (109: 32) cstmt = con.prepareCall( "{call API_LETTER_MSG_WEB.Query_Messages_Params(?, ?)}");
+
+API_LETTER_MSG_WEB -                         (137: 32) cstmt = con.prepareCall( "{call API_LETTER_MSG_WEB.Query_Letter_Type_Params(?, ?)}");
+
+API_LETTER_MSG_WEB -                         (74: 32) cstmt = con.prepareCall( "{call API_LETTER_MSG_WEB.query_messages(?, ?, ?, ?, ?)}");
+
+API_LETTER_MSG_P1_WEB -                         (163: 32) cstmt = con.prepareCall( "{call API_LETTER_MSG_P1_WEB.Mark_Message_Uploaded(?)}");
+
+API_ISS_LETTER_SCHM_MOD -                         (171: 37) cstmt = con.prepareCall("{ call API_ISS_LETTER_SCHM_MOD.insert_records_web( ?, ?, ?, ? ) }");
+
+API_ISS_LETTER_TAB_MOD -                         (216: 37) cstmt = con.prepareCall("{ call API_ISS_LETTER_TAB_MOD.insert_records_web( ?, ?, ?, ?, ?, ?, ?, ?, ? ) }");
+
+API_ISS_LETTER_SCHM_MOD -                         (93: 37) cstmt = con.prepareCall("{ call API_ISS_LETTER_SCHM_MOD.delete_records_web( ? ) }");
+
+API_ISS_LETTER_TAB_MOD -                         (280: 37) cstmt = con.prepareCall("{ call API_ISS_LETTER_TAB_MOD.delete_records_web( ? ) }");
+
+API_ISS_LETTER_TAB_SEL -                         (112: 36) stmt = con.prepareCall("{ call API_ISS_LETTER_TAB_SEL.query_records( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) }");
+
+API_ISS_LETTER_SCHM_SEL -                         (39: 36) stmt = con.prepareCall("{ call API_ISS_LETTER_SCHM_SEL.QUERY_RECORDS( ?, ?, ?, ?, ?, ?, ?) }");
+
+API_ISS_LETTER_SCHM_MOD -                         (193: 37) cstmt = con.prepareCall("{ call API_ISS_LETTER_SCHM_MOD.update_records_web( ?, ?, ?, ?, ? ) }");
+
+API_ISS_LETTER_TAB_MOD -                         (248: 37) cstmt = con.prepareCall("{ call API_ISS_LETTER_TAB_MOD.update_records_web( ?, ?, ?, ?, ?, ?, ?, ?, ? ) }");
+
+api_iss_flex_limits_p1 -                         (218: 34) stmt = connection.prepareCall("{ call api_iss_flex_limits_p1.add_obj_limit_web(?, ?, ?, ?, ?, ?)}");
+
+api_iss_flex_limits_p2 -                         (124: 34) stmt = connection.prepareCall("{ call api_iss_flex_limits_p2.add_limit_type_web(?, ?, ?, ?, ?, ?, ?, ?)}");
+
+api_iss_flex_limits_p1 -                         (260: 34) stmt = connection.prepareCall("{ call api_iss_flex_limits_p1.delete_obj_limit_web(?, ?, ?, ?, ?, ?)}");
+
+api_iss_flex_limits_p2 -                         (159: 34) stmt = connection.prepareCall("{ call api_iss_flex_limits_p2.delete_limit_type_web(?)}");
+
+api_iss_flex_limits_p1 -                         (237: 34) stmt = connection.prepareCall("{ call api_iss_flex_limits_p1.modify_obj_limit_web(?, ?, ?, ?, ?, ?, ?, ?, ?, ?)}");
+
+api_iss_flex_limits -                         (23: 35) cstmt = connection.prepareCall("{ call api_iss_flex_limits.query_object_limits( ?, ?, ?, ?, ?, ?, ?, ?) }");
+
+api_entity_ff_values -                         (172: 35) cstmt = connection.prepareCall("{ call api_entity_ff_values.query_params( ?, ?, ?) }");
+
+api_iss_flex_limits -                         (71: 35) cstmt = connection.prepareCall("{ call api_iss_flex_limits.query_limit_types( ?, ?, ?, ?, ?, ?, ?, ?) }");
+
+api_entity_ff_values -                         (200: 34) stmt = connection.prepareCall("{ call api_entity_ff_values.set_val(?,?,?,?)}");
+
+api_iss_flex_limits_p2 -                         (143: 34) stmt = connection.prepareCall("{ call api_iss_flex_limits_p2.modify_limit_type_web(?, ?, ?, ?, ?)}");
+
+api_iss_flex_limits_p1 -                         (239: 35) stmt = connection.prepareCall("{ call api_iss_flex_limits_p1.add_obj_limit_web(?, ?, ?, ?)}");
+
+api_iss_flex_limits_p1 -                         (133: 35) stmt = connection.prepareCall("{ call api_iss_flex_limits_p1.add_obj_limit_web(?, ?, ?, ?)}");
+
+api_iss_flex_limits_p1 -                         (171: 35) stmt = connection.prepareCall("{ call api_iss_flex_limits_p1.delete_obj_limit_web(?, ?, ?, ?, ?, ?)}");
+
+api_iss_flex_limits_p1 -                         (65: 35) stmt = connection.prepareCall("{ call api_iss_flex_limits_p1.delete_obj_limit_web(?, ?, ?, ?, ?, ?)}");
+
+api_iss_flex_limits_p1 -                         (205: 35) stmt = connection.prepareCall("{ call api_iss_flex_limits_p1.modify_obj_limit_web(?, ?, ?, ?, ?, ?, ?)}");
+
+api_iss_flex_limits_p1 -                         (99: 35) stmt = connection.prepareCall("{ call api_iss_flex_limits_p1.modify_obj_limit_web(?, ?, ?, ?, ?, ?, ?)}");
+
+Api_Acq_Limits_Schm -                         (112: 27) stmt = con.prepareCall("{ call Api_Acq_Limits_Schm.Query( ?, ?, ?, ? ) }");
+
+Api_Iss_Limits_Schm -                         (65: 27) stmt = con.prepareCall("{ call Api_Iss_Limits_Schm.Query( ?, ?, ?, ?, ?, ? ) }");
+
+API_LOV_WEB -                         (31: 35) cstmt = connection.prepareCall("{ call API_LOV_WEB.query(?, ?, ?, ?, ?, ?, ?) }");
+
+API_ISS_LIMITS_SCHM_P1 -                     (192: 10) "{ call API_ISS_LIMITS_SCHM_P1.add_scheme_web(?, ?, ?, ?, ?, ?, ?, ?)}",
+
+API_ISS_LIMITS_SCHM_P1 -                     (193: 10) "{ call API_ISS_LIMITS_SCHM_P1.edit_scheme_web(?, ?, ?, ?, ?, ?, ?, ?, ?)}",
+
+API_ISS_LIMITS_SCHM_P1 -                     (194: 10) "{ call API_ISS_LIMITS_SCHM_P1.remove_scheme_web(?)}"
+
+API_ACQ_LIMITS_SCHM_P1 -                     (197: 10) "{ call API_ACQ_LIMITS_SCHM_P1.add_scheme_web(?, ?, ?, ?, ?, ?, ?)}",
+
+API_ACQ_LIMITS_SCHM_P1 -                     (198: 10) "{ call API_ACQ_LIMITS_SCHM_P1.edit_scheme_web(?, ?, ?, ?, ?, ?, ?, ?)}",
+
+API_ACQ_LIMITS_SCHM_P1 -                     (199: 10) "{ call API_ACQ_LIMITS_SCHM_P1.remove_scheme_web(?)}"
+
+API_LOGS -                         (255: 38) callStmt = connection.prepareCall("{ ? = call API_LOGS.export_logs(?) }");
+
+API_LOGS -                         (129: 38) callStmt = connection.prepareCall("{ call API_LOGS.query_external_logs(?, ?, ?, ?, ?, ?, ?, ?, ?, ?) }");
+
+API_LOGS -                         (205: 38) callStmt = connection.prepareCall("{ call API_LOGS.get_ext_log_record_details(?, ?, ?, ?, ?) }");
+
+API_LOGS -                         (350: 40) stmt = connection.prepareCall("{ ? = call API_LOGS.GET_GLOBAL_EXT_LOG_LEVEL() }");
+
+API_LOGS -                         (72: 38) callStmt = connection.prepareCall("{ call API_LOGS.QUERY_LOGS(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) }");
+
+API_LOGS -                         (170: 38) callStmt = connection.prepareCall("{ call API_LOGS.get_log_record_details(?, ?, ?, ?, ?) }");
+
+API_LOGS -                         (316: 50) stmtModules = connection.prepareCall("{ call API_LOGS.QUERY_MODULES(?) }");
+
+API_LOGS -                         (273: 43) stmt = connection.prepareCall("{call API_LOGS.QUERY_LOG_LEVELS_FOR_SEARCH(?)}");
+
+API_LOGS -                         (35: 43) stmt = connection.prepareCall("{ call API_LOGS.QUERY_LOGS(?, ?, ?, ?, ?, ?, ?) }");
+
+API_LOGS -                         (296: 43) stmt = connection.prepareCall("{call API_LOGS.QUERY_MODULES(?)}");
+
+API_LOGS -                         (337: 48) statement = connection.prepareCall("{ call API_LOGS.SET_INDIVIDUAL_EXT_LOG_LEVEL(?, ?) }");
+
+API_LOGS -                         (364: 48) statement = connection.prepareCall("{ call API_LOGS.SET_GLOBAL_EXT_LOG_LEVEL(?) }");
+
+api_logs -                         (37: 38) callStmt = connection.prepareCall("{ ? = call api_logs.get_timestamp_format() }");
+
+API_LOV_REF -                         (255: 35) cstmt = connection.prepareCall("{ ? = call API_LOV_REF.Get_Institutions() }");
+
+API_CRD_LOYALTY -                         (148: 35) cstmt = connection.prepareCall("{ call API_CRD_LOYALTY.Query_SERVICE( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) }");
+
+API_CRD_LOYALTY_SRV -                         (37: 35) cstmt = connection.prepareCall("{ call API_CRD_LOYALTY_SRV.Query_LOYALTY( ?, ?, ?, ?, ?, ?, ?, ?) }");
+
+API_CRD_SRV_REG -                         (207: 35) cstmt = connection.prepareCall("{ call API_CRD_SRV_REG.Query( ?, ?, ?, ?, ?, ?, ?, ?, ?) }");
+
+API_CRD_TRANS -                         (84: 35) cstmt = connection.prepareCall("{ call API_CRD_TRANS.Query_TRANS( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) }");
+
+API_ENTITY_FF_VALUES -                         (319: 35) cstmt = connection.prepareCall("{ ? = call API_ENTITY_FF_VALUES.entity_id_by_name( ?) }");
+
+API_ENTITY_FF_VALUES -                         (451: 35) cstmt = connection.prepareCall("{ ? = call API_ENTITY_FF_VALUES.entity_name_by_id(?)}");
+
+API_ACQ_LEVEL_P1 -                         (224: 35) cstmt = connection.prepareCall("{ call API_ACQ_LEVEL_P1.Query_ACCT( ?, ?) }");
+
+API_ACQ_LEVEL_P1 -                         (72: 35) cstmt = connection.prepareCall("{ call API_ACQ_LEVEL_P1.Query_CNTR( ?, ?) }");
+
+API_ACQ_LEVEL_P1_WEB -                         (111: 35) cstmt = connection.prepareCall("{ call API_ACQ_LEVEL_P1_WEB.Query_MRC( ?, ?) }");
+
+API_ENTITY_FF_VALUES -                         (261: 35) cstmt = connection.prepareCall("{ call API_ENTITY_FF_VALUES.query_params( ?, ?, ?) }");
+
+API_ACQ_LEVEL_P1 -                         (171: 35) cstmt = connection.prepareCall("{ call API_ACQ_LEVEL_P1.Query_TRM( ?, ?) }");
+
+API_ENTITY_FF_VALUES -                         (291: 35) cstmt = connection.prepareCall("{ call API_ENTITY_FF_VALUES.query_encrypt_key(?, ?) }");
+
+API_ACQ_TREE -                         (29: 35) cstmt = connection.prepareCall("{ call API_ACQ_TREE.Query( ?, ?, ?, ?, ?, ?, ?, ?) }");
+
+API_ACQ_LEVEL_P2 -                         (336: 35) cstmt = connection.prepareCall("{ call API_ACQ_LEVEL_P2.Modify_MRC_Web( " +
+
+API_ENTITY_FF_VALUES -                         (434: 35) cstmt = connection.prepareCall("{ call API_ENTITY_FF_VALUES.set_val(?, ?, ?, ?)}");
+
+API_CTD_ACQ_CONTRACT_P1 -                     (811: 10) "{ call API_CTD_ACQ_CONTRACT_P1.New_Limit_WEB(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) }",
+
+API_CTD_ACQ_CONTRACT_P1 -                     (812: 10) "{ call API_CTD_ACQ_CONTRACT_P1.Modify_Limit_WEB(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) }",
+
+API_CTD_ACQ_CONTRACT_P1 -                     (813: 10) "{ call API_CTD_ACQ_CONTRACT_P1.Remove_Limit_WEB(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) }"
+
+API_CTD_ACQ_CONTRACT_P1 -                     (818: 10) "{ call API_CTD_ACQ_CONTRACT_P1.New_Terminal_WEB(?, ?, ?, ?, ?, ?, ?, 
+
+API_CTD_ACQ_CONTRACT_P1 -                     (819: 10) "{ call API_CTD_ACQ_CONTRACT_P1.Modify_Terminal_WEB(?, ?, ?, ?, ?, ?, 
+
+API_CTD_ACQ_CONTRACT_P1 -                     (820: 10) "{ call API_CTD_ACQ_CONTRACT_P1.Remove_Terminal_WEB(?) }"
+
+API_CTD_ACQ_CONTRACT_P1 -                     (825: 10) "{ call API_CTD_ACQ_CONTRACT_P1.New_MSC_WEB(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)}",
+
+API_CTD_ACQ_CONTRACT_P1 -                     (826: 10) "{ call API_CTD_ACQ_CONTRACT_P1.Modify_MSC_WEB(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)}",
+
+API_CTD_ACQ_CONTRACT_P1 -                     (827: 10) "{ call API_CTD_ACQ_CONTRACT_P1.Remove_MSC_WEB(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)}"
+
+API_FAD_MRC_MSC_P1 -                         (198: 27) stmt = con.prepareCall("{ call API_FAD_MRC_MSC_P1.Remove_web( ?, ? ) }");
+
+API_FAD_MRC_MSC_P1 -                         (212: 27) stmt = con.prepareCall("{ ? = call API_FAD_MRC_MSC_P1.get_mrc_fee() }");
+
+API_FAD_BIN_P1 -                         (553: 27) stmt = con.prepareCall("{ call API_FAD_BIN_P1.New_web( ?, ?, ?, ?, ?, ?, ?, ?) }");
+
+API_FAD_BIN_P2 -                         (664: 27) stmt = con.prepareCall("{ call API_FAD_BIN_P2.New_web( ?, ?, ?, ?, ?) }");
+
+API_FAD_VISA_ARDEF_P1 -                         (384: 27) stmt = con.prepareCall("{ call API_FAD_VISA_ARDEF_P1.New_web( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) }");
+
+API_FAD_VISA_BIN_P1 -                         (253: 27) stmt = con.prepareCall("{ call API_FAD_VISA_BIN_P1.New_web( ?, ?, ?, ?, ?, ?, ?, ?) }");
+
+API_FAD_VISA_ARDEF_P1 -                         (444: 27) stmt = con.prepareCall("{ call API_FAD_VISA_ARDEF_P1.Remove_web( ?, ?) }");
+
+API_FAD_BIN_P1 -                         (603: 27) stmt = con.prepareCall("{ call API_FAD_BIN_P1.Remove_web( ?, ?) }");
+
+API_FAD_MC_BIN_P1 -                         (182: 27) stmt = con.prepareCall("{ call API_FAD_MC_BIN_P1.Remove_web( ?, ?, ? ) }");
+
+API_FAD_BIN_P2 -                         (708: 27) stmt = con.prepareCall("{ call API_FAD_BIN_P2.Remove_web( ?, ?) }");
+
+API_FAD_VISA_BIN_P1 -                         (303: 27) stmt = con.prepareCall("{ call API_FAD_VISA_BIN_P1.Remove_web( ?, ?) }");
+
+API_FAD_BIN_P1 -                         (722: 27) stmt = con.prepareCall("{ ? = call API_FAD_BIN_P1.get_from_networks_tab() }");
+
+API_FAD_MC_BIN -                         (26: 27) stmt = con.prepareCall("{ call API_FAD_MC_BIN.Query( ?, ?, ?, ?, ?) }");
+
+API_FAD_VISA_ARDEF -                         (323: 27) stmt = con.prepareCall("{ call API_FAD_VISA_ARDEF.Query( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) }");
+
+API_FAD_VISA_BIN -                         (203: 27) stmt = con.prepareCall("{ call API_FAD_VISA_BIN.Query( ?, ?, ?, ?, ?, ?, ?, ?, ?) }");
+
+API_FAD_VISA_ARDEF_P1 -                         (414: 27) stmt = con.prepareCall("{ call API_FAD_VISA_ARDEF_P1.Modify_web( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) }");
+
+API_FAD_BIN_P1 -                         (578: 27) stmt = con.prepareCall("{ call API_FAD_BIN_P1.Modify_web( ?, ?, ?, ?, ?, ?, ?, ?) }");
+
+API_FAD_BIN_P2 -                         (686: 27) stmt = con.prepareCall("{ call API_FAD_BIN_P2.Modify_web( ?, ?, ?, ?, ?) }");
+
+API_FAD_VISA_BIN_P1 -                         (278: 27) stmt = con.prepareCall("{ call API_FAD_VISA_BIN_P1.Modify_web( ?, ?, ?, ?, ?, ?, ?, ?) }");
+
+Api_Lov_Codes -                         (43: 34) stmt = con.prepareCall( "{ call Api_Lov_Codes.Query( ?, ?, ?, ?, ? ) }" );
+
+api_dsp_payment -                         (280: 28) cstmt = con.prepareCall("{ ? = call api_dsp_payment.get_account_type_str(?) }");
+
+api_dsp_payment -                         (168: 28) cstmt = con.prepareCall("{ ? = call api_dsp_payment.get_record_type_list(?)}");
+
+API_ACQ_MP_BATCH_P2 -                         (45: 28) cstmt = con.prepareCall("{call API_ACQ_MP_BATCH_P2.Query_LST(?, ?, ?, ?, ?, ?, ?, ?, ?)}");
+
+api_dsp_payment -                         (155: 28) cstmt = con.prepareCall("{ ? = call api_dsp_payment.get_trans_type_list(?)}");
+
+sys -                         (266: 28) cstmt = con.prepareCall("{ ? = call sys.diutil.bool_to_int(api_dsp_payment.have_app_role(?))}");
+
+API_ACQ_MP_BATCH_P3 -                         (251: 28) cstmt = con.prepareCall("{call API_ACQ_MP_BATCH_P3.modify(?, ?, ?)}");
+
+api_adm_batch_proc -                         (484: 28) cstmt = con.prepareCall("{ call api_adm_batch_proc.New_Batch_Proc( ?,?,?,?, ?,?,?,?, ?,?,?,? ) }");
+
+api_adm_batch_proc -                         (530: 28) cstmt = con.prepareCall("{ call api_adm_batch_proc.del_batch_proc( ? ) }");
+
+API_ADM_EOD_RUN -                         (347: 27) stmt = con.prepareCall("{ call API_ADM_EOD_RUN.Query_Proc( ? ) }");
+
+API_ADM_EOD_RUN -                         (381: 27) stmt = con.prepareCall("{ call API_ADM_EOD_RUN.Query_EOD_Process( ?, ?) }");
+
+api_adm_sys_proc_run -                         (331: 28) cstmt = con.prepareCall("{ call api_adm_sys_proc_run.Get_File_Details_web( ?, ?, ?) }");
+
+API_ADM_SYS_PROC_RUN -                         (280: 27) stmt = con.prepareCall("{ ? = call API_ADM_SYS_PROC_RUN.Get_Param_Value_List_web(?, ?) }");
+
+api_adm_batch_proc -                         (446: 28) cstmt = con.prepareCall("{ call api_adm_batch_proc.Query_Batch_Proc( ? , ?, ?) }");
+
+api_adm_batch_proc -                         (543: 28) cstmt = con.prepareCall("{ call api_adm_batch_proc.Query_Proc_Param_Value( ? , ?, ?) }");
+
+api_adm_sys_proc_run -                         (238: 27) stmt = con.prepareCall("{ call api_adm_sys_proc_run.Query_PRM( ?, ?) }");
+
+api_adm_sys_proc_run -                         (192: 27) stmt = con.prepareCall("{ call api_adm_sys_proc_run.Query_RUN( ?, ?, ?, ?, ?, ?) }");
+
+api_adm_sys_proc_web -                         (32: 27) stmt = con.prepareCall("{ call api_adm_sys_proc_web.query_sessions( ?, ?, ?, ?, ? ) }");
+
+api_adm_sys_proc_web -                         (165: 27) stmt = con.prepareCall("{ call api_adm_sys_proc_web.query_session_details_desc( ?, ? ) }");
+
+api_adm_sys_proc_web -                         (137: 27) stmt = con.prepareCall("{ call api_adm_sys_proc_web.query_session_details_desc_ev( ?, ? ) }");
+
+api_adm_sys_proc_web -                         (94: 27) stmt = con.prepareCall("{ call api_adm_sys_proc_web.query_details_web( ?, ?, ?, ?, ? ) }");
+
+api_adm_sys_proc_web -                         (69: 16) String sql = "{call api_adm_sys_proc_web.query_details_web_count(?, ?, ?) }";
+
+api_adm_batch_proc -                         (507: 28) cstmt = con.prepareCall("{ call api_adm_batch_proc.Modify_Batch_Proc( ?,?,?,?, ?,?,?,?, ?,?,?,? ) }");
+
+api_adm_batch_proc -                         (574: 28) cstmt = con.prepareCall("{ call api_adm_batch_proc.Modify_Parm_Value( ? , ? , ? , ?, ? , ? , ?  ) }");
+
+api_adm_sys_proc_web -                         (316: 27) stmt = con.prepareCall("{ ? = call api_adm_sys_proc_web.run_process_web( ?, ?) }");
+
+API_ADM_EOD_MODIFY -                         (423: 27) stmt = con.prepareCall("{ call API_ADM_EOD_MODIFY.Alter_EOD_Process_Web(?, ?, ?, ?, ?, ?)}");
+
+API_ISS_RATE_SCHM_SEL -                         (45: 34) stmt = con.prepareCall( "{ call API_ISS_RATE_SCHM_SEL.QUERY_RECORDS( ?, ?, ?, ?, ?, ?, ?) }" );
+
+util_statement -                         (91: 35) cstmt = connection.prepareCall("{ ? = call util_statement.generate_statement( ?, ?, ?, ? ) }");
+
+API_ISS_STATEMENT -                         (32: 35) cstmt = connection.prepareCall("{ call API_ISS_STATEMENT.Query( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) }");
+
+API_CRD_SCHEME_P1_WEB -                         (380: 35) cstmt = connection.prepareCall("{ call API_CRD_SCHEME_P1_WEB.New_MATRIX( ?, ?, ?, ?, ?, ?, ?, ?) }");
+
+API_CRD_SCHEME_P1 -                         (665: 35) cstmt = connection.prepareCall("{ call API_CRD_SCHEME_P1.Get_Next_Scheme_ID( ?, ?) }");
+
+API_CRD_SCHEME_P1_WEB -                         (681: 36) cstmt = connection.prepareCall("{ call API_CRD_SCHEME_P1_WEB.New_SERVICE( ?, ?, ?, ?) }");
+
+API_CRD_SCHEME_P1_WEB -                         (693: 36) cstmt = connection.prepareCall("{ call API_CRD_SCHEME_P1_WEB.Add_Params_Default(?, ?) }");
+
+api_service -                         (306: 35) cstmt = connection.prepareCall("{ call api_service.new_param( ?, ?, ?, ?, ?, ?, ?) }");
+
+API_CRD_SERVICE_P1_WEB -                         (191: 35) cstmt = connection.prepareCall("{ call API_CRD_SERVICE_P1_WEB.New_SERVICE( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) }");
+
+API_CRD_SCHEME_P1_WEB -                         (425: 35) cstmt = connection.prepareCall("{ call API_CRD_SCHEME_P1_WEB.Remove_MATRIX( ?, ?, ?, ?, ?, ?, ?) }");
+
+API_CRD_SERVICE_P1_WEB -                         (249: 35) cstmt = connection.prepareCall("{ call API_CRD_SERVICE_P1_WEB.Remove_SERVICE( ?) }");
+
+API_LOV_REF -                         (565: 35) cstmt = connection.prepareCall("{ ? = call API_LOV_REF.Get_Agents(?) }");
+
+API_CRD_SERVICE_P1_WEB -                         (128: 35) cstmt = connection.prepareCall("{ call API_CRD_SERVICE_P1_WEB.GROUP_SERVICES_LIST( ?, ?) }");
+
+API_LOV_REF -                         (540: 35) cstmt = connection.prepareCall("{ ? = call API_LOV_REF.Get_Additional_Services( ?, ?) }");
+
+API_LOV_REF -                         (513: 35) cstmt = connection.prepareCall("{ ? = call API_LOV_REF.get_object_type( ?) }");
+
+API_LOV_REF -                         (67: 35) cstmt = connection.prepareCall("{ ? = call API_LOV_REF.get_add_service_types( ?) }");
+
+API_CRD_SCHEME -                         (95: 35) cstmt = connection.prepareCall("{ call API_CRD_SCHEME.Query_SERVICE( ?, ?, ?, ?, ?, ?, ?) }");
+
+API_ISS_SRV_GROUPS_P1 -                         (879: 28) cstmt = con.prepareCall("{ call API_ISS_SRV_GROUPS_P1.Get_Group_Param_Info_Web(?, ?, ?, ?, ?)}");
+
+API_ISS_SRV_GROUPS -                         (844: 28) cstmt = con.prepareCall("{ call API_ISS_SRV_GROUPS.Query_Group_Params_Info(?, ?, ?, ?)}");
+
+API_ISS_SRV_GROUPS -                         (789: 28) cstmt = con.prepareCall("{ call API_ISS_SRV_GROUPS.Query_Group_Info(?, ?, ?, ?, ?, ?)}");
+
+API_ISS_ADD_SERVICE -                         (934: 28) cstmt = con.prepareCall("{ call API_ISS_ADD_SERVICE.Query_INFO( ?, ?) }");
+
+API_CRD_PARAMS -                         (1002: 35) cstmt = connection.prepareCall("{ call API_CRD_PARAMS.Query_SUB( ?, ?) }");
+
+API_CRD_PARAMS -                         (1032: 28) cstmt = con.prepareCall("{ call API_CRD_PARAMS.Query_VALUE( ?, ?, ?) }");
+
+API_ISS_ADD_SERVICE_P1_WEB -                         (769: 35) cstmt = connection.prepareCall("{ call API_ISS_ADD_SERVICE_P1_WEB.Modify_( ?, ?, ?, ?, ?) }");
+
+API_CRD_SCHEME_P1_WEB -                         (403: 35) cstmt = connection.prepareCall("{ call API_CRD_SCHEME_P1_WEB.Modify_MATRIX( ?, ?, ?, ?, ?, ?, ?) }");
+
+API_CRD_SCHEME_P1_WEB -                         (711: 35) cstmt = connection.prepareCall("{ call API_CRD_SCHEME_P1_WEB.Modify_SERVICE( ?, ?, ?, ?) }");
+
+API_SERVICE -                         (327: 35) cstmt = connection.prepareCall("{ call API_SERVICE.Modify_PARAM( ?, ?, ?, ?) }");
+
+API_CRD_SERVICE_P1_WEB -                         (221: 35) cstmt = connection.prepareCall("{ call API_CRD_SERVICE_P1_WEB.Modify_SERVICE( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) }");
+
+API_ISS_ADDSRV_PARAM -                         (591: 35) cstmt = connection.prepareCall("{ call API_ISS_ADDSRV_PARAM.Query( ?, ?, ?, ?, ?, ?, ?, ?) }");
+
+API_CRD_SCHEME -                         (633: 35) cstmt = connection.prepareCall("{ call API_CRD_SCHEME.Query_PARAMS( ?, ?) }");
+
+api_service -                         (265: 35) cstmt = connection.prepareCall("{ call api_service.query_params( ?, ?) }");
+
+API_ISS_ADD_SERVICE -                         (448: 35) cstmt = connection.prepareCall("{ call API_ISS_ADD_SERVICE.Query( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?," +
+
+API_CRD_SERVICE -                         (23: 35) cstmt = connection.prepareCall("{ call API_CRD_SERVICE.Query_SERVICE( ?, ?, ?, ?, ?, ?, ?, ?) }");
+
+API_CRD_SCHEME -                     (156: 35) 			cstmt = connection.prepareCall("{ call API_CRD_SCHEME.Query_SERVICE( ?, ?, ?, ?, ?, ?, ?) }");
+
+API_CRD_SCHEME -                     (346: 35) 			cstmt = connection.prepareCall("{ call API_CRD_SCHEME.Query_MATRIX( ?, ?) }");
+
+API_CRD_SCHEME_P1 -                     (732: 35) 			cstmt = connection.prepareCall("{ ? = call API_CRD_SCHEME_P1.Delete_Scheme( ?) }");
+
+API_CRD_SCHEME -                     (741: 35) 			cstmt = connection.prepareCall("{ call API_CRD_SCHEME.Query_PARAMS( ?, ?) }");
+
+API_CRD_SCHEME_P1_WEB -                     (750: 38) 					cstmt2 = connection.prepareCall("{ call API_CRD_SCHEME_P1_WEB.Remove_PARAMS( ?) }");
+
+API_CRD_PARAMS -                     (966: 30) //			cstmt = con.prepareCall("{ call API_CRD_PARAMS.Query_PARAMS( ?, ?, ?, ?, ?, ?) }");
+
+API_ISS_SRV_GROUPS_P1 -                     (1056: 10) "{ call API_ISS_SRV_GROUPS_P1.Insert_Group_Web(?, ?, ?)}",
+
+API_ISS_SRV_GROUPS_P1 -                     (1057: 10) "{ call API_ISS_SRV_GROUPS_P1.Update_Group_Web(?, ?, ?)}",
+
+API_ISS_SRV_GROUPS_P1 -                     (1058: 10) "{ call API_ISS_SRV_GROUPS_P1.Delete_Group(?)}"
+
+API_ISS_SRV_GROUPS_P1 -                     (1062: 10) "{ call API_ISS_SRV_GROUPS_P1.Insert_Parameter_Web(?, ?, ?, ?, ?)}",
+
+API_ISS_SRV_GROUPS_P1 -                     (1063: 10) "{ call API_ISS_SRV_GROUPS_P1.Update_Parameter_Web(?, ?, ?)}",
+
+API_ISS_SRV_GROUPS_P1 -                     (1064: 10) "{ call API_ISS_SRV_GROUPS_P1.Delete_Parameter(?)}"
+
+api_fad_sv_bin_p1 -                         (68: 35) cstmt = connection.prepareCall("{call api_fad_sv_bin_p1.new_web( ?, ?, ?, ?, ?, ?, ?, ?) }");
+
+api_fad_sv_bin -                         (24: 35) cstmt = connection.prepareCall("{ call api_fad_sv_bin.query_web( ?, ?, ?, ?, ?, ?) }");
+
+api_fad_sv_bin_p1 -                         (93: 35) cstmt = connection.prepareCall("{call api_fad_sv_bin_p1.modify_web( ?, ?, ?, ?, ?, ?, ?, ?, ?) }");
+
+api_fad_sv_bin_p1 -                         (119: 35) cstmt = connection.prepareCall("{call api_fad_sv_bin_p1.remove_web( ?) }");
+
+API_WEB_SCHEME_ADD -                         (277: 29) stmt = con.prepareCall("{call API_WEB_SCHEME_ADD.add_obj ( ?, ?) }");
+
+API_WEB_SCHEME_ADD -                         (416: 27) stmt = con.prepareCall("{call API_WEB_SCHEME_ADD.add_serv_sch ( ?, ?, ?, ?) }");
+
+API_WEB_SCHEME_ADD -                         (168: 27) stmt = con.prepareCall("{call API_WEB_SCHEME_ADD.get_obj_list(?, ?) }");
+
+Api_iss_addsrv_param -                         (340: 27) stmt = con.prepareCall("{ call Api_iss_addsrv_param.Query(?, ?, ?, ?, ?, ?, ?, ?) }");
+
+Api_iss_addsrv_param -                         (361: 29) stmt1 = con.prepareCall("{ call Api_iss_addsrv_param.Query_params(?, ?) }");
+
+Api_acq_tree -                         (89: 27) stmt = con.prepareCall("{ call Api_acq_tree.Query( ?, ?, ?, ?, ?, ?, ?, ? ) }");
+
+API_ACQ_LEVEL_P1 -                         (112: 29) stmt1 = con.prepareCall("{ call API_ACQ_LEVEL_P1.Query_TRM( ?, ? ) }");
+
+Api_iss_add_service -                         (141: 27) stmt = con.prepareCall("{ ? = call Api_iss_add_service.Add_Services_by_object_type(?, ?) }");
+
+API_ISS_OBJ_SRV_SCHM -                         (194: 27) stmt = con.prepareCall("{call API_ISS_OBJ_SRV_SCHM.Query(?, ?, ?, ?, ?, ?, ?) }");
+
+Api_iss_add_service -                         (29: 27) stmt = con.prepareCall("{ call Api_iss_add_service.Query( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) }");
+
+BF_777 -                         (303: 27) stmt = con.prepareCall("{call BF_777.Exec_Business_Trx ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) }");
+
+API_WEB_SCHEME_ADD -                         (395: 29) stmt = con.prepareCall("{call API_WEB_SCHEME_ADD.del_serv_sch ( ?, ?, ?, ?) }");
+
+api_manual_transactions -                         (207: 38) callStmt = connection.prepareCall("{ call api_manual_transactions.append_record_field(?,?,?) }");
+
+api_manual_transactions -                         (129: 38) callStmt = connection.prepareCall("{ call api_manual_transactions.get_record_field(?,?,?,?,?,?,?) }");
+
+api_manual_transactions -                         (47: 38) cstmt = conn.prepareCall("{ call api_manual_transactions.query_tx_tables(?) }");
+
+api_manual_transactions -                         (223: 38) cstmt = conn.prepareCall("{ ? = call api_manual_transactions.get_col_mandatory_default() }");
+
+api_manual_transactions -                         (237: 38) cstmt = conn.prepareCall("{ ? = call api_manual_transactions.get_col_visible_default() }");
+
+api_manual_transactions -                         (25: 41) callStmt = conn.prepareCall("{ call api_manual_transactions.query_templates_with_table(?, ?) }");
+
+api_manual_transactions -                         (150: 38) callStmt = connection.prepareCall("{ call api_manual_transactions.load_template(?, ?) }");
+
+api_manual_transactions -                         (166: 38) callStmt = connection.prepareCall("{ call api_manual_transactions.query_templates(?, ?) }");
+
+api_manual_transactions -                         (68: 38) callStmt = connection.prepareCall("{ call api_manual_transactions.query_tx_table_cols(?,?,?) }");
+
+api_manual_transactions -                         (188: 38) callStmt = connection.prepareCall("{ call api_manual_transactions.save_records(?,?,?,?) }");
+
+api_manual_transactions -                         (25: 38) callStmt = connection.prepareCall("{ call api_manual_transactions.query_templates_fields(?,?, ?, ?) }");
+
+api_manual_transactions -                         (64: 40) //			callStmt = connection.prepareCall("{ call api_manual_transactions.query_templates_fields(?,?, ?, ?) }");
+
+api_manual_transactions -                         (99: 38) callStmt = connection.prepareCall("{ call api_manual_transactions.crud_template_field(?,?,?,?,?,?,?,?,?,?,?,?) }");
+
+BF_642 -                         (277: 27) stmt = con.prepareCall("{ call BF_642.reversal_transaction( ? , ? ) }");
+
+API_ENTITY_FF_VALUES -                         (300: 35) cstmt = connection.prepareCall("{ call API_ENTITY_FF_VALUES.query_params( ? , ? , ? ) }");
+
+API_MANUAL_TRANSACTIONS -                         (442: 27) stmt = con.prepareCall("{ call API_MANUAL_TRANSACTIONS.query_sides( ? ) }");
+
+API_MANUAL_TRANSACTIONS -                         (492: 27) stmt = con.prepareCall("{ call API_MANUAL_TRANSACTIONS.query_statuses( ? ) }");
+
+util -                         (249: 27) stmt = con.prepareCall("{ ? = call util.get_settlement_day( ? , ? ) }");
+
+API_ISS_TRAN_LOG -                         (218: 16) String sql = "{call API_ISS_TRAN_LOG.Count_query_log_web(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)}";
+
+API_ISS_TRAN_LOG -                         (124: 27) stmt = con.prepareCall("{ call API_ISS_TRAN_LOG.query_log_web( ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ?, ?) }");
+
+Api_iss_tran_log -                         (408: 16) String sql = "{ call Api_iss_tran_log.Count_query_web(?, ?, ?, ?, ?, ?)}";
+
+Api_iss_tran_log -                         (343: 27) stmt = con.prepareCall("{ call Api_iss_tran_log.Query_web( ?, ?, ?, ?, ?, ? ) }");
+
+API_MANUAL_TRANSACTIONS -                         (467: 27) stmt = con.prepareCall("{ call API_MANUAL_TRANSACTIONS.query_tx_tables( ? ) }");
+
+appl_lov_sel -                         (66: 27) stmt = con.prepareCall("{ call appl_lov_sel.get_codes_cur( ?, ? ) }");
+
+Api_lov_web -                         (240: 31) stmt = con.prepareCall( "{ ? = call Api_lov_web.Int_get_Key_Desc( ?, ?, ?, ?, ? ) }" );
+
+API_LOV_Web -                         (405: 28) cstmt = con.prepareCall("{ call API_LOV_Web.Query(?, ?, ?, ?, ?, ?, ?, ?)}");
+
+API_LOV_Web -                         (452: 28) cstmt = con.prepareCall("{ call API_LOV_Web.Query(?, ?, ?, ?, ?, ?, ?, ?)}");
+
+API_LOV_Web -                         (320: 27) stmt = con.prepareCall("{ ? = call API_LOV_Web.get_from_tab(?, ?, ?) }");
+
+API_LOV_Web -                         (361: 27) stmt = con.prepareCall("{ ? = call API_LOV_Web.get_from_tab_sort(?, ?, ?, ?) }");
+
+api_lov_web -                         (289: 31) stmt = con.prepareCall( "{ call api_lov_web.Get_Value_Desc( ?, ?, ? ) }" );
+
+api_lov_web -                         (133: 31) stmt = con.prepareCall( "{ call api_lov_web.Get_Value_Desc( ?, ?, ? ) }" );
+
+api_lov_web -                         (37: 27) stmt = con.prepareCall("{ ? = call api_lov_web.Get_Ref( ? ) }");
+
+api_lov_web -                         (93: 27) stmt = con.prepareCall("{ ? = call api_lov_web.Get_Ref( ?, ? ) }");
+
+api_lov_web -                         (177: 30) stmt = con.prepareCall( "{ call api_lov_web.Get_Value( ?, ?) }" );
+
+api_cg_log_wi -                         (92: 34) cs = con.prepareCall("{ call api_cg_log_wi.query_log_tab(?, ?, ?, ?, ?, ?, ?)}");
+
+api_cg_log_wi -                         (146: 34) cs = con.prepareCall("{ call api_cg_log_wi.export_log_tab(?, ?, ?, ?, ?, ?, ?, ?, ?)}");
+
+api_cg_log_wi -                         (42: 25) cs = con.prepareCall("{ call api_cg_log_wi.query_log_files(?, ?, ?, ?, ?, ?, ?, ?)}");
+
+api_cg_log_wi -                         (187: 34) cs = con.prepareCall("{ call api_cg_log_wi.export_log_file(?, ?, ?)}");
+
+API_CG_MOD_CARD_PARAM_WI -                         (321: 26) cs = con.prepareCall( "{ call API_CG_MOD_CARD_PARAM_WI.DEL_MASTER_PARAMETER_VALUE(?) }" );
+
+API_CG_MOD_CARD_PARAM_WI -                         (423: 26) cs = con.prepareCall( "{ call API_CG_MOD_CARD_PARAM_WI.DEL_DEPEND_PARAM_VALUE(?,?) }" );
+
+API_CG_SEL_CARD_PARAM_WI -                         (372: 26) cs = con.prepareCall( "{ call API_CG_SEL_CARD_PARAM_WI.GET_CARD_PARAMETERS_LIST(?) }" );
+
+API_CG_SEL_CARD_PARAM_WI -                         (246: 26) cs = con.prepareCall( "{ call API_CG_SEL_CARD_PARAM_WI.GET_MASTER_PARAMETER_VALUES(?, ?) }" );
+
+API_CG_SEL_CARD_PARAM_WI -                         (339: 26) cs = con.prepareCall( "{ call API_CG_SEL_CARD_PARAM_WI.GET_DEPEND_PARAMETER_VALUES(?, ?) }" );
+
+API_CG_MOD_CARD_PARAM_WI -                         (299: 27) cs = con.prepareCall( "{ call API_CG_MOD_CARD_PARAM_WI.ADD_MASTER_PARAMETER_VALUE(?, ?) }" );
+
+API_CG_MOD_CARD_PARAM_WI -                         (302: 27) cs = con.prepareCall( "{ call API_CG_MOD_CARD_PARAM_WI.MOD_MASTER_PARAMETER_VALUE(?, ?) }" );
+
+API_CG_MOD_CARD_PARAM_WI -                         (399: 27) cs = con.prepareCall( "{ call API_CG_MOD_CARD_PARAM_WI.ADD_DEPEND_PARAM_VALUE(?, ?, ?, ?) }" );
+
+API_CG_MOD_CARD_PARAM_WI -                         (401: 27) cs = con.prepareCall( "{ call API_CG_MOD_CARD_PARAM_WI.MOD_DEPEND_PARAM_VALUE(?, ?, ?, ?) }" );
+
+API_CG_MOD_AGENTS_WI -                         (85: 44) cstmt = connection.prepareCall("{ call API_CG_MOD_AGENTS_WI.Add_c_Agent_Tab( ? , ? , ? ) }");
+
+API_CG_SEL_AGENTS -                         (29: 35) cstmt = connection.prepareCall("{ call API_CG_SEL_AGENTS.query( ?,?,?,? ,?,?,?,?) }");
+
+API_CG_MOD_AGENTS_WI -                         (105: 44) cstmt = connection.prepareCall("{ call API_CG_MOD_AGENTS_WI.Mod_c_Agent_Tab( ?, ?, ?, ? ) }");
+
+API_CG_MOD_AGENTS_WI -                         (124: 44) cstmt = connection.prepareCall("{ call API_CG_MOD_AGENTS_WI.Del_c_Agent_Tab( ? ) }");
+
+API_ADM_WEB_ROLES_P1 -                         (214: 35) cstmt = connection.prepareCall("{ call API_ADM_WEB_ROLES_P1.Add_App_Complex_Role( ?,?,?,? ) }");
+
+API_ADM_WEB_ROLES_P1 -                         (66: 35) cstmt = connection.prepareCall("{ call API_ADM_WEB_ROLES_P1.Add_App_Role( ? , ? ,? , ? , ?) }");
+
+API_ADM_ROLES_P2 -                         (100: 36) cstmt = connection.prepareCall("{ call API_ADM_ROLES_P2.Remove_APR( ? ) }");
+
+API_ADM_WEB_ROLES_P1 -                         (138: 35) cstmt = connection.prepareCall("{ call API_ADM_WEB_ROLES_P1.Query_App_Complex_Role_Child( ?,? ) }");
+
+API_ADM_WEB_ROLES_P1 -                         (177: 35) cstmt = connection.prepareCall("{ call API_ADM_WEB_ROLES_P1.Query_App_Complex_Role_Parent( ?,? ) }");
+
+API_ADM_WEB_ROLES_P1 -                         (115: 35) cstmt = connection.prepareCall("{ call API_ADM_WEB_ROLES_P1.Query_App_Role_Status( ? ) }");
+
+API_ADM_ROLES_P1 -                         (38: 35) cstmt = connection.prepareCall("{ call API_ADM_ROLES_P1.Query_AOR( ? , ? ) }");
+
+API_ADM_WEB_ROLES_P1 -                         (234: 35) cstmt = connection.prepareCall("{ call API_ADM_WEB_ROLES_P1.Delete_App_Complex_Role( ?,? ) }");
+
+API_ADM_WEB_ROLES_P1 -                         (85: 35) cstmt = connection.prepareCall("{ call API_ADM_WEB_ROLES_P1.Modify_App_Role( ? , ? ,? , ?) }");
+
+api_audit -                         (118: 38) callStmt = connection.prepareCall("{ ? = call api_audit.export_audit(?) }");
+
+api_cg_mod_bins_wi -                         (473: 44) cstmt = connection.prepareCall("{ call api_cg_mod_bins_wi.new_bin_tab(?, ?, ?, ?, ?, ?) }");
+
+api_cg_mod_bins_wi -                         (797: 44) cstmt = connection.prepareCall("{ call api_cg_mod_bins_wi.new_cvv_tab( ?, ?, ?, ?, ?, ?) }");
+
+api_cg_mod_bins_wi -                         (692: 44) cstmt = connection.prepareCall("{ call api_cg_mod_bins_wi.new_ibm_3624_tab( ?, ?, ?, ?, ?, ?, ? ) }");
+
+api_cg_mod_bins_wi -                         (1049: 44) cstmt = connection.prepareCall("{ call api_cg_mod_bins_wi.new_t_emv_imk(?, ?, ?, ?, ?, ?, ?) }");
+
+api_cg_mod_bins_wi -                         (521: 44) cstmt = connection.prepareCall("{ call api_cg_mod_bins_wi.new_iss_bin_template( ?,?  ) }");
+
+api_cg_mod_bins_wi -                         (1133: 44) cstmt = connection.prepareCall("{ call api_cg_mod_bins_wi.new_t_emv_ktk(?, ?, ?, ?, ?, ?, ?) }");
+
+api_cg_mod_bins_wi -                         (570: 44) cstmt = connection.prepareCall("{ call api_cg_mod_bins_wi.new_ppk_tab( ?, ?, ?, ?, ?, ?, ? ) }");
+
+api_cg_mod_bins_wi -                         (890: 44) cstmt = connection.prepareCall("{ call api_cg_mod_bins_wi.new_pvv_tab(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) }");
+
+api_cg_mod_bins_wi -                         (878: 44) cstmt = connection.prepareCall("{ call api_cg_mod_bins_wi.remove_cvv_tab(?) }");
+
+api_cg_mod_bins_wi -                         (783: 44) cstmt = connection.prepareCall("{ call api_cg_mod_bins_wi.remove_ibm_3624_tab( ?) }");
+
+api_cg_mod_bins_wi -                         (1037: 44) cstmt = connection.prepareCall("{ call api_cg_mod_bins_wi.remove_pvv_tab(?) }");
+
+API_CG_SEL_BINS -                         (127: 44) cstmt = connection.prepareCall("{ call API_CG_SEL_BINS.Get_Count_Rows(" +
+
+API_CG_SEL_BINS -                         (67: 34) .prepareCall("{ call API_CG_SEL_BINS.query( ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ?, ?) }");
+
+API_CG_SEL_BINS -                         (176: 34) .prepareCall("{ call API_CG_SEL_BINS.Query_ISS_BIN( ? , ? , ? , ? , ? , ?) }");
+
+API_CG_SEL_BINS -                         (340: 34) .prepareCall("{ call API_CG_SEL_BINS.Query_CVK( ? , ? ) }");
+
+api_cg_sel_bins_wi -                         (1219: 44) cstmt = connection.prepareCall("{ call api_cg_sel_bins_wi.query_t_emv_imk_type( ?) }");
+
+api_cg_sel_bins_wi -                         (1242: 44) cstmt = connection.prepareCall("{ call api_cg_sel_bins_wi.query_t_emv_ktk_type( ?) }");
+
+API_CG_SEL_BINS -                         (661: 34) .prepareCall("{ call API_CG_SEL_BINS.Query_IBM( ? , ? ) }");
+
+API_CG_SEL_BINS -                         (302: 34) .prepareCall("{ call API_CG_SEL_BINS.Query_IMK( ? , ? ) }");
+
+API_CG_SEL_BINS -                         (264: 34) .prepareCall("{ call API_CG_SEL_BINS.Query_KEK( ? , ? ) }");
+
+API_CG_SEL_BINS -                         (413: 34) .prepareCall("{ call API_CG_SEL_BINS.Query_PEK( ? , ? ) }");
+
+API_CG_SEL_BINS -                         (220: 34) .prepareCall("{ call API_CG_SEL_BINS.Query_Option( ? , ? , ? , ? , ? , ?) }");
+
+api_cg_sel_bins_wi -                         (451: 44) cstmt = connection.prepareCall("{ call api_cg_sel_bins_wi.query_pin_meth_tab( ? ) }");
+
+api_cg_sel_bins_wi -                         (548: 44) cstmt = connection.prepareCall("{ call api_cg_sel_bins_wi.query_ppk_type_tab( ?  ) }");
+
+API_CG_SEL_BINS -                         (373: 34) .prepareCall("{ call API_CG_SEL_BINS.Query_PVK( ? , ? ) }");
+
+api_cg_mod_bins_wi -                         (490: 44) cstmt = connection.prepareCall("{ call api_cg_mod_bins_wi.modify_bin_tab(?, ?, ?, ?, ?, ?, ? ) }");
+
+api_cg_mod_bins_wi -                         (838: 44) cstmt = connection.prepareCall("{ call api_cg_mod_bins_wi.modify_cvv_tab(?, ?, ?, ?, ?, ?) }");
+
+api_cg_mod_bins_wi -                         (737: 44) cstmt = connection.prepareCall("{ call api_cg_mod_bins_wi.modify_ibm_3624_tab( ?, ?, ?, ?, ?, ?, ? ) }");
+
+api_cg_mod_bins_wi -                         (1084: 44) cstmt = connection.prepareCall("{ call api_cg_mod_bins_wi.modify_t_emv_imk(?, ?, ?, ?, ?, ?, ?, ?) }");
+
+api_cg_mod_bins_wi -                         (1168: 44) cstmt = connection.prepareCall("{ call api_cg_mod_bins_wi.modify_t_emv_ktk(?, ?, ?, ?, ?, ?, ?, ?) }");
+
+api_cg_mod_bins_wi -                         (608: 44) cstmt = connection.prepareCall("{ call api_cg_mod_bins_wi.modify_ppk_tab( ?, ?, ?, ?, ?, ?, ?, ? ) }");
+
+api_cg_mod_bins_wi -                         (1265: 44) cstmt = connection.prepareCall("{ call api_cg_mod_bins_wi.modify_perso_param_tab(?, ?, ? , ?) }");
+
+api_cg_mod_bins_wi -                         (963: 44) cstmt = connection.prepareCall("{ call api_cg_mod_bins_wi.modify_pvv_tab(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) }");
+
+api_cg_mod_bins_wi -                         (509: 34) .prepareCall("{ call api_cg_mod_bins_wi.remove_bin_tab( ?  ) }");
+
+api_cg_mod_bins_wi -                         (1120: 44) cstmt = connection.prepareCall("{ call api_cg_mod_bins_wi.remove_t_emv_imk(?, ?) }");
+
+api_cg_mod_bins_wi -                         (534: 44) cstmt = connection.prepareCall("{ call api_cg_mod_bins_wi.remove_iss_bin_template( ?,?  ) }");
+
+api_cg_mod_bins_wi -                         (1204: 44) cstmt = connection.prepareCall("{ call api_cg_mod_bins_wi.remove_t_emv_ktk(?, ?) }");
+
+api_cg_mod_bins_wi -                         (645: 44) cstmt = connection.prepareCall("{ call api_cg_mod_bins_wi.remove_ppk_tab( ?, ? ) }");
+
+API_CG_MOD_CARD_DETAILS_WI -                         (240: 44) cstmt = connection.prepareCall("{ call API_CG_MOD_CARD_DETAILS_WI.Add_Cref_Tab("
+
+API_CG_SEL_CARD_DETAILS -                         (564: 19) .prepareCall("{ call API_CG_SEL_CARD_DETAILS.Query_Card_Data( ? , ? , ? , ? , ? , ?) }");
+
+API_CG_SEL_CARD_DETAILS -                         (172: 19) .prepareCall("{ ? = call API_CG_SEL_CARD_DETAILS.Get_Count_Rows( ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ?" +
+
+API_CG_SEL_CARD_DETAILS -                         (65: 35) cstmt = connection.prepareCall("{ call API_CG_SEL_CARD_DETAILS.query("
+
+API_CG_MOD_CARD_DETAILS_WI -                         (410: 44) cstmt = connection.prepareCall("{ call API_CG_MOD_CARD_DETAILS_WI.Mod_Cref_Tab( ? , ? , ? , ? , ? , ?, "+
+
+API_CG_MOD_CARD_DETAILS_WI -                         (393: 44) cstmt = connection.prepareCall("{ call API_CG_MOD_CARD_DETAILS_WI.Del_Cref_Tab( ? ) }");
+
+API_CG_Card_Generator -                         (239: 19) .prepareCall("{ call API_CG_Card_Generator.Cancel_Generation( ? ) }");
+
+API_CG_Card_Generator -                         (256: 19) .prepareCall("{ call API_CG_Card_Generator.Cancel_Generation_for_Restart( ? ) }");
+
+API_CG_Card_Generator_WI -                         (289: 35) cstmt = connection.prepareCall("{ ? = call API_CG_Card_Generator_WI.Generate_Cards_Async( ?, ? , ? , 
+
+API_CG_Card_Generator -                         (186: 19) .prepareCall("{ ? = call API_CG_Card_Generator.Generate_Files( ? ) }");
+
+API_CG_Card_Generator -                         (34: 30) .prepareCall("{ call API_CG_Card_Generator.Query_Pre_Gen_List(" +
+
+API_CG_Card_Generator -                         (272: 19) .prepareCall("{ ? = call API_CG_Card_Generator.Get_Generation_Check_Period( ) }");
+
+API_CG_Card_Generator -                         (372: 35) cstmt = connection.prepareCall("{ ? = call API_CG_Card_Generator.Get_Gen_Sort_Type() }");
+
+API_CG_Card_Generator -                         (134: 19) .prepareCall("{ call API_CG_Card_Generator.Query_Session_Control_List( ? ) }");
+
+API_CG_Card_Generator -                         (160: 19) .prepareCall("{ call API_CG_Card_Generator.Query_Session_Restart_List( ? ) }");
+
+API_CG_Card_Generator -                         (222: 19) .prepareCall("{ call API_CG_Card_Generator.Pause_Generation( ? ) }");
+
+API_CG_Card_Generator -                         (205: 19) .prepareCall("{ call API_CG_Card_Generator.Resume_Generation( ? ) }");
+
+API_CG_SEL_CARD_PARAM -                         (130: 19) .prepareCall("{ ? = call API_CG_SEL_CARD_PARAM.Get_Count_Rows( ? , ? , ? , ? , ? , ? , ? , ? , ? , ?) }");
+
+API_CG_SEL_CARD_PARAM -                         (74: 19) .prepareCall("{ call API_CG_SEL_CARD_PARAM.query( ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ?) }");
+
+API_CG_SEL_CARD_PARAM -                         (377: 35) cstmt = connection.prepareCall("{ call API_CG_SEL_CARD_PARAM.query( ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ?) }");
+
+API_CG_SEL_CARD_PARAM -                         (267: 19) .prepareCall("{ call API_CG_SEL_CARD_PARAM.Query_PT( ? , ? , ? , ? , ? , ?) }");
+
+api_cg_card_templ_wi -                         (178: 44) cstmt = connection.prepareCall("{ call api_cg_card_templ_wi.new_card_template( ? , ? , ?, ? ) }");
+
+api_cg_card_templ_wi -                         (234: 44) cstmt = connection.prepareCall("{ call api_cg_card_templ_wi.new_card_template_param( ?,?,?,? ) }");
+
+api_cg_card_templ_wi -                         (335: 44) cstmt = connection.prepareCall("{ call api_cg_card_templ_wi.new_values_depend( ?,?,? ) }");
+
+Api_Cg_Mod_Card_Templ -                         (220: 44) cstmt = connection.prepareCall("{ call Api_Cg_Mod_Card_Templ.Copy_Template( ? , ?) }");
+
+CG_Template -                         (298: 34) .prepareCall("{ ? = call CG_Template.fn_Check_for_Unique_Parameter( ? , ?) }");
+
+CG_Template -                         (280: 34) .prepareCall("{ ? = call CG_Template.fn_Check_Template( ? , ?) }");
+
+API_CG_SEL_CARD_TEMPL -                         (38: 44) cstmt = connection.prepareCall("{ call API_CG_SEL_CARD_TEMPL.query( ?,?,?,? ,?,?,?,? , ?,?) }");
+
+api_cg_card_templ_wi -                         (314: 44) cstmt = connection.prepareCall("{ call api_cg_card_templ_wi.query_param_attr( ? ) }");
+
+API_CG_SEL_CARD_TEMPL -                         (116: 34) .prepareCall("{ call API_CG_SEL_CARD_TEMPL.Query_TP( ? , ? , ? , ? , ? ) }");
+
+API_CG_SEL_CARD_TEMPL -                         (150: 34) .prepareCall("{ call API_CG_SEL_CARD_TEMPL.Query_VD( ? , ? , ? , ? , ? ) }");
+
+api_cg_card_templ_wi -                         (192: 44) cstmt = connection.prepareCall("{ call api_cg_card_templ_wi.modify_card_template( ? , ? , ? ,?) }");
+
+api_cg_card_templ_wi -                         (249: 44) cstmt = connection.prepareCall("{ call api_cg_card_templ_wi.modify_card_template_param( ?,?,?,? ) }");
+
+api_cg_card_templ_wi -                         (350: 44) cstmt = connection.prepareCall("{ call api_cg_card_templ_wi.modify_values_depend( ?,?,? ) }");
+
+api_cg_card_templ_wi -                         (207: 44) cstmt = connection.prepareCall("{ call api_cg_card_templ_wi.remove_card_template( ? ) }");
+
+api_cg_card_templ_wi -                         (265: 44) cstmt = connection.prepareCall("{ call api_cg_card_templ_wi.remove_card_template_param( ? ) }");
+
+api_cg_card_templ_wi -                         (365: 44) cstmt = connection.prepareCall("{ call api_cg_card_templ_wi.remove_values_depend( ? ) }");
+
+Api_Cg_Sel_Emv_Tags -                         (35: 25) .prepareCall("{ call Api_Cg_Sel_Emv_Tags.query( ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ?) }");
+
+api_cg_sel_emv_tags -                         (118: 35) cstmt = connection.prepareCall("{ call api_cg_sel_emv_tags.query_tag_datatype_tab( ? ) }");
+
+API_CG_MOD_EMV_TEMPL_WI -                         (159: 30) .prepareCall("{ call API_CG_MOD_EMV_TEMPL_WI.new_t_emv_template( ? , ?, ?, ? ) }");
+
+api_cg_sel_emv_templ -                         (31: 35) cstmt = connection.prepareCall("{ call api_cg_sel_emv_templ.query_card_templ(" +
+
+API_CG_Sel_EMV_Templ -                         (80: 19) .prepareCall("{ call API_CG_Sel_EMV_Templ.Query_Emv_Templ( ? , ? , ? , ? , ? , ?) }");
+
+API_CG_MOD_EMV_TEMPL_WI -                         (182: 30) .prepareCall("{ call API_CG_MOD_EMV_TEMPL_WI.modify_t_emv_template( ? , ?, ?, ? ) }");
+
+API_CG_Sel_EMV_Templ -                         (132: 19) .prepareCall("{ call API_CG_Sel_EMV_Templ.Query_Tree( ? , ? ) }");
+
+API_CG_MOD_EMV_TEMPL_WI -                         (205: 30) .prepareCall("{ call API_CG_MOD_EMV_TEMPL_WI.remove_t_emv_template( ? ) }");
+
+api_cg_filename_wi -                         (63: 44) cstmt = connection.prepareCall("{ call api_cg_filename_wi.new_filename_format( ?, ?, ?, ?, ? ) }");
+
+api_cg_filename_wi -                         (203: 44) cstmt = connection.prepareCall("{ call api_cg_filename_wi.query_card_template_types( ? ) }");
+
+api_cg_filename_wi -                         (31: 34) .prepareCall("{ call api_cg_filename_wi.query( ? ) }");
+
+api_cg_filename_wi -                         (176: 44) cstmt = connection.prepareCall("{ call api_cg_filename_wi.query_filename_param ( ? ) }");
+
+api_cg_filename_wi -                         (104: 44) cstmt = connection.prepareCall("{ call api_cg_filename_wi.modify_filename_format( ?, ?, ?, ?, ? ) }");
+
+api_cg_filename_wi -                         (146: 44) cstmt = connection.prepareCall("{ call api_cg_filename_wi.remove_filename_format( ?, ? ) }");
+
+API_CG_SEL_PARAM -                         (34: 19) .prepareCall("{ call API_CG_SEL_PARAM.query( ? , ? , ? , ? , ? , ? , ?) }");
+
+api_cg_institutions_wi -                         (56: 44) cstmt = connection.prepareCall("{ call api_cg_institutions_wi.New_Institution_Tab( ?, ?, ? ) }");
+
+api_cg_institutions_wi -                         (31: 19) .prepareCall("{ call api_cg_institutions_wi.query_institution_tab( ? ) }");
+
+api_cg_institutions_wi -                         (86: 44) cstmt = connection.prepareCall("{ call api_cg_institutions_wi.Modify_Institution_Tab( ?, ?, ? ) }");
+
+api_cg_institutions_wi -                         (118: 44) cstmt = connection.prepareCall("{ call api_cg_institutions_wi.Remove_Institution_Tab( ? ) }");
+
+api_cg_mod_emv_iss_cert_wi -                         (333: 35) cstmt = connection.prepareCall("{ call api_cg_mod_emv_iss_cert_wi.remove_iss_pk_cert_tab( ? ) }");
+
+api_cg_mod_emv_iss_cert_wi -                         (298: 35) cstmt = connection.prepareCall("{ call api_cg_mod_emv_iss_cert_wi.remove_iss_pk_cert_bin_tab( ? ) }");
+
+api_cg_mod_emv_iss_cert_wi -                         (250: 35) cstmt = connection.prepareCall("{ call api_cg_mod_emv_iss_cert_wi.remove_iss_keypair_tab( ? ) }");
+
+api_cg_mod_emv_iss_cert_wi -                         (395: 35) cstmt = connection.prepareCall("{ call api_cg_mod_emv_iss_cert_wi.generate_keypair( ? , ? ,? , ? ,? ,
+
+API_CG_SEL_BINS -                         (229: 35) cstmt = connection.prepareCall("{ call API_CG_SEL_BINS.query( ? ) }");
+
+API_CG_Sel_EMV_Iss_Cert -                         (30: 35) cstmt = connection.prepareCall("{ call API_CG_Sel_EMV_Iss_Cert.query( ? , ? ) }");
+
+API_CG_Sel_EMV_Iss_Cert -                         (189: 35) cstmt = connection.prepareCall("{ ? = call API_CG_Sel_EMV_Iss_Cert.Get_Count_Rows( ?,?,?,? , ?,?,?,? , ?,?,?,? , ?,?,?,?) }");
+
+API_CG_Sel_EMV_Iss_Cert -                         (128: 35) cstmt = connection.prepareCall("{ call API_CG_Sel_EMV_Iss_Cert.query( ? , ? , ? , ? , ? , ? , ? , ? ,
+
+api_cg_mod_emv_iss_cert_wi -                         (344: 35) cstmt = connection.prepareCall("{ call api_cg_mod_emv_iss_cert_wi.new_iss_pk_cert_tab( ?,?,?,?,?,?,?,?,?,?,? ) }");
+
+api_cg_mod_emv_iss_cert_wi -                         (309: 35) cstmt = connection.prepareCall("{ call api_cg_mod_emv_iss_cert_wi.new_iss_pk_cert_bin_tab( ?,? ) }");
+
+api_cg_mod_emv_iss_cert_wi -                         (261: 35) cstmt = connection.prepareCall("{ call api_cg_mod_emv_iss_cert_wi.new_iss_keypair_tab( ?,?,?,? ,?,?,?,?) }");
+
+API_CG_Sel_EMV_Iss_Cert -                         (433: 36) cstmt = connection.prepareCall("{ ? = call API_CG_Sel_EMV_Iss_Cert.Hex2Dec( ? )}");
+
+api_cg_mod_emv_iss_cert_wi -                         (440: 35) cstmt = connection.prepareCall("{ call api_cg_mod_emv_iss_cert_wi.load_ipk_certificate( ? , ? ,? , ? 
+
+API_CG_Sel_EMV_Iss_Cert -                         (103: 35) cstmt = connection.prepareCall("{ call API_CG_Sel_EMV_Iss_Cert.Query_Cert_Bin(?,?) }");
+
+API_CG_Sel_EMV_Iss_Cert -                         (65: 35) cstmt = connection.prepareCall("{ call API_CG_Sel_EMV_Iss_Cert.Query_Cert(?,?) }");
+
+api_cg_mod_emv_iss_cert_wi -                         (369: 35) cstmt = connection.prepareCall("{ call api_cg_mod_emv_iss_cert_wi.modify_iss_pk_cert_tab( ?,?,?,?,?,?,?,?,?,?,?,? ) }");
+
+api_cg_mod_emv_iss_cert_wi -                         (321: 35) cstmt = connection.prepareCall("{ call api_cg_mod_emv_iss_cert_wi.modify_iss_pk_cert_bin_tab( ?,? ) }");
+
+api_cg_mod_emv_iss_cert_wi -                         (279: 35) cstmt = connection.prepareCall("{ call api_cg_mod_emv_iss_cert_wi.modify_iss_keypair_tab( ?,?,?,? ,?,?,?,? ,?) }");
+
+api_cg_load_cards_wi -                         (92: 35) cstmt = connection.prepareCall("{ ? = call api_cg_load_cards_wi.fn_Load_Cards_Async( ? ,? ,? ,?) }");
+
+api_cg_load_cards_wi -                         (53: 44) cstmt = connection.prepareCall("{ call api_cg_load_cards_wi.query( ?, ?, ?, ? ) }");
+
+API_CG_LOAD_CARDS -                         (29: 35) cstmt = connection.prepareCall("{ ? = call API_CG_LOAD_CARDS.GET_CG_PROCESS() }");
+
+API_ADM_ROLE_OBJS -                         (36: 19) .prepareCall("{ call API_ADM_ROLE_OBJS.Query_OBJ( ? , ?) }");
+
+API_ADM_ROLE_OBJS -                         (75: 19) .prepareCall("{ call API_ADM_ROLE_OBJS.Query( ? , ?) }");
+
+API_ADM_ROLE_OBJS -                         (120: 35) cstmt = connection.prepareCall("{ call API_ADM_ROLE_OBJS.Query_TREE(?, ?, ?, ?) }");
+
+API_CG_MOD_PRODUCTS_WI -                         (125: 44) cstmt = connection.prepareCall("{ call API_CG_MOD_PRODUCTS_WI.New( ?, ?, ?, ?, ?, ? ) }");
+
+API_CG_SEL_PRODUCTS -                         (35: 35) cstmt = connection.prepareCall("{ call API_CG_SEL_PRODUCTS.query(" +
+
+API_CG_MOD_PRODUCTS_WI -                         (160: 44) cstmt = connection.prepareCall("{ call API_CG_MOD_PRODUCTS_WI.Modify( ?, ?, ?, ?, ?, ? ) }");
+
+API_CG_MOD_PRODUCTS_WI -                         (193: 44) cstmt = connection.prepareCall("{ call API_CG_MOD_PRODUCTS_WI.Remove( ? ) }");
+
+API_ADM_ROLES_P1 -                         (37: 19) .prepareCall("{ call API_ADM_ROLES_P1.Query_RST(?) }");
+
+API_ADM_USERS_P1 -                         (63: 19) .prepareCall("{ call API_ADM_USERS_P1.Query_UST(?) }");
+
+api_cg_session_wi -                         (31: 35) cstmt = connection.prepareCall("{ call api_cg_session_wi.pr_Set_User( ? , ?, ?, ? ) }");
+
+VISTA_PRIVS_PKG -                         (32: 19) .prepareCall("{ call VISTA_PRIVS_PKG.Change_Oracle_User_Password( ? , ? ) }");
+
+API_ADM_CONNECT_LOG -                         (99: 19) .prepareCall("{ call API_ADM_CONNECT_LOG.QUERY_HIST( ? , ? , ? , ? , ? , ?, ?, ? ) }");
+
+API_ADM_CONNECT_LOG -                         (43: 19) .prepareCall("{ call API_ADM_CONNECT_LOG.QUERY( ? , ? , ? , ? , ? , ? ) }");
+
+api_adm_sys_pkg_wi -                         (31: 35) cstmt = connection.prepareCall("{ call api_adm_sys_pkg_wi.query_str(?) }");
+
+API_PARAMS -                         (77: 35) cstmt = connection.prepareCall("{ call API_PARAMS.Remove_All_Invalid_Session(  ) }");
+
+api_adm_users_p1_wi -                         (89: 35) cstmt = connection.prepareCall("{ call api_adm_users_p1_wi.new_app_role_vista_user( ? , ? ) }");
+
+api_adm_users_p1_wi -                         (175: 35) cstmt = connection.prepareCall("{ call api_adm_users_p1_wi.new_inst_user(?,?,?) }");
+
+API_ADM_USERS_P1 -                         (387: 37) cstmt = connection.prepareCall("{ call API_ADM_USERS_P1.ADD_ONE_User(? , ? , ? , ? , ? , ? , ? , ?) }");
+
+api_adm_users_p1_wi -                         (103: 35) cstmt = connection.prepareCall("{ call api_adm_users_p1_wi.remove_app_role_vista_user( ? , ? ) }");
+
+api_adm_users_p1_wi -                         (205: 35) cstmt = connection.prepareCall("{ call api_adm_users_p1_wi.remove_inst_user(?,?) }");
+
+API_ADM_ROLES_P1 -                         (117: 35) cstmt = connection.prepareCall("{ call API_ADM_ROLES_P1.Query_APR( ? , ? , ?) }");
+
+API_ADM_USERS_P1 -                         (62: 35) cstmt = connection.prepareCall("{ call API_ADM_USERS_P1.Query_ARU( ? , ? ) }");
+
+api_adm_users_p1_wi -                         (153: 35) cstmt = connection.prepareCall("{ call api_adm_users_p1_wi.query_institution_tab(?) }");
+
+API_ADM_USERS_P1 -                         (219: 35) cstmt = connection.prepareCall("{ call API_ADM_USERS_P1.Query_INU( ? , ? ) }");
+
+API_ADM_USERS_P1 -                         (247: 35) cstmt = connection.prepareCall("{ call API_ADM_USERS_P1.Query_PRM( ? , ? ) }");
+
+API_ADM_USERS_P1 -                         (276: 35) cstmt = connection.prepareCall("{ call API_ADM_USERS_P1.Query_UST( ? ) }");
+
+api_adm_users_p1_wi -                         (299: 35) cstmt = connection.prepareCall("{ call api_adm_users_p1_wi.Query_USR( ? , ? ) }");
+
+API_ADM_USERS_P1 -                         (39: 35) cstmt = connection.prepareCall("{ call API_ADM_USERS_P1.Query_All_User( ? ) }");
+
+api_adm_users_p1_wi -                         (360: 35) cstmt = connection.prepareCall("{ call api_adm_users_p1_wi.modify_vista_user( ? , ? , ? , ? , ? ) }");
+
+api_adm_users_p1_wi -                         (347: 35) cstmt = connection.prepareCall("{ call api_adm_users_p1_wi.modify_user_param( ? , ? , ? ) }");
+
+API_ADM_USERS_P1 -                         (410: 37) cstmt = connection.prepareCall("{ call API_ADM_USERS_P1.Remove_USR( ? ) }");
+
+api_adm_users_p1_wi -                         (190: 35) cstmt = connection.prepareCall("{ call api_adm_users_p1_wi.modify_inst_user(?,?,?) }");
+
+api_iss_card_dict_p2_web -                         (62: 26) cs = conn.prepareCall("{ call api_iss_card_dict_p2_web.add_iss_card_rstrctn(?" //  p_card_num  IN ISS_CARD_TAB.card_num%type
+
+api_iss_card_dict_p2_web -                         (33: 26) cs = conn.prepareCall("{ call api_iss_card_dict_p2_web.delete_iss_card_rstrctn(?" //  p_card_num  IN ISS_CARD_TAB.card_num%type
+
+DSP_API_LOV -                         (21: 62) CallableStatement cs = _boConnection.prepareCall("{ call DSP_API_LOV.DSP_KEYS_API(?, ?) }");
+
+DSP_API_LOV -                         (42: 62) CallableStatement cs = _boConnection.prepareCall("{ call DSP_API_LOV.DSP_INST_LIST(?) }");
+
+api_ui_settings -                         (51: 38) cstmt = conn.prepareCall("call api_ui_settings.get_col_settings(?,?,?)");
+
+api_ui_settings -                         (26: 38) cstmt = conn.prepareCall("call api_ui_settings.save_col_settings(?,?,?)");
+
+api_svfe_web -                         (36: 44) cstmt = connection.prepareCall("{ call api_svfe_web.getAccount(?,?,?,?,?,?,?,?)}");
+
+api_svfe_web -                         (109: 44) cstmt = connection.prepareCall("{ call api_svfe_web.getArestList(?)}");
+
+api_svfe_web -                         (137: 44) cstmt = connection.prepareCall("{ call api_svfe_web.getCurrList(?)}");
+
+api_svfe_web -                         (41: 44) cstmt = connection.prepareCall("{ call api_svfe_web.getcardreference(?,?,?,?,?,?,?,?,?,?,?)}");
+
+api_svfe_web -                         (150: 44) cstmt = connection.prepareCall("{ call api_svfe_web.getCdStatusList(?)}");
+
+api_svfe_web -                         (179: 44) cstmt = connection.prepareCall("{ call api_svfe_web.getCdTypeList(?)}");
+
+DSP_API_WEB -                         (32: 32) callStmt = conn.prepareCall("{call DSP_API_WEB.authorization_query(?, ?)}");
+
+DSP_UTILS -                         (304: 32) callStmt = conn.prepareCall("{ call DSP_UTILS.BLOCK_CARD(?, ?, ?, ?, ?)}");
+
+DSP_API_WEB -                         (98: 32) callStmt = conn.prepareCall("{ call DSP_API_WEB.CARD_CLIENT_QUERY(?, ?)}");
+
+DSP_API_WEB -                         (177: 32) callStmt = conn.prepareCall("{ call DSP_API_WEB.CARD_DETAILS_QUERY(?, ?)}");
+
+dsp_api_lov -                         (334: 32) callStmt = conn.prepareCall("{ call dsp_api_lov.dsp_card_hot_status(?)}");
+
+DSP_API_WEB -                         (44: 32) callStmt = conn.prepareCall("{ call DSP_API_WEB.MERCHANT_DETAILS_QUERY(?, ?, ?)}");
+
+DSP_API_BULK -                         (883: 32) callStmt = conn.prepareCall("{ call DSP_API_BULK.action_case_new_comment(?, ?, ?, ?)}");
+
+DSP_API_BULK -                         (951: 32) callStmt = conn.prepareCall("{ call DSP_API_BULK.action_case_change_CRM(?, ?, ?, ?)}");
+
+DSP_API_BULK -                         (917: 32) callStmt = conn.prepareCall("{ call DSP_API_BULK.action_case_change_memo(?, ?, ?, ?)}");
+
+DSP_API_BULK -                         (985: 32) callStmt = conn.prepareCall("{ call DSP_API_BULK.action_case_change_team(?, ?, ?, ?)}");
+
+DSP_API_BULK -                         (1019: 32) callStmt = conn.prepareCall("{ call DSP_API_BULK.action_case_change_owner_team(?, ?, ?, ?, ?)}");
+
+DSP_API_BULK -                         (850: 32) callStmt = conn.prepareCall("{ call DSP_API_BULK.action_case_close_reopen(?, ?, ?)}");
+
+DSP_API_WEB -                         (416: 32) callStmt = conn.prepareCall("{ call DSP_API_WEB.CREATE_CASE_MANUAL(?, ?, ?, ?, ?, ?, ?, ?, ?, ?," +  
+
+DSP_API_WEB -                         (1090: 32) callStmt = conn.prepareCall("{ call DSP_API_WEB.action_case_duplicate(?, ?, ?, ?)}");
+
+DSP_API_WEB -                         (66: 32) callStmt = conn.prepareCall("{ call DSP_API_WEB.QUERY_CASE_LIST(?, ?, ?, ?, ?, ?, ?, ?, ?, ?," +
+
+All_Defs -                         (1182: 32) callStmt = conn.prepareCall("{? = call All_Defs.Get_Inst_Param(?,'DSP_MAX_ATTACHMENT_SIZE', 'N')}");
+
+dsp_api_web -                         (694: 32) callStmt = conn.prepareCall("{ call dsp_api_web.action_case_export(?, ?)}");
+
+DSP_API_WEB -                         (494: 32) callStmt = conn.prepareCall("{ call DSP_API_WEB.query_OT_list(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, " +
+
+DSP_API_BULK -                         (810: 32) callStmt = conn.prepareCall("{ call DSP_API_BULK.action_case_hide_unhide(?, ?, ?, ?, ?, ?)}");
+
+dsp_api_bulk -                         (1116: 32) callStmt = conn.prepareCall("{ call dsp_api_bulk.action_add_attach_to_case(?, ?, ?, ?, ?, ?, ?)}");
+
+DSP_API_BULK -                         (1054: 32) callStmt = conn.prepareCall("{ call DSP_API_BULK.action_case_mark_export(?, ?, ?, ?, ?, ?)}");
+
+DSP_API_BULK -                         (776: 32) callStmt = conn.prepareCall("{ call DSP_API_BULK.action_case_take_refuse(?, ?, ?, ?)}");
+
+DSP_API_WEB -                         (317: 32) callStmt = conn.prepareCall("{ call DSP_API_WEB.CHANGE_CASE_DATA(?, ?, ?, ?, ?, ?, ?, ?, ?, ?," + 
+
+DSP_API_LOV -                         (628: 32) callStmt = conn.prepareCall("{ call DSP_API_LOV.DSP_CARD_TYPES(?) }");
+
+DSP_API_LOV -                         (782: 32) callStmt = conn.prepareCall("{ call DSP_API_LOV.get_currency(?)}");
+
+DSP_API_LOV -                         (405: 32) callStmt = conn.prepareCall("{ call DSP_API_LOV.DSP_INST_LIST(?) }");
+
+DSP_API_LOV -                         (219: 32) callStmt = conn.prepareCall("{ call DSP_API_LOV.get_currency(?) }");
+
+DSP_API_LOV -                         (262: 32) callStmt = conn.prepareCall("{ call DSP_API_LOV.DSP_KEYS_API(?, ?) }");
+
+DSP_API_LOV -                         (536: 32) callStmt = conn.prepareCall("{ call DSP_API_LOV.DSP_USER_LIST(?, ?, ?, ?) }");
+
+DSP_UTILS -                         (370: 32) callStmt = conn.prepareCall("{ ? = call DSP_UTILS.DSP_USER_PRIMARY_TEAM(DSP_UTILS.DSP_USER_NAME)}");
+
+DSP_API_WEB -                         (449: 32) callStmt = conn.prepareCall("{ call DSP_API_WEB.EMAIL_ADDRESSES_QUERY(?)}");
+
+DSP_API_LOV -                         (491: 32) callStmt = conn.prepareCall("{ call DSP_API_LOV.DSP_TEAM_LIST(?) }");
+
+DSP_UTILS -                         (303: 32) callStmt = conn.prepareCall("{ ? = call DSP_UTILS.DSP_USER_NAME()}");
+
+DSP_API_LOV -                         (586: 32) callStmt = conn.prepareCall("{ call DSP_API_LOV.DSP_USER_LIST(?) }");
+
+All_Defs -                         (173: 32) callStmt = conn.prepareCall("{? = call All_Defs.Get_Inst_Param(DSP_UTILS.DSP_USER_INST(?), " +
+
+DSP_API_PHATPT -                         (71: 32) callStmt = conn.prepareCall("{ call DSP_API_PHATPT.INIT_CASE_SCR(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) }");
+
+DSP_API_LOV -                         (718: 32) callStmt = conn.prepareCall("{ call DSP_API_LOV.DSP_INST_LIST(?) }");
+
+DSP_UTILS -                     (335: 32) 			callStmt = conn.prepareCall("{ ? = call DSP_UTILS.DSP_USER_INST(?)}");
+
+API_COM -                     (690: 32) 			callStmt = conn.prepareCall("{ call API_COM.SET_CURRENT_INST(?) }");
+
+DSP_API_WEB -                         (30: 34) cs = con.prepareCall("{ call DSP_API_WEB.query_case_list(?,?,?,?,?, ?,?,?,?,?, ?,?,?,?,?, ?,?,?,?,?, ?,?,?,?,?, ?,?,?,?,?)}");
+
+DSP_API_LOV -                         (155: 34) cs = con.prepareCall("{ call DSP_API_LOV.DSP_INST_LIST(?) }");
+
+DSP_API_LOV -                         (119: 34) cs = con.prepareCall("{ call DSP_API_LOV.DSP_KEYS_API(?, ?) }");
+
+DSP_API_WEB -                         (199: 32) callStmt = conn.prepareCall("{call DSP_API_WEB.document_indicator_delete(?, ?, ?, ?, ?)}");
+
+DSP_API_WEB -                         (97: 32) callStmt = conn.prepareCall("{call DSP_API_WEB.document_indicator_query(?, ?, ?, ?)}");
+
+DSP_API_WEB -                         (37: 32) callStmt = conn.prepareCall("{call DSP_API_WEB.document_indicator_query(?, ?, ?, ?, ?, ?)}");
+
+DSP_API_WEB -                         (129: 32) callStmt = conn.prepareCall("{call DSP_API_WEB.document_indicator_add(?, ?, ?, ?, ?, ?, ?)}");
+
+DSP_API_WEB -                         (161: 32) callStmt = conn.prepareCall("{call DSP_API_WEB.document_indicator_edit(?, ?, ?, ?, ?, ?, ?)}");
+
+DSP_API_WEB -                         (219: 32) callStmt = conn.prepareCall("{call DSP_API_WEB.email_addresses_del(?, ?, ?)}");
+
+DSP_API_WEB -                         (141: 32) callStmt = conn.prepareCall("{call DSP_API_WEB.email_addresses_query(?, ?)}");
+
+DSP_API_WEB -                         (43: 32) callStmt = conn.prepareCall("{call DSP_API_WEB.email_addresses_query(?, ?, ?, ?, ?, ?, ?)}");
+
+DSP_API_WEB -                         (105: 32) callStmt = conn.prepareCall("{call DSP_API_WEB.get_emails(?, ?, ?, ?)}");
+
+DSP_API_LOV -                         (240: 32) callStmt = conn.prepareCall("{call DSP_API_LOV.DSP_KEYS_API(?, ?)}");
+
+DSP_API_WEB -                         (172: 32) callStmt = conn.prepareCall("{call DSP_API_WEB.email_addresses_add(?, ?, ?, ?, ?)}");
+
+DSP_API_WEB -                         (195: 32) callStmt = conn.prepareCall("{call DSP_API_WEB.email_addresses_edit(?, ?, ?, ?, ?, ?)}");
+
+DSP_API_WEB -                         (33: 32) callStmt = conn.prepareCall("{ call DSP_API_WEB.email_attachment_add(?, ?, ?, ?, ?, ?, ?, ?)}");
+
+DSP_API_WEB -                         (62: 32) callStmt = conn.prepareCall("{ call DSP_API_WEB.email_attachment_query(?, ?, ?, ?, ?, ?)}");
+
+dsp_email -                         (223: 32) callStmt = conn.prepareCall("{call dsp_email.find_unmasked_pan(?, ?, ?)}");
+
+DSP_API_WEB -                         (148: 33) callStmt = conn.prepareCall("{ call DSP_API_WEB.email_attachment_add(?, ?, ?, ?, ?, ?, ?, ?)}");
+
+DSP_API_WEB -                         (166: 32) callStmt = conn.prepareCall("{call DSP_API_WEB.email_add(?, ?, ?, ?, ?, ?, ?, ?)}");
+
+DSP_EMAIL -                         (163: 32) callStmt = conn.prepareCall("{ ? = call DSP_EMAIL.del_config(?)}");
+
+DSP_EMAIL -                         (75: 32) callStmt = conn.prepareCall("{ ? = call DSP_EMAIL.query_config(?)}");
+
+DSP_EMAIL -                         (37: 32) callStmt = conn.prepareCall("{ ? = call DSP_EMAIL.query_config(i_order_by => ?)}");
+
+DSP_EMAIL -                         (108: 32) callStmt = conn.prepareCall("{ ? = call DSP_EMAIL.new_config(?, ?, ?, ?, ?, ?, ?)}");
+
+DSP_EMAIL -                         (135: 32) callStmt = conn.prepareCall("{ ? = call DSP_EMAIL.edit_config(?, ?, ?, ?, ?, ?, ?, ?)}");
+
+DSP_API_WEB -                         (231: 32) callStmt = conn.prepareCall("{call DSP_API_WEB.signature_del(?, ?, ?)}");
+
+DSP_API_WEB -                         (147: 32) callStmt = conn.prepareCall("{ call DSP_API_WEB.signature_query(i_user_name => dsp_utils.dsp_user_
+
+DSP_API_WEB -                         (114: 32) callStmt = conn.prepareCall("{ call DSP_API_WEB.signature_query(?, ?)}");
+
+DSP_API_WEB -                         (50: 32) callStmt = conn.prepareCall("{call DSP_API_WEB.signature_query(?, ?, ?, ?, ?, ?, ?, ?)}");
+
+DSP_API_WEB -                         (179: 32) callStmt = conn.prepareCall("{call DSP_API_WEB.signature_add(?, ?, ?, ?, ?)}");
+
+DSP_API_WEB -                         (205: 32) callStmt = conn.prepareCall("{call DSP_API_WEB.signature_edit(?, ?, ?, ?, ?, ?)}");
+
+DSP_API_WEB -                         (197: 32) callStmt = conn.prepareCall("{call DSP_API_WEB.email_tpl_edit(?, ?, ?, ?, ?, ?, ?, ?, ?)}");
+
+DSP_API_WEB -                         (176: 32) callStmt = conn.prepareCall("{call DSP_API_WEB.email_tpl_del(?, ?, ?)}");
+
+DSP_API_WEB -                         (85: 32) callStmt = conn.prepareCall("{ call DSP_API_WEB.email_tpl_query(?, ?)}");
+
+DSP_API_WEB -                         (32: 32) callStmt = conn.prepareCall("{call DSP_API_WEB.email_tpl_query(?,?,?,?, ?,?,?,?, ?,?,?,?, ?,?)}");
+
+DSP_API_WEB -                         (123: 32) callStmt = conn.prepareCall("{call DSP_API_WEB.email_tpl_add(?, ?, ?, ?, ?, ?, ?, ?)}");
+
+DSP_API_WEB -                         (149: 32) callStmt = conn.prepareCall("{call DSP_API_WEB.email_tpl_edit(?, ?, ?, ?, ?, ?, ?, ?, ?)}");
+
+DSP_API_WEB -                         (197: 32) callStmt = conn.prepareCall("{call DSP_API_WEB.emus_comments_del(?, ?, ?)}");
+
+DSP_API_WEB -                         (111: 32) callStmt = conn.prepareCall("{ call DSP_API_WEB.emus_comments_query(?, ?)}");
+
+DSP_API_WEB -                         (37: 32) callStmt = conn.prepareCall("{call DSP_API_WEB.emus_comments_query(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)}");
+
+DSP_API_WEB -                         (142: 32) callStmt = conn.prepareCall("{call DSP_API_WEB.emus_comments_add(?, ?, ?, ?, ?)}");
+
+DSP_API_WEB -                         (169: 32) callStmt = conn.prepareCall("{call DSP_API_WEB.emus_comments_edit(?, ?, ?, ?, ?, ?)}");
+
+DSP_API_WEB -                         (41: 32) callStmt = conn.prepareCall("{call DSP_API_WEB.history_query(?,?,?,?, ?,?,?,?, ?,?,?,?, ?,? )}");
+
+DSP_API_WEB -                         (161: 41) callStmt = conn.prepareCall("{call DSP_API_WEB.history_query_letter(?,?,?,?, ?,?,?,?, ?,?,?,?, ?,? )}");
+
+dsp_utils -                         (273: 41) callStmt = conn.prepareCall("{ call dsp_utils.history_record_add(?, ?, ?, ?, ?)}");
+
+API_WEB_INTERFACE -                         (88: 32) callStmt = conn.prepareCall("{ call API_WEB_INTERFACE.delete_web_interface_setting(?, ?, ?)}");
+
+API_WEB_INTERFACE -                         (58: 32) callStmt = conn.prepareCall("{ call API_WEB_INTERFACE.get_web_interface_setting(?, ?, ?, ?)}");
+
+API_WEB_INTERFACE -                         (32: 32) callStmt = conn.prepareCall("{ call API_WEB_INTERFACE.save_web_interface_setting(?, ?, ?, ?)}");
+
+dsp_utils -                         (218: 32) callStmt = conn.prepareCall("{? = call dsp_utils.get_expiry_date(?)}");
+
+DSP_API_WEB_SVFE -                         (140: 32) callStmt = conn.prepareCall("{ call DSP_API_WEB_SVFE.IPS_STOP_LIST_MASTER_QUERY(?, ?, ?, ?, ?, ?, ?, ?, ?, ?)}");
+
+DSP_API_WEB_SVFE -                         (49: 32) callStmt = conn.prepareCall("{ call DSP_API_WEB_SVFE.IPS_STOP_LIST_VISA_QUERY(?, ?, ?, ?, ?, ?, ?, ?, ?, ?)}");
+
+DSP_API_BULK -                         (492: 32) callStmt = conn.prepareCall("{ call DSP_API_BULK.check_time_limit(?, ?, ?, ?, ?)}");
+
+DSP_API_BULK -                         (1912: 32) callStmt = conn.prepareCall("{ call DSP_API_BULK.mc_fee_collection(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)}");
+
+DSP_API_BULK -                         (3068: 32) callStmt = conn.prepareCall("{ call DSP_API_BULK.gen_fee_funds_reversal(?, ?, ?, ?, ?, ?) }");
+
+DSP_API_BULK -                         (2478: 32) callStmt = conn.prepareCall("{ call DSP_API_BULK.gen_fee_funds_disbursement(?,?,?,?, ?,?,?,?, ?,?) }");
+
+DSP_API_BULK -                         (1276: 32) callStmt = conn.prepareCall("{ call DSP_API_BULK.mc_fee_reversal(?, ?, ?)}");
+
+DSP_API_BULK -                         (1502: 32) callStmt = conn.prepareCall("{ call DSP_API_BULK.mc_first_chargeback(?, ?, ?, ?, ?, ?, ?, ?, ?)}");
+
+DSP_API_BULK -                         (1059: 32) callStmt = conn.prepareCall("{ call DSP_API_BULK.mc_first_cb_reversal(?, ?, ?, ?, ?, ?, ?, ?, ?)}");
+
+DSP_API_BULK -                         (2577: 32) callStmt = conn.prepareCall("{ call DSP_API_BULK.gen_visa_first_chargeback(?, ?, ?, ?, ?, ?, ?, ?, ?) }");
+
+DSP_API_BULK -                         (941: 32) callStmt = conn.prepareCall("{ call DSP_API_BULK.mc_first_pres_reversal(?, ?, ?, ?, ?, ?, ?, ?, ?)}");
+
+DSP_API_BULK -                         (2813: 32) callStmt = conn.prepareCall("{ call DSP_API_BULK.gen_visa_fraud_activity(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) }");
+
+DSP_API_BULK -                         (2154: 32) callStmt = conn.prepareCall("{ call DSP_API_BULK.mc_fraud_report(?, ?, ?, ?, ?)}");
+
+DSP_API_BULK -                         (832: 32) callStmt = conn.prepareCall("{ call DSP_API_BULK.mc_retrieval_request(?, ?, ?, ?, ?)}");
+
+DSP_API_BULK -                         (2280: 32) callStmt = conn.prepareCall("{ call DSP_API_BULK.gen_visa_retrieval_request(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) }");
+
+DSP_API_BULK -                         (2935: 32) callStmt = conn.prepareCall("{ call DSP_API_BULK.gen_visa_reversal(?, ?, ?, ?, ?, ?, ?, ?, ?) }");
+
+DSP_API_BULK -                         (2054: 32) callStmt = conn.prepareCall("{ call DSP_API_BULK.mc_fraud_report_1(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)}");
+
+DSP_API_BULK -                         (1743: 32) callStmt = conn.prepareCall("{ call DSP_API_BULK.mc_second_chargeback(?, ?, ?, ?, ?, ?, ?, ?, ?)}");
+
+DSP_API_BULK -                         (1383: 32) callStmt = conn.prepareCall("{ call DSP_API_BULK.mc_second_cb_reversal(?, ?, ?, ?, ?, ?, ?, ?, ?)}");
+
+DSP_API_BULK -                         (1624: 32) callStmt = conn.prepareCall("{ call DSP_API_BULK.mc_second_presentment(?, ?, ?, ?, ?, ?, ?, ?, ?)}");
+
+DSP_API_BULK -                         (1176: 32) callStmt = conn.prepareCall("{ call DSP_API_BULK.mc_second_pres_reversal(?, ?, ?, ?, ?, ?, ?, ?, ?)}");
+
+DSP_API_BULK -                         (2697: 32) callStmt = conn.prepareCall("{ call DSP_API_BULK.gen_visa_representment(?, ?, ?, ?, ?, ?, ?) }");
+
+DSP_API_BULK -                         (467: 32) callStmt = conn.prepareCall("{ call DSP_API_BULK.possible_items(?,?,?)}");
+
+DSP_API_WEB -                         (3171: 32) callStmt = conn.prepareCall("{call DSP_API_WEB.cancel_item(?, ?, ?, ?, ?, ?, ?)}");
+
+DSP_ITEMS_VISA -                         (2382: 32) callStmt = conn.prepareCall("{ call DSP_ITEMS_VISA.check_diplicity_fee(?, ?, ?)}");
+
+DSP_UTILS -                         (2407: 32) callStmt = conn.prepareCall("{ call DSP_UTILS.check_time_limit(?, ?, ?, ?, ?)}");
+
+util -                         (197: 32) callStmt = conn.prepareCall("{ ? = call util.internal_currency_rate(?, ?, ?)}");
+
+DSP_API_WEB -                         (3330: 32) callStmt = conn.prepareCall("{call DSP_API_WEB.adjustment_create(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)}");
+
+DSP_API_WEB -                         (131: 32) callStmt = conn.prepareCall("{ call DSP_API_WEB.reason_codes_query(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?," +
+
+DSP_ITEMS_VISA -                         (3301: 32) callStmt = conn.prepareCall("{call DSP_ITEMS_VISA.get_visa_ncur(?)}");
+
+DSP_API_LOV -                         (3266: 32) callStmt = conn.prepareCall("{call DSP_API_LOV.get_adjustment_reason_codes(?, ?, ?, ?, ?, ?, ?)}");
+
+DSP_API_LOV -                         (3231: 32) callStmt = conn.prepareCall("{call DSP_API_LOV.get_adjustment_bo_type(?, ?, ?, ?, ?, ?, ?)}");
+
+DSP_API_WEB -                         (519: 32) callStmt = conn.prepareCall("{ ? = call DSP_API_WEB.get_boutrnno(?,?)}");
+
+DSP_UTILS -                         (49: 32) callStmt = conn.prepareCall("{ ? = call DSP_UTILS.get_cur_exp(?)}");
+
+dsp_items_mc -                         (3571: 32) callStmt = conn.prepareCall("{call dsp_items_mc.get_outgoing_item(?, ?, ?, ?, ?)}");
+
+dsp_items_visa -                         (3694: 32) callStmt = conn.prepareCall("{call dsp_items_visa.get_outgoing_item(?, ?)}");
+
+DSP_API_WEB -                         (628: 32) callStmt = conn.prepareCall("{ call DSP_API_WEB.document_indicator_query(?, ?, ?, ?, ?)}");
+
+DSP_UTILS -                         (107: 32) callStmt = conn.prepareCall("{ ? = call DSP_UTILS.dsp_due_date(?, ?, ?)}");
+
+all_defs -                         (3201: 32) callStmt = conn.prepareCall("{ ? = call all_defs.get_inst_param(?, ?, ?)}");
+
+DSP_API_WEB -                         (226: 32) callStmt = conn.prepareCall("{ call DSP_API_WEB.Query_case_items(?, ?, ?)}");
+
+dsp_api_lov -                         (3449: 32) callStmt = conn.prepareCall("{call dsp_api_lov.dsp_mc_ica_list(?, ?, ?, ?, ?, ?)}");
+
+DSP_API_WEB -                         (672: 32) callStmt = conn.prepareCall("{ call DSP_API_WEB.member_msg_query(?, ?, ?, ?, ?, ?)}");
+
+DSP_API_WEB -                         (717: 32) callStmt = conn.prepareCall("{ call DSP_API_WEB.member_msg_query(?, ?, ?, ?, ?, ?)}");
+
+dsp_utils -                         (3097: 32) callStmt = conn.prepareCall("{ ? = call dsp_utils.dsp_national_currency(?)}");
+
+DSP_API_WEB -                         (3367: 38) cstmt = conn.prepareCall("{ ? = call DSP_API_WEB.get_ot_boutrnno(?) }");
+
+DSP_API_WEB -                         (543: 32) callStmt = conn.prepareCall("{ call DSP_API_WEB.reason_codes_query(?, ?, ?, ?)}");
+
+DSP_ITEMS_MC -                         (598: 32) callStmt = conn.prepareCall("{ call DSP_ITEMS_MC.get_Fee_RC(?)}");
+
+dsp_api_lov -                         (3488: 32) callStmt = conn.prepareCall("{ call dsp_api_lov.dsp_mc_ica_list(?)}");
+
+DSP_API_WEB -                         (3389: 41) callStmt = conn.prepareCall("{call DSP_API_WEB.adjustment_init(?, ?, ?, ?, ?, ?, ?, ?, ?, ?)}");
+
+DSP_ITEMS_MC -                         (1801: 32) callStmt = conn.prepareCall("{ call DSP_ITEMS_MC.init_fee_collection(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)}");
+
+DSP_ITEMS_VISA -                         (2972: 32) callStmt = conn.prepareCall("{ call DSP_ITEMS_VISA.init_fee_funds_reversal(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)}");
+
+DSP_ITEMS_VISA -                         (2321: 32) callStmt = conn.prepareCall("{ call DSP_ITEMS_VISA.init_fee_funds_disbursement(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)}");
+
+DSP_ITEMS_MC -                         (1212: 32) callStmt = conn.prepareCall("{ call DSP_ITEMS_MC.init_fee_reversal(?, ?, ?, ?, ?, ?, ?)}");
+
+DSP_ITEMS_MC -                         (1420: 32) callStmt = conn.prepareCall("{ call DSP_ITEMS_MC.init_first_chargeback(?, ?, ?, ?, ?, ?, ?, ?, ?, ?)}");
+
+DSP_ITEMS_MC -                         (978: 32) callStmt = conn.prepareCall("{ call DSP_ITEMS_MC.init_first_cb_reversal(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)}");
+
+DSP_ITEMS_VISA -                         (2511: 32) callStmt = conn.prepareCall("{ call DSP_ITEMS_VISA.init_visa_first_chargeback(?, ?, ?, ?, ?, ?, ?)}");
+
+DSP_ITEMS_MC -                         (859: 32) callStmt = conn.prepareCall("{ call DSP_ITEMS_MC.init_first_pres_reversal(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)}");
+
+DSP_ITEMS_VISA -                         (2732: 32) callStmt = conn.prepareCall("{ call DSP_ITEMS_VISA.init_visa_fraud_activity(?, ?, ?, ?, ?, ?, ?, ?)}");
+
+DSP_ITEMS_MC -                         (2096: 32) callStmt = conn.prepareCall("{ call DSP_ITEMS_MC.init_fraud_report(?, ?, ?, ?, ?)}");
+
+DSP_ITEMS_MC -                         (760: 32) callStmt = conn.prepareCall("{ call DSP_ITEMS_MC.init_retrieval_request(?, ?, ?, ?, ?, ?, ?, ?)}");
+
+DSP_ITEMS_VISA -                         (2182: 32) callStmt = conn.prepareCall("{ call DSP_ITEMS_VISA.init_visa_retrieval_request(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)}");
+
+DSP_ITEMS_VISA -                         (2860: 32) callStmt = conn.prepareCall("{ call DSP_ITEMS_VISA.init_visa_reversal(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)}");
+
+DSP_ITEMS_MC -                         (1965: 32) callStmt = conn.prepareCall("{ call DSP_ITEMS_MC.init_fraud_report_1(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)}");
+
+DSP_ITEMS_MC -                         (1660: 32) callStmt = conn.prepareCall("{ call DSP_ITEMS_MC.init_second_chargeback(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)}");
+
+DSP_ITEMS_MC -                         (1302: 32) callStmt = conn.prepareCall("{ call DSP_ITEMS_MC.init_second_cb_reversal(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)}");
+
+DSP_ITEMS_MC -                         (1539: 32) callStmt = conn.prepareCall("{ call DSP_ITEMS_MC.init_second_presentment(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)}");
+
+DSP_ITEMS_MC -                         (1096: 32) callStmt = conn.prepareCall("{ call DSP_ITEMS_MC.init_second_pres_reversal(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)}");
+
+DSP_ITEMS_VISA -                         (2614: 32) callStmt = conn.prepareCall("{ call DSP_ITEMS_VISA.init_visa_representment(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)}");
+
+DSP_API_WEB -                         (437: 32) callStmt = conn.prepareCall("{ ? = call DSP_API_WEB.possible_items(?)}");
+
+DSP_API_WEB -                         (3119: 32) callStmt = conn.prepareCall("{call DSP_API_WEB.process_item(?, ?, ?, ?)}");
+
+DSP_API_WEB -                         (3144: 32) callStmt = conn.prepareCall("{call DSP_API_WEB.reject_item(?, ?, ?, ?, ?, ?)}");
+
+DSP_ITEMS_MC -                         (1854: 32) callStmt = conn.prepareCall("{ call DSP_ITEMS_MC.gen_fee_collection(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)}");
+
+DSP_ITEMS_VISA -                         (3024: 32) callStmt = conn.prepareCall("{ call DSP_ITEMS_VISA.gen_fee_funds_reversal(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) }");
+
+DSP_ITEMS_VISA -                         (2435: 32) callStmt = conn.prepareCall("{ call DSP_ITEMS_VISA.gen_fee_funds_disbursement(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) }");
+
+DSP_ITEMS_MC -                         (1245: 32) callStmt = conn.prepareCall("{ call DSP_ITEMS_MC.gen_fee_reversal(?, ?, ?, ?, ?, ?)}");
+
+DSP_ITEMS_MC -                         (1464: 32) callStmt = conn.prepareCall("{ call DSP_ITEMS_MC.gen_first_chargeback(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)}");
+
+DSP_ITEMS_MC -                         (1023: 32) callStmt = conn.prepareCall("{ call DSP_ITEMS_MC.gen_first_cb_reversal(?, ?, ?, ?, ?, ?, ?, ?, ?, ?)}");
+
+DSP_ITEMS_VISA -                         (2544: 32) callStmt = conn.prepareCall("{ call DSP_ITEMS_VISA.gen_visa_first_chargeback(?, ?, ?, ?, ?, ?, ?, ?, ? ,?) }");
+
+DSP_ITEMS_MC -                         (904: 32) callStmt = conn.prepareCall("{ call DSP_ITEMS_MC.gen_first_pres_reversal(?, ?, ?, ?, ?, ?, ?, ?, ?, ?)}");
+
+DSP_ITEMS_VISA -                         (2767: 32) callStmt = conn.prepareCall("{ call DSP_ITEMS_VISA.gen_visa_fraud_activity(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) }");
+
+DSP_ITEMS_MC -                         (2124: 32) callStmt = conn.prepareCall("{ call DSP_ITEMS_MC.gen_fraud_report(?, ?, ?, ?, ?, ?)}");
+
+DSP_ITEMS_MC -                         (802: 32) callStmt = conn.prepareCall("{ call DSP_ITEMS_MC.gen_retrieval_request(?, ?, ?, ?, ?, ?)}");
+
+DSP_ITEMS_VISA -                         (2243: 32) callStmt = conn.prepareCall("{ call DSP_ITEMS_VISA.gen_visa_retrieval_request(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) }");
+
+DSP_ITEMS_VISA -                         (2901: 32) callStmt = conn.prepareCall("{ call DSP_ITEMS_VISA.gen_visa_reversal(?, ?, ?, ?, ?, ?, ?, ?, ?, ?) }");
+
+DSP_ITEMS_MC -                         (2010: 32) callStmt = conn.prepareCall("{ call DSP_ITEMS_MC.gen_fraud_report_1(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)}");
+
+DSP_ITEMS_MC -                         (1706: 32) callStmt = conn.prepareCall("{ call DSP_ITEMS_MC.gen_second_chargeback(?, ?, ?, ?, ?, ?, ?, ? ,? ,?, ?, ?, ?)}");
+
+DSP_ITEMS_MC -                         (1347: 32) callStmt = conn.prepareCall("{ call DSP_ITEMS_MC.gen_second_cb_reversal(?, ?, ?, ?, ?, ?, ?, ?, ?, ?)}");
+
+DSP_ITEMS_MC -                         (1585: 32) callStmt = conn.prepareCall("{ call DSP_ITEMS_MC.gen_second_presentment(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)}");
+
+DSP_ITEMS_MC -                         (1141: 32) callStmt = conn.prepareCall("{ call DSP_ITEMS_MC.gen_second_pres_reversal(?, ?, ?, ?, ?, ?, ?, ?, ?, ?)}");
+
+DSP_ITEMS_VISA -                         (2662: 32) callStmt = conn.prepareCall("{ call DSP_ITEMS_VISA.gen_visa_representment(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) }");
+
+dsp_items_mc -                         (3513: 32) callStmt = conn.prepareCall("{call dsp_items_mc.change_outgoing_item(?, ?, ?, ?, ?, ?, ?, ?, ?, ?,
+
+dsp_items_visa -                         (3641: 32) callStmt = conn.prepareCall("{call dsp_items_visa.change_outgoing_item(?, ?, ?, ?, ?, ?, ?, ?, ?, 
+
+DSP_API_WEB -                         (271: 41) callStmt = conn.prepareCall("{call DSP_API_WEB.letter_tpl_edit(?, ?, ?, ?)}");
+
+DSP_API_WEB -                         (293: 41) callStmt = conn.prepareCall("{call DSP_API_WEB.letter_tpl_del(?, ?, ?)}");
+
+DSP_TPL_ITEMS -                         (352: 41) callStmt = conn.prepareCall("{call DSP_TPL_ITEMS.get_item_data(?, ?, ?, ?)}");
+
+DSP_TPL_ITEMS -                         (320: 41) callStmt = conn.prepareCall("{call DSP_TPL_ITEMS.get_item_data(?, ?, ?)}");
+
+DSP_API_WEB -                         (379: 41) callStmt = conn.prepareCall("{ call DSP_API_WEB.email_html_attachment_query(?,?,?, ?,?,?)}");
+
+DSP_API_WEB -                         (159: 41) callStmt = conn.prepareCall("{call DSP_API_WEB.letter_html_tpl_query(?, ?)}");
+
+DSP_API_WEB -                         (48: 41) callStmt = conn.prepareCall("{call DSP_API_WEB.letter_html_tpl_query(?,?,?,?, ?,?,?,?, ?,?,?,?, ?,?)}");
+
+DSP_API_WEB -                         (471: 41) callStmt = conn.prepareCall("{ call DSP_API_WEB.email_attachment_set_add(?,?,?, ?,?,?, ?,?,?, ?)}");
+
+DSP_API_WEB -                         (208: 41) callStmt = conn.prepareCall("{call DSP_API_WEB.letter_html_tpl_add(?,?,?,?,?, ?,?,?,?,?, ?,?)}");
+
+DSP_API_WEB -                         (427: 45) callStmt = conn.prepareCall("{ call DSP_API_WEB.email_attachment_add(?,?,?, ?,?,?, ?,?,?)}");
+
+DSP_API_WEB -                         (512: 45) callStmt = conn.prepareCall("{ call DSP_API_WEB.email_html_attachment_add(?,?,?, ?,?,?, ?,?,?, ?)}");
+
+DSP_API_WEB -                         (241: 41) callStmt = conn.prepareCall("{call DSP_API_WEB.letter_html_tpl_edit(?,?,?, ?,?,?, ?,?,?, ?,?)}");
+
+DSP_API_WEB -                         (249: 32) callStmt = conn.prepareCall("{call DSP_API_WEB.member_msg_del(?, ?, ?)}");
+
+DSP_API_WEB -                         (159: 32) callStmt = conn.prepareCall("{ call DSP_API_WEB.reason_codes_query(?, ?, ?, ?, ?)}");
+
+DSP_API_WEB -                         (126: 32) callStmt = conn.prepareCall("{call DSP_API_WEB.member_msg_query(?, ?)}");
+
+DSP_API_WEB -                         (40: 32) callStmt = conn.prepareCall("{call DSP_API_WEB.member_msg_query(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)}");
+
+DSP_API_WEB -                         (188: 32) callStmt = conn.prepareCall("{call DSP_API_WEB.member_msg_add(?, ?, ?, ?, ?, ?, ?, ?)}");
+
+DSP_API_WEB -                         (218: 32) callStmt = conn.prepareCall("{call DSP_API_WEB.member_msg_edit(?, ?, ?, ?, ?, ?, ?, ?, ?)}");
+
+DSP_API_WEB -                         (34: 32) callStmt = conn.prepareCall("{call DSP_API_WEB.ot_details_query(?, ?, ?)}");
+
+api_adm_files -                         (166: 38) cstmt = conn.prepareCall("call api_adm_files.query_mc_files(" +
+
+api_adm_files -                         (84: 38) cstmt = conn.prepareCall("call api_adm_files.query_visa_files(" +
+
+api_adm_files -                         (131: 38) cstmt = conn.prepareCall("call api_adm_files.query_mc_files(" +
+
+api_adm_files -                         (49: 38) cstmt = conn.prepareCall("call api_adm_files.query_visa_files(" +
+
+DSP_API_WEB -                         (212: 32) callStmt = conn.prepareCall("{ call DSP_API_WEB.reason_codes_add(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)}");
+
+DSP_API_WEB -                         (183: 32) callStmt = conn.prepareCall("{ call DSP_API_WEB.reason_codes_del(?, ?, ?, ?, ?, ?)}");
+
+DSP_API_WEB -                         (37: 32) callStmt = conn.prepareCall("{ call DSP_API_WEB.reason_codes_query(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?
+
+DSP_API_WEB -                         (137: 32) callStmt = conn.prepareCall("{ call DSP_API_WEB.reason_codes_edit(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)}");
+
+DSP_EMAIL -                         (195: 32) callStmt = conn.prepareCall("{ ? = call DSP_EMAIL.del_config(?)}");
+
+DSP_EMAIL -                         (107: 32) callStmt = conn.prepareCall("{ ? = call DSP_EMAIL.query_config(?)}");
+
+DSP_EMAIL -                         (37: 32) callStmt = conn.prepareCall("{ ? = call DSP_EMAIL.query_config()}");
+
+DSP_EMAIL -                         (140: 32) callStmt = conn.prepareCall("{ ? = call DSP_EMAIL.new_config(?, ?, ?, ?, ?, ?, ?)}");
+
+DSP_EMAIL -                         (167: 32) callStmt = conn.prepareCall("{ ? = call DSP_EMAIL.edit_config(?, ?, ?, ?, ?, ?, ?, ?)}");
+
+DSP_API_WEB -                         (177: 32) callStmt = conn.prepareCall("{call DSP_API_WEB.letter_tpl_type_del(?, ?, ?)}");
+
+DSP_API_WEB -                         (103: 32) callStmt = conn.prepareCall("{call DSP_API_WEB.letter_tpl_type_query(?, ?)}");
+
+DSP_API_WEB -                         (43: 32) callStmt = conn.prepareCall("{call DSP_API_WEB.letter_tpl_type_query(?, ?, ?, ?, ?, ?)}");
+
+DSP_API_WEB -                         (132: 32) callStmt = conn.prepareCall("{call DSP_API_WEB.letter_tpl_type_add(?, ?, ?, ?)}");
+
+DSP_API_WEB -                         (154: 32) callStmt = conn.prepareCall("{call DSP_API_WEB.letter_tpl_type_edit(?, ?, ?, ?, ?)}");
+
+DSP_API_WEB -                         (142: 32) callStmt = conn.prepareCall("{ call DSP_API_WEB.unpaired_items_query_part2(?, ?, ?, ?, ?, ?, ?, ?, ?, " + 
+
+DSP_API_WEB -                         (53: 32) callStmt = conn.prepareCall("{ call DSP_API_WEB.unpaired_items_query_part1(?, ?)}");
+
+DSP_API_WEB -                         (194: 32) callStmt = conn.prepareCall("{call DSP_API_WEB.user_comments_del(?, ?, ?)}");
+
+DSP_API_WEB -                         (107: 32) callStmt = conn.prepareCall("{ call DSP_API_WEB.user_comments_query(?, ?)}");
+
+DSP_API_WEB -                         (37: 32) callStmt = conn.prepareCall("{call DSP_API_WEB.user_comments_query(?, ?, ?, ?, ?, ?, ?, ?)}");
+
+DSP_API_WEB -                         (139: 32) callStmt = conn.prepareCall("{call DSP_API_WEB.user_comments_add(?, ?, ?, ?, ?)}");
+
+DSP_API_WEB -                         (166: 32) callStmt = conn.prepareCall("{call DSP_API_WEB.user_comments_edit(?, ?, ?, ?, ?, ?)}");
+
+DSP_USER_MANAGEMENT -                         (295: 32) callStmt = conn.prepareCall("{ call DSP_USER_MANAGEMENT.DSP_TEAM_CREATE(?, ?, ?, ?, ?)}");
+
+DSP_USER_MANAGEMENT -                         (481: 32) callStmt = conn.prepareCall("{ call DSP_USER_MANAGEMENT.DSP_TEAM_DEL(?, ?, ?)}");
+
+DSP_USER_MANAGEMENT -                         (246: 32) callStmt = conn.prepareCall("{ call DSP_USER_MANAGEMENT.DSP_TEAM_QUERY(?)}");
+
+DSP_USER_MANAGEMENT -                         (523: 32) callStmt = conn.prepareCall("{ call DSP_USER_MANAGEMENT.DSP_TEAM_QUERY(?, ?)}");
+
+DSP_USER_MANAGEMENT -                         (48: 32) callStmt = conn.prepareCall("{ call DSP_USER_MANAGEMENT.DSP_USER_QUERY(?)}");
+
+DSP_API_WEB -                         (341: 32) callStmt = conn.prepareCall("{ call DSP_API_WEB.EMAIL_ADDRESSES_QUERY(?, ?)}");
+
+DSP_USER_MANAGEMENT -                         (573: 32) callStmt = conn.prepareCall("{ call DSP_USER_MANAGEMENT.DSP_TEAM_QUERY(?)}");
+
+DSP_API_WEB -                         (386: 34) callStmt = conn.prepareCall("{ call DSP_API_WEB.EMAIL_ADDRESSES_EDIT(?, ?, ?, ?, ?)}");
+
+DSP_API_WEB -                         (407: 37) callStmt = conn.prepareCall("{ call DSP_API_WEB.EMAIL_ADDRESSES_ADD(?, ?, ?, ?)}");
+
+DSP_USER_MANAGEMENT -                         (429: 32) callStmt = conn.prepareCall("{ call DSP_USER_MANAGEMENT.DSP_TEAM_EDIT(?, ?, ?, ?, ?, ?)}");
+
+DSP_API_WEB -                         (109: 35) callStmt = conn.prepareCall("{ call DSP_API_WEB.EMAIL_ADDRESSES_EDIT(?, ?, ?, ?, ?)}");
+
+DSP_API_WEB -                         (145: 37) callStmt = conn.prepareCall("{ call DSP_API_WEB.EMAIL_ADDRESSES_ADD(?, ?, ?, ?, ?)}");
+
+DSP_USER_MANAGEMENT -                         (168: 32) callStmt = conn.prepareCall("{ call DSP_USER_MANAGEMENT.DSP_USER_EDIT(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)}");
+
+DSP_API_WEB -                         (200: 33) callStmt = conn.prepareCall("{ call DSP_API_WEB.EMAIL_ADDRESSES_DEL(?, ?, ?)}");
+
+api_gl_account -                         (300: 38) cstmt = conn.prepareCall("call api_gl_account.manual_accounts(?,?,?,?,?,?,?)");
+
+api_gl_account -                         (260: 38) cstmt = conn.prepareCall("call api_gl_account.manual_accounts(?,?,?,?,?,?,?)");
+
+api_gl_account -                         (220: 38) cstmt = conn.prepareCall("call api_gl_account.manual_accounts(?,?,?,?,?,?,?)");
+
+api_gl_account_setup -                         (78: 38) cstmt = conn.prepareCall("call api_gl_account_setup.get_balance_type(?,?,?)");
+
+api_gl_account -                         (179: 38) cstmt = conn.prepareCall("call api_gl_account.manual_accounts(?,?,?,?,?,?,?)");
+
+api_gl_account_setup -                         (105: 38) cstmt = conn.prepareCall("call api_gl_account_setup.get_gl_code(" +
+
+api_gl_account_setup -                         (153: 38) cstmt = conn.prepareCall("call api_gl_account_setup.get_gl_wording(?,?,?)");
+
+api_gl_account_setup -                         (35: 38) cstmt = conn.prepareCall("call api_gl_account_setup.get_description(?,?,?,?)");
+
+api_gl_account -                         (78: 44) cstmt = connection.prepareCall("{ call api_gl_account.add_gl_manual_account(?,?,?,?,?,?,?,?,?) }");
+
+api_gl_account -                         (128: 44) cstmt = connection.prepareCall("{ call api_gl_account.delete_gl_manual_account(?)}");
+
+api_gl_account -                         (37: 44) cstmt = connection.prepareCall("{ call api_gl_account.list_gl_manual_account(?,?,?,?)}");
+
+api_gl_account -                         (104: 44) cstmt = connection.prepareCall("{ call api_gl_account.modify_gl_manual_account(?,?,?,?,?,?,?,?,?) }");
+
+api_gl_account -                         (61: 38) cstmt = conn.prepareCall("call api_gl_account.query_tech_accounts(" +
+
+api_gl_account -                         (95: 38) cstmt = conn.prepareCall("call api_gl_account.query_tech_accounts(" +
+
+api_gl_account -                         (155: 38) cstmt = conn.prepareCall("call api_gl_account.list_files_impact_gl(" +
+
+api_gl_account -                         (169: 44) cstmt = connection.prepareCall("{ call api_gl_account.add_manual_transaction(?,?,?,?, ?,?,?,?, ?,?,?,?, ?,?,?,?, ?,?,?)}");
+
+api_gl_account_setup -                         (145: 44) cstmt = connection.prepareCall("{ call api_gl_account_setup.lov_source_type(?)}");
+
+api_gl_account -                         (45: 44) cstmt = connection.prepareCall("{ call api_gl_account.tran_list(" +
+
+api_dsp_mc_fpd -                         (163: 38) cstmt = conn.prepareCall("call api_dsp_mc_fpd.query_spd(" +
+
+api_dsp_mc_fpd -                         (273: 44) cstmt = connection.prepareCall("{ call api_dsp_mc_fpd.query_fpd(" +
+
+api_dsp_mc_fpd -                         (192: 38) cstmt = conn.prepareCall("{ call api_dsp_mc_fpd.query_spd(" +
+
+api_dsp_mc_fpd -                         (39: 44) cstmt = connection.prepareCall("{ call api_dsp_mc_fpd.query_vss4(" +
+
+api_cg_session_log_wi -                         (200: 38) cstmt = conn.prepareCall("call api_cg_session_log_wi.pr_get_child_sessions(?, ?)");
+
+api_cg_session_log_wi -                         (85: 38) cstmt = conn.prepareCall("call api_cg_session_log_wi.pr_get_session_events(?, ?, ?, ?, ?, ?)");
+
+api_cg_session_log_wi -                         (180: 38) cstmt = conn.prepareCall("call api_cg_session_log_wi.pr_get_child_sessions(?, ?)");
+
+api_cg_session_log_wi -                         (150: 38) cstmt = conn.prepareCall("call api_cg_session_log_wi.pr_get_parent_sessions(?, ?, ?, ?, ?, ?, ?, ?, ?)");
+
+api_cg_session_log_wi -                         (112: 38) cstmt = conn.prepareCall("call api_cg_session_log_wi.pr_get_session_events(?, ?, ?, ?, ?, ?)");
+
+api_cg_session_log_wi -                         (239: 38) cstmt = conn.prepareCall("call api_cg_session_log_wi.pr_query_session_statuses(?)");
+
+api_cg_session_log_wi -                         (31: 38) cstmt = conn.prepareCall("call api_cg_session_log_wi.pr_get_session_threads(?, ?)");
+
+api_cg_session_log_wi -                         (64: 38) cstmt = conn.prepareCall("call api_cg_session_log_wi.pr_get_session_threads(?, ?)");
+
+api_transactions -                         (71: 35) cs = conn.prepareCall("call api_transactions.count_transactions("
+
+api_transactions -                         (235: 35) cs = conn.prepareCall("call api_transactions.get_emv_data(?, ?, ?)");
+
+api_transactions -                         (212: 35) cs = conn.prepareCall("call api_transactions.get_pos(?, ?, ?)");
+
+sv_core -                         (304: 35) cs = conn.prepareCall("{ ? = call sv_core.get_sms_srv_id(?)}");
+
+api_transactions -                         (91: 35) cs = conn.prepareCall("call api_transactions.get_transactions("
+
+api_transactions -                         (371: 38) cstmt = conn.prepareCall("{ call api_transactions.is_trans_reversed(?, ?) }");
+
+api_transactions -                         (136: 35) cs = conn.prepareCall("call api_transactions.get_trans_additional_info(?, ?, ?)");
+
+Api_svfe_issuing -                         (508: 35) cstmt = connection.prepareCall("{call Api_svfe_issuing.Delete_stat_txn_type(?, ?, ?) }");
+
+Api_svfe_issuing -                         (457: 35) cstmt = connection.prepareCall("{call Api_svfe_issuing.Query_stat_txn_type(?, ?) }");
+
+Api_svfe_issuing -                         (488: 35) cstmt = connection.prepareCall("{call Api_svfe_issuing.Add_stat_txn_type(?, ?, ?) }");
+
+FIN_RULES_UTL -                         (1424: 46) stmt = connectionBO.prepareCall("{ call FIN_RULES_UTL.set_ctls_status(?,?,?,?,?,?) }");
+
+Api_Iss_Trans_Exception -                         (771: 36) cstmt = connection.prepareCall("{call Api_Iss_Trans_Exception.Add_exception(?, ?, ?, ?) }");
+
+API_SVFE_BIN_TEMPLATE -                         (261: 36) stmt = con.prepareCall("{ call API_SVFE_BIN_TEMPLATE.add_TEMPLATE_LIST( ?,?,?,? ) }");
+
+API_SVFE_BIN_TEMPLATE -                         (286: 36) stmt = con.prepareCall("{ call API_SVFE_BIN_TEMPLATE.delete_TEMPLATE_LIST( ? ) }");
+
+api_card_template_params -                         (131: 35) cs = conn.prepareCall("{ call api_card_template_params.get_rest_card_template_params(?, ?) }");
+
+API_SVFE_BIN_TEMPLATE -                         (237: 36) stmt = con.prepareCall("{ call API_SVFE_BIN_TEMPLATE.update_TEMPLATE_LIST( ?,?,?,? ) }");
+
+api_currency_rates -                         (41: 41) cs = connection.prepareCall("{ call api_currency_rates.get_currency_rates(?, ?, ?, ?, ?) }");
+
+API_SVFE_POSTING -                         (825: 41) cs = connection.prepareCall("{ call API_SVFE_POSTING.getPostingList( ?, ?, ?, ?, ?) }");
+
+api_fraud_trans_proc_settings -                         (149: 35) cs = conn.prepareCall("call api_fraud_trans_proc_settings.delete_settings(?)");
+
+api_fraud_trans_proc_settings -                         (49: 35) cs = conn.prepareCall("call api_fraud_trans_proc_settings.get_data_size(?, ?, ?, ?, ?)");
+
+api_fraud_trans_proc_settings -                         (74: 35) cs = conn.prepareCall("call api_fraud_trans_proc_settings.get_settings(?, ?, ?, ?, ?, ?, ?)");
+
+api_fraud_trans_proc_settings -                         (117: 39) cs = conn.prepareCall("call api_fraud_trans_proc_settings.add_settings(" +
+
+api_fraud_trans_proc_settings -                         (126: 39) cs = conn.prepareCall("call api_fraud_trans_proc_settings.modify_settings(?,?,?,?)");
+
+api_iss_flex_limits_p1 -                         (880: 35) cs = conn.prepareCall("{ call api_iss_flex_limits_p1.add_obj_limit_web(?, ?, ?, ?, ?, ?, ?, ?, ?, ?)}");
+
+api_card_limits -                         (904: 35) cs = conn.prepareCall("{ call api_card_limits.add_card_limit(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) }");
+
+api_card_limits -                         (72: 35) cs = conn.prepareCall("{ call api_card_limits.get_card_limits(?, ?, ?) }");
+
+api_iss_flex_limits_p1 -                         (816: 35) cs = conn.prepareCall("{ call api_iss_flex_limits_p1.delete_obj_limit_web(?, ?, ?, ?, ?, ?)}");
+
+api_card_limits -                         (833: 35) cs = conn.prepareCall("{ call api_card_limits.remove_card_limit(?, ?, ?) }");
+
+api_iss_flex_limits_p1 -                         (145: 35) cs = conn.prepareCall("{ call api_iss_flex_limits_p1.modify_obj_limit_web(?, ?, ?, ?, ?, ?, ?, ?, ?, ?)}");
+
+api_card_limits -                         (168: 35) cs = conn.prepareCall("{ call api_card_limits.modify_card_limit(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) }");
+
+API_ACQ_RESTRICTION_SCHEME -                         (41: 28) cstmt = con.prepareCall("{call API_ACQ_RESTRICTION_SCHEME.Query(?, ?, ?, ?, ?, ?, ?, ?)}");
+
+Api_pid_group -                         (450: 36) cstmt = connection.prepareCall( "{call Api_pid_group.Query(?, ?) }" );
+
+Api_pid_group -                         (373: 36) cstmt = connection.prepareCall( "{call Api_pid_group.Query_desc(?, ?, ?) }" );
+
+API_ACQ_TRANS_SCHEME -                         (231: 36) cstmt = connection.prepareCall( "{call API_ACQ_TRANS_SCHEME.Query(?, ?) }" );
+
+api_acq_trans_scheme -                         (156: 36) cstmt = connection.prepareCall( "{call api_acq_trans_scheme.Query_desc(?) }" );
+
+API_ACQ_RESTRICTION_SCHEME -                         (111: 27) stmt = con.prepareCall("{ call API_ACQ_RESTRICTION_SCHEME.modify_web(?,?,?,?,?,?,?,?,?,?,?)}");
+
+Api_pid_group -                         (405: 36) stmt = connection.prepareCall( "{ call Api_pid_group.modify_desc_web(?,?)}" );
+
+Api_pid_group -                         (481: 36) stmt = connection.prepareCall( "{ call Api_pid_group.modify_web(?,?,?)}" );
+
+API_ACQ_TRANS_SCHEME -                         (184: 36) stmt = connection.prepareCall( "{ call API_ACQ_TRANS_SCHEME.modify_desc_web(?,?,?)}" );
+
+API_ACQ_TRANS_SCHEME -                         (289: 36) stmt = connection.prepareCall( "{ call API_ACQ_TRANS_SCHEME.modify_web(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)}" );
+
+API_ACQ_RESTRICTION_SCHEME -                         (90: 27) stmt = con.prepareCall("{ call API_ACQ_RESTRICTION_SCHEME.new_web(?,?,?,?,?,?,?)}");
+
+Api_pid_group -                         (433: 36) stmt = connection.prepareCall( "{ call Api_pid_group.new_desc_web(?,?)}" );
+
+Api_pid_group -                         (512: 36) stmt = connection.prepareCall( "{ call Api_pid_group.new_web(?, ?)}" );
+
+API_ACQ_TRANS_SCHEME -                         (213: 36) stmt = connection.prepareCall( "{ call API_ACQ_TRANS_SCHEME.new_desc_web(?,?,?)}" );
+
+API_ACQ_TRANS_SCHEME -                         (336: 36) stmt = connection.prepareCall( "{ call API_ACQ_TRANS_SCHEME.new_web(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)}" );
+
+API_ACQ_RESTRICTION_SCHEME -                         (136: 27) stmt = con.prepareCall("{ call API_ACQ_RESTRICTION_SCHEME.remove_web(?,?,?,?)}");
+
+Api_pid_group -                         (420: 36) stmt = connection.prepareCall( "{ call Api_pid_group.remove_desc_web(?)}" );
+
+Api_pid_group -                         (497: 36) stmt = connection.prepareCall( "{ call Api_pid_group.remove_web(?, ?)}" );
+
+API_ACQ_TRANS_SCHEME -                         (200: 36) stmt = connection.prepareCall( "{ call API_ACQ_TRANS_SCHEME.remove_desc_web(?)}" );
+
+API_ACQ_TRANS_SCHEME -                         (322: 36) stmt = connection.prepareCall( "{ call API_ACQ_TRANS_SCHEME.remove_web(?)}" );
+
+Api_Term_To_Srv -                         (194: 35) cstmt = connection.prepareCall("{ call Api_Term_To_Srv.Query_Serv(?, ?, ?) }");
+
+Api_Term_To_Param -                         (272: 35) cstmt = connection.prepareCall("{ call Api_Term_To_Param.Query_Param_Term(?, ?) }");
+
+Api_Term_To_Srv -                         (164: 35) cstmt = connection.prepareCall("{ call Api_Term_To_Srv.Query_Term_Serv(?, ?) }");
+
+Api_Term_To_Srv -                         (236: 39) cstmt_rem = connection.prepareCall("{ call Api_Term_To_Srv.Delete_Serv( ?, ?) }");
+
+Api_Term_To_Srv -                         (250: 40) cstmt_add = connection.prepareCall("{ call Api_Term_To_Srv.Add_Serv( ?, ?) }");
+
+api_system_audit -                         (118: 38) callStmt = connection.prepareCall("{ ? = call api_system_audit.export_audit(?) }");
+
+API_SVFE_BIN_TEMPLATE -                         (55: 36) stmt = con.prepareCall("{ call API_SVFE_BIN_TEMPLATE.add_TEMPLATE_TYPE( ?,?,? ) }");
+
+API_SVFE_BIN_TEMPLATE -                         (97: 36) stmt = con.prepareCall("{ call API_SVFE_BIN_TEMPLATE.delete_TEMPLATE_TYPE( ? ) }");
+
+API_SVFE_BIN_TEMPLATE -                         (24: 37) cstmt = con.prepareCall("{call API_SVFE_BIN_TEMPLATE.query_TEMPLATE_TYPE(?)}");
+
+API_SVFE_BIN_TEMPLATE -                         (76: 36) stmt = con.prepareCall("{ call API_SVFE_BIN_TEMPLATE.update_TEMPLATE_TYPE( ?,?,? ) }");
+
+API_DCC -                         (295: 34) stmt = connection.prepareCall("{call API_DCC.dcc_commission_add(?, ?, ?, ?, ?, ?, ?, ?, ?) }");
+
+API_DCC -                         (312: 35) stmt = connection.prepareCall("{call API_DCC.dcc_trans_types_add(?, ?, ?) }");
+
+API_DCC -                         (323: 35) stmt = connection.prepareCall("{call API_DCC.dcc_countries_add(?, ?, ?) }");
+
+API_DCC -                         (334: 35) stmt = connection.prepareCall("{call API_DCC.dcc_currencies_add(?, ?, ?) }");
+
+API_DCC -                         (345: 35) stmt = connection.prepareCall("{call API_DCC.dcc_bin_masks_add(?, ?, ?) }");
+
+API_DCC -                         (430: 34) stmt = connection.prepareCall("{call API_DCC.dcc_commission_del(?) }");
+
+API_DCC -                         (448: 34) stmt = connection.prepareCall("{call API_DCC.dcc_cms_edit_priority_list(?) }");
+
+API_DCC -                         (373: 34) stmt = connection.prepareCall("{call API_DCC.dcc_commission_edit(?, ?, ?, ?, ?, ?, ?, ?) }");
+
+API_DCC -                         (387: 34) stmt = connection.prepareCall("{call API_DCC.dcc_trans_types_edit(?, ?) }");
+
+API_DCC -                         (395: 34) stmt = connection.prepareCall("{call API_DCC.dcc_countries_edit(?, ?) }");
+
+API_DCC -                         (403: 34) stmt = connection.prepareCall("{call API_DCC.dcc_currencies_edit(?, ?) }");
+
+API_DCC -                         (411: 34) stmt = connection.prepareCall("{call API_DCC.dcc_bin_masks_edit(?, ?) }");
+
+API_DCC -                         (464: 34) stmt = connection.prepareCall("{call API_DCC.dcc_inst_decimals_edit(?, ?, ?) }");
+
+API_DCC -                         (261: 34) stmt = connection.prepareCall("{call API_DCC.dcc_bin_mask_query(?, ?) }");
+
+API_DCC -                         (72: 34) stmt = connection.prepareCall("{call API_DCC.dcc_commission_query(?, ?, ?) }");
+
+API_DCC -                         (42: 34) stmt = connection.prepareCall("{call API_DCC.dcc_commission_query(?, ?, ?) }");
+
+API_DCC -                         (143: 34) stmt = connection.prepareCall("{call API_DCC.dcc_country_query(?, ?) }");
+
+API_DCC -                         (172: 34) stmt = connection.prepareCall("{call API_DCC.load_country_list(?) }");
+
+API_DCC -                         (232: 34) stmt = connection.prepareCall("{call API_DCC.dcc_currency_query(?, ?) }");
+
+API_DCC -                         (202: 34) stmt = connection.prepareCall("{call API_DCC.load_currency_list(?) }");
+
+API_DCC -                         (483: 35) stmt = connection.prepareCall("{call API_DCC.dcc_inst_query(?, ?) }");
+
+API_DCC -                         (114: 34) stmt = connection.prepareCall("{call API_DCC.dcc_trans_type_query(?, ?) }");
+
+API_SVFE_ISSUING -                         (29: 35) cstmt = connection.prepareCall("{call API_SVFE_ISSUING.Add_iss_tran_schm_excpt(?, ?, ?, ?, ?, ?) }");
+
+API_SVFE_ISSUING -                         (46: 35) cstmt = connection.prepareCall("{call API_SVFE_ISSUING.Delete_iss_tran_schm_excpt(?, ?, ?, ?, ?) }");
+
+API_COUNTRY_GROUP -                         (584: 35) cstmt = connection.prepareCall("{call API_COUNTRY_GROUP.New_country_group_web(?, ?) }");
+
+API_COUNTRY_GROUP -                         (612: 35) cstmt = connection.prepareCall("{call API_COUNTRY_GROUP.new_country_group_desc_web( ?, ?, ?) }");
+
+API_SVFE_ISSUING -                         (157: 35) cstmt = connection.prepareCall("{call API_SVFE_ISSUING.Add_iss_tran_schm_excpt(?, ?, ?, ?, ?, ?) }");
+
+Api_Iss_Trans -                         (454: 35) cstmt = connection.prepareCall("{call Api_Iss_Trans.New_scheme_web(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?
+
+Api_Iss_Trans -                         (421: 35) cstmt = connection.prepareCall("{call Api_Iss_Trans.New_desc_web(?, ?, ?, ?) }");
+
+Api_Iss_Trans_Exception -                         (63: 35) cstmt = connection.prepareCall("{call Api_Iss_Trans_Exception.New_scheme_web(?, ?, ?, ?, ?, ?) }");
+
+API_COUNTRY_GROUP -                         (656: 34) stmt = connection.prepareCall("{ call API_COUNTRY_GROUP.remove_country_group_web(?, ?)}");
+
+API_COUNTRY_GROUP -                         (670: 35) cstmt = connection.prepareCall("{call API_COUNTRY_GROUP.remove_country_group_desc_web(?) }");
+
+API_SVFE_ISSUING -                         (249: 35) cstmt = connection.prepareCall("{call API_SVFE_ISSUING.Delete_iss_tran_schm_excpt(?, ?, ?) }");
+
+Api_Iss_Trans -                         (555: 34) stmt = connection.prepareCall("{ call Api_Iss_Trans.remove_desc_web(?)}");
+
+Api_Iss_Trans -                         (571: 35) cstmt = connection.prepareCall("{call Api_Iss_Trans.remove_scheme_web(?) }");
+
+Api_Iss_Trans_Exception -                         (219: 35) cstmt = connection.prepareCall("{call Api_Iss_Trans_Exception.remove_scheme_web(?) }");
+
+Api_Iss_Trans -                         (339: 35) cstmt = connection.prepareCall("{call Api_Iss_Trans.Query_desc(?, ?, ?, ?) }");
+
+Api_Iss_Trans -                         (363: 35) cstmt = connection.prepareCall("{call Api_Iss_Trans.Query_scheme(?, ?) }");
+
+Api_Iss_Trans_Exception -                         (264: 35) cstmt = connection.prepareCall("{call Api_Iss_Trans_Exception.Query_scheme(?, ?) }");
+
+Api_Iss_Trans -                         (299: 35) cstmt = connection.prepareCall("{call Api_Iss_Trans.Query_desc(?, ?, ?, ?) }");
+
+API_COUNTRY_GROUP -                         (719: 35) cstmt = connection.prepareCall("{call API_COUNTRY_GROUP.Query_country_group(?, ?) }");
+
+API_COUNTRY_GROUP -                         (683: 35) cstmt = connection.prepareCall("{call API_COUNTRY_GROUP.Query_country_group_desc(?) }");
+
+API_COUNTRY_GROUP -                         (697: 36) stmt = connection.prepareCall("{ ? = call API_COUNTRY_GROUP.Get_country_group_content( ? ) }");
+
+Api_Iss_Trans_Exception -                         (177: 35) cstmt = connection.prepareCall("{call Api_Iss_Trans_Exception.Query_except_desc(?, ?, ?, ?) }");
+
+API_COUNTRY_GROUP -                         (627: 34) stmt = connection.prepareCall("{ call API_COUNTRY_GROUP.Modify_country_group_web(?,?,?)}");
+
+API_COUNTRY_GROUP -                         (641: 35) cstmt = connection.prepareCall("{call API_COUNTRY_GROUP.Modify_country_group_desc_web(?, ?, ?) }");
+
+API_SVFE_ISSUING -                         (139: 35) cstmt = connection.prepareCall("{call API_SVFE_ISSUING.Modify_iss_tran_schm_excpt(?, ?, ?, ?, ?, ?, ?) }");
+
+Api_Iss_Trans -                         (497: 34) stmt = connection.prepareCall("{ call Api_Iss_Trans.Modify_desc_web(?,?,?,?)}");
+
+Api_Iss_Trans -                         (515: 44) cstmt = connection.prepareCall("{call Api_Iss_Trans.Modify_scheme_web(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?
+
+Api_Iss_Trans_Exception -                         (103: 35) cstmt = connection.prepareCall("{call Api_Iss_Trans_Exception.Modify_scheme_web(?, ?, ?, ?, ?, ?) }");
+
+api_current_front_end_settings -                         (369: 38) cstmt = conn.prepareCall("{ call api_current_front_end_settings.remove_setting(?)}");
+
+api_current_front_end_settings -                         (270: 38) cstmt = conn.prepareCall("{ call api_current_front_end_settings.get_user_and_default_settings(?, ?)}");
+
+api_current_front_end_settings -                         (127: 38) cstmt = conn.prepareCall("{ call api_current_front_end_settings.get_default_setting(?) }");
+
+api_web_front_end -                         (327: 38) cstmt = conn.prepareCall("{ call api_web_front_end.get_front_ends(?)}");
+
+api_current_front_end_settings -                         (244: 38) cstmt = conn.prepareCall("{ call api_current_front_end_settings.get_user_setting(?, ?) }");
+
+api_current_front_end_settings -                         (387: 38) cstmt = conn.prepareCall("{ call api_current_front_end_settings.is_default_setting_enforced(?, ?) }");
+
+api_current_front_end_settings -                         (413: 38) cstmt = conn.prepareCall("{ call api_current_front_end_settings.set_default_setting_enforced(?, ?) }");
+
+api_current_front_end_settings -                         (61: 38) cstmt = conn.prepareCall("{ call api_current_front_end_settings.change_setting(?, ?, ?, ?, ?, ?, ?) }");
+
+api_web_front_end -                         (226: 35) cs = conn.prepareCall("{ call api_web_front_end.erase_reinit_cmd(?) }");
+
+api_web_front_end -                         (242: 35) cs = conn.prepareCall("{ call api_web_front_end.erase_restart_cmd(?) }");
+
+api_web_front_end -                         (210: 35) cs = conn.prepareCall("{ call api_web_front_end.erase_string_cmd(?) }");
+
+api_web_front_end -                         (258: 35) cs = conn.prepareCall("{ call api_web_front_end.erase_tcp_device_reload_cmd(?) }");
+
+api_web_front_end -                         (128: 35) cs = conn.prepareCall("{ call api_web_front_end.get_string_cmds(?, ?) }");
+
+api_web_front_end -                         (142: 35) cs = conn.prepareCall("{ call api_web_front_end.get_reinit_cmds(?, ?) }");
+
+api_web_front_end -                         (162: 35) cs = conn.prepareCall("{ call api_web_front_end.get_restart_cmds(?, ?)  }");
+
+api_web_front_end -                         (182: 35) cs = conn.prepareCall("{ call api_web_front_end.get_tcp_device_reload_cmds(?, ?) }");
+
+api_web_front_end -                         (64: 35) cs = conn.prepareCall("{ call api_web_front_end.save_reinit_cmd(?, ?, ?) }");
+
+api_web_front_ends -                         (85: 35) cs = conn.prepareCall("{ call api_web_front_ends.save_restart_cmd(?, ?, ?) }");
+
+api_web_front_end -                         (44: 35) cs = conn.prepareCall("{ call api_web_front_end.save_string_cmd(?, ?, ?) }");
+
+api_web_front_end -                         (106: 35) cs = conn.prepareCall("{ call api_web_front_end.save_tcp_device_reload_cmd(?, ?, ?) }");
+
+API_SYSTEM_AUDIT -                         (172: 38) callStmt = connection.prepareCall("{ ? = call API_SYSTEM_AUDIT.export_logs(?) }");
+
+API_SYSTEM_AUDIT -                         (66: 38) callStmt = connection.prepareCall("{ call API_SYSTEM_AUDIT.QUERY_LOGS(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) }");
+
+API_SYSTEM_AUDIT -                         (117: 38) callStmt = connection.prepareCall("{ call API_SYSTEM_AUDIT.get_log_record_details(?, ?, ?, ?, ?) }");
+
+API_SYSTEM_AUDIT -                         (39: 43) stmt = connection.prepareCall("{call API_SYSTEM_AUDIT.QUERY_MODULES(?)}");
+
+API_SYSTEM_AUDIT -                         (34: 38) callStmt = connection.prepareCall("{ ? = call API_SYSTEM_AUDIT.get_timestamp_format() }");
+
+this -                         (282: 20) _logger.trace("Loading full report with id = " + rid + "; call this.getReport()");
+
+FIN_RULES_UTL -                         (64: 59) CallableStatement stmt = connectionBO.prepareCall("{ call FIN_RULES_UTL.SET_CARD_STATUS (?,?,?,?,?,?,?,?,?,?,?,?) }");
+
+api_audit -                         (118: 38) callStmt = connection.prepareCall("{ ? = call api_audit.export_audit(?) }");
+
+API_LOGS -                         (165: 38) callStmt = connection.prepareCall("{ ? = call API_LOGS.export_logs(?) }");
+
+API_LOGS -                         (34: 38) callStmt = connection.prepareCall("{ call API_LOGS.QUERY_LOGS(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) }");
+
+API_LOGS -                         (110: 38) callStmt = connection.prepareCall("{ call API_LOGS.get_log_record_details(?, ?, ?, ?, ?) }");
+
+API_LOGS -                         (183: 43) stmt = connection.prepareCall("{call API_LOGS.QUERY_LOG_LEVELS_FOR_SEARCH(?)}");
+
+API_LOGS -                         (88: 43) stmt = connection.prepareCall("{call API_LOGS.QUERY_MODULES(?)}");
+
+API_LOGS -                         (31: 39) callStmt = connection.prepareCall("{ ? = call API_LOGS.get_timestamp_format() }");
+
+API_LOGS -                         (165: 38) callStmt = connection.prepareCall("{ ? = call API_LOGS.export_logs(?) }");
+
+API_LOGS -                         (34: 38) callStmt = connection.prepareCall("{ call API_LOGS.QUERY_LOGS(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) }");
+
+API_LOGS -                         (110: 38) callStmt = connection.prepareCall("{ call API_LOGS.get_log_record_details(?, ?, ?, ?, ?) }");
+
+API_LOGS -                         (183: 43) stmt = connection.prepareCall("{call API_LOGS.QUERY_LOG_LEVELS_FOR_SEARCH(?)}");
+
+API_LOGS -                         (88: 43) stmt = connection.prepareCall("{call API_LOGS.QUERY_MODULES(?)}");
+
+API_LOGS -                         (31: 39) callStmt = connection.prepareCall("{ ? = call API_LOGS.get_timestamp_format() }");
+
+api_logs -                         (25: 43) stmt = connection.prepareCall("{ call  api_logs.query_logs(?, ?, ?, ?, ?, ?, ?) }");
+
+svwi_interfaces -                     (80: 43)             stmt = connection.prepareCall("{call svwi_interfaces.QUERY_LOG_LEVELS_FOR_SEARCH(?)}");
+
+API_LOGS -                     (100: 50)             stmtModules = connection.prepareCall("{ call API_LOGS.QUERY_MODULES(?) }");
+
+API_LOGS -                     (120: 48)             statement = connection.prepareCall("{ call API_LOGS.SET_INDIVIDUAL_EXT_LOG_LEVEL(?, ?) }");
+
+API_LOGS -                     (146: 48)             statement = connection.prepareCall("{ call API_LOGS.SET_GLOBAL_EXT_LOG_LEVEL(?) }");
+
+API_LOGS -                         (31: 38) callStmt = connection.prepareCall("{ ? = call API_LOGS.get_timestamp_format_svig() }");
+
+API_LOGS -                         (227: 38) callStmt = connection.prepareCall("{ ? = call API_LOGS.export_logs(?) }");
+
+API_LOGS -                         (117: 38) callStmt = connection.prepareCall("{ call API_LOGS.QUERY_LOGS(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) }");
+
+API_LOGS -                         (172: 38) callStmt = connection.prepareCall("{ call API_LOGS.get_log_record_details(?, ?, ?, ?, ?) }");
+
+API_LOGS -                         (244: 43) stmt = connection.prepareCall("{call API_LOGS.QUERY_LOG_LEVELS_FOR_SEARCH(?)}");
+
+api_logs -                         (35: 43) stmt = connection.prepareCall("{ call  api_logs.query_logs(?, ?, ?, ?, ?, ?, ?) }");
+
+API_LOGS -                         (91: 43) stmt = connection.prepareCall("{call API_LOGS.QUERY_MODULES(?)}");
+
+API_LOGS -                         (30: 39) callStmt = connection.prepareCall("{ ? = call API_LOGS.get_timestamp_format_svwi() }");
+
